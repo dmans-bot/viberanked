@@ -17,7 +17,7 @@ async function readBody(req) {
   return Object.fromEntries(new URLSearchParams(raw));
 }
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   if (req.method !== 'POST') { res.setHeader('Allow', 'POST'); return send(res, 405, { ok: false, error: 'Method not allowed' }); }
   const body = await readBody(req);
   // Honeypot: real users never fill the hidden "company" field. Pretend success for bots.
@@ -50,4 +50,4 @@ module.exports = async function handler(req, res) {
     console.error('Subscribe failed', e);
     return send(res, 502, { ok: false, error: 'Could not subscribe right now. Please try again.' });
   }
-};
+}
