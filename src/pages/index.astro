@@ -17,7 +17,26 @@ import data from '../data/tools.json';
 <section class="card" style="margin-top:50px;text-align:center;padding:36px">
 <h2 style="margin-top:0">Get the weekly ranking shake-ups</h2><p class="mut">One email a week. What moved, what launched, what's worth your time.</p>
 <!-- TODO: wire to newsletter provider (e.g. Buttondown/Beehiiv/ConvertKit). Placeholder action below. -->
-<form action="#TODO-newsletter-endpoint" method="post" onsubmit="event.preventDefault();this.querySelector('button').textContent='Coming soon ✓'">
-<input type="email" name="email" placeholder="you@builder.dev" required/> <button class="btn" type="submit">Subscribe</button></form>
+<form id="nl-form" action="/api/subscribe" method="post">
+<input type="email" name="email" placeholder="you@builder.dev" required/>
+<input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"/>
+<button class="btn" type="submit">Subscribe</button>
+<p id="nl-msg" role="status" aria-live="polite" style="margin-top:.5rem;min-height:1.2em"></p></form>
+<script>
+const f = document.getElementById('nl-form');
+const m = document.getElementById('nl-msg');
+f?.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const b = f.querySelector('button'); b.disabled = true; m.textContent = 'Subscribing…';
+  try {
+    const r = await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(Object.fromEntries(new FormData(f))) });
+    const d = await r.json().catch(() => ({}));
+    if (r.ok && d.ok) { m.textContent = "You're in! Watch your inbox for the next issue."; f.reset(); }
+    else m.textContent = d.error || 'Something went wrong. Please try again.';
+  } catch { m.textContent = 'Network error. Please try again.'; }
+  b.disabled = false;
+});
+</script>
 </section>
 </Base>
