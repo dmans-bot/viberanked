@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import data from '../../data/tools.json';
+export function getStaticPaths(){return data.categories.flatMap(c=>c.tools.map(t=>({params:{slug:t.slug},props:{t,c}})))}
+const {t,c}=Astro.props;
+---
+<Base title={`${t.name} — Vibe Ranked`}>
+<p style="margin-top:40px"><a class="mut" href={`/category/${c.slug}/`}>← {c.name}</a></p>
+<div class="card" style="padding:32px"><span class="rank" style="font-size:22px">#{t.rank}</span><span class="mut"> in {c.name}</span>
+<h1 style="font-size:48px;margin:8px 0">{t.name}</h1><p style="font-size:19px">{t.description}</p>
+<p><span class={`pill ${t.pricing}`}>{t.pricing}</span></p><p><span style="color:var(--acc2)">Best for:</span> {t.bestFor}</p>
+<a class="btn" style="display:inline-block" href={t.url} target="_blank" rel="noopener">Visit {t.name} ↗</a> <span class="mut" style="font-size:13px">{t.url}</span></div>
+</Base>

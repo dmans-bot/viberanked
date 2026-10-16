@@ -1,0 +1,636 @@
+{
+  "updated": "2026-10-16",
+  "categories": [
+    {
+      "slug": "ai-coding-agents",
+      "name": "AI Coding Editors & Agents",
+      "description": "IDEs and terminal agents that write, refactor and ship code with you.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "description": "AI-first code editor built on VS Code with agent mode.",
+          "pricing": "freemium",
+          "bestFor": "Daily driver for builders who want an agentic IDE"
+        },
+        {
+          "rank": 2,
+          "slug": "claude-code",
+          "name": "Claude Code",
+          "url": "https://www.anthropic.com/claude-code",
+          "description": "Anthropic's agentic coding tool for the terminal and IDE.",
+          "pricing": "paid",
+          "bestFor": "Large refactors and long-running terminal tasks"
+        },
+        {
+          "rank": 3,
+          "slug": "openai-codex",
+          "name": "OpenAI Codex",
+          "url": "https://openai.com/codex/",
+          "description": "OpenAI's coding agent across CLI, IDE and cloud.",
+          "pricing": "paid",
+          "bestFor": "ChatGPT subscribers delegating tasks to the cloud"
+        },
+        {
+          "rank": 4,
+          "slug": "github-copilot",
+          "name": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "description": "AI pair programmer and coding agent integrated with GitHub.",
+          "pricing": "freemium",
+          "bestFor": "Teams already living in GitHub"
+        },
+        {
+          "rank": 5,
+          "slug": "windsurf",
+          "name": "Windsurf",
+          "url": "https://windsurf.com",
+          "description": "Agentic IDE with the Cascade agent.",
+          "pricing": "freemium",
+          "bestFor": "An alternative agentic IDE experience"
+        },
+        {
+          "rank": 6,
+          "slug": "google-antigravity",
+          "name": "Google Antigravity",
+          "url": "https://antigravity.google",
+          "description": "Google's agent-first development platform.",
+          "pricing": "freemium",
+          "bestFor": "Trying Gemini models in an agent-first IDE"
+        },
+        {
+          "rank": 7,
+          "slug": "cline",
+          "name": "Cline",
+          "url": "https://cline.bot",
+          "description": "Open-source autonomous coding agent for VS Code.",
+          "pricing": "free",
+          "bestFor": "Bring-your-own-key, open-source fans"
+        },
+        {
+          "rank": 8,
+          "slug": "aider",
+          "name": "Aider",
+          "url": "https://aider.chat",
+          "description": "Open-source AI pair programming in your terminal.",
+          "pricing": "free",
+          "bestFor": "Git-native terminal workflows"
+        },
+        {
+          "rank": 9,
+          "slug": "zed",
+          "name": "Zed",
+          "url": "https://zed.dev",
+          "description": "High-performance editor with built-in AI agent features.",
+          "pricing": "freemium",
+          "bestFor": "Speed-obsessed editors"
+        }
+      ]
+    },
+    {
+      "slug": "app-builders",
+      "name": "App Builders (Vibe Coding Platforms)",
+      "description": "Prompt-to-app platforms: describe it, ship it.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "lovable",
+          "name": "Lovable",
+          "url": "https://lovable.dev",
+          "description": "Build full-stack web apps by chatting with AI.",
+          "pricing": "freemium",
+          "bestFor": "Non-devs shipping polished MVPs fast"
+        },
+        {
+          "rank": 2,
+          "slug": "bolt-new",
+          "name": "Bolt.new",
+          "url": "https://bolt.new",
+          "description": "StackBlitz's in-browser AI app builder.",
+          "pricing": "freemium",
+          "bestFor": "Instant full-stack prototypes in the browser"
+        },
+        {
+          "rank": 3,
+          "slug": "v0",
+          "name": "v0",
+          "url": "https://v0.app",
+          "description": "Vercel's AI app and UI generator.",
+          "pricing": "freemium",
+          "bestFor": "React/Next.js UI and Vercel deploys"
+        },
+        {
+          "rank": 4,
+          "slug": "replit",
+          "name": "Replit",
+          "url": "https://replit.com",
+          "description": "Cloud IDE with Replit Agent for building and deploying apps.",
+          "pricing": "freemium",
+          "bestFor": "Build + host in one place"
+        },
+        {
+          "rank": 5,
+          "slug": "base44",
+          "name": "Base44",
+          "url": "https://base44.com",
+          "description": "AI platform for building apps with built-in backend.",
+          "pricing": "freemium",
+          "bestFor": "Internal tools and simple apps with auth/data"
+        },
+        {
+          "rank": 6,
+          "slug": "firebase-studio",
+          "name": "Firebase Studio",
+          "url": "https://firebase.studio",
+          "description": "Google's agentic cloud dev environment for full-stack apps.",
+          "pricing": "freemium",
+          "bestFor": "Firebase/Google Cloud stacks"
+        },
+        {
+          "rank": 7,
+          "slug": "create",
+          "name": "Create",
+          "url": "https://www.create.xyz",
+          "description": "Turn text descriptions into apps and sites.",
+          "pricing": "freemium",
+          "bestFor": "Quick web and mobile prototypes"
+        }
+      ]
+    },
+    {
+      "slug": "image-gen",
+      "name": "Image Generation",
+      "description": "Models and apps for generating and editing images.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "midjourney",
+          "name": "Midjourney",
+          "url": "https://www.midjourney.com",
+          "description": "Image generation known for strong aesthetics.",
+          "pricing": "paid",
+          "bestFor": "Stylized, high-taste visuals"
+        },
+        {
+          "rank": 2,
+          "slug": "gpt-image-chatgpt",
+          "name": "GPT Image (ChatGPT)",
+          "url": "https://chatgpt.com",
+          "description": "OpenAI image generation inside ChatGPT and the API.",
+          "pricing": "freemium",
+          "bestFor": "Text-heavy images and iterative edits"
+        },
+        {
+          "rank": 3,
+          "slug": "nano-banana-gemini",
+          "name": "Nano Banana (Gemini)",
+          "url": "https://gemini.google.com",
+          "description": "Google's Gemini image generation and editing model.",
+          "pricing": "freemium",
+          "bestFor": "Fast conversational image editing"
+        },
+        {
+          "rank": 4,
+          "slug": "ideogram",
+          "name": "Ideogram",
+          "url": "https://ideogram.ai",
+          "description": "Image generator strong at typography.",
+          "pricing": "freemium",
+          "bestFor": "Logos, posters and text in images"
+        },
+        {
+          "rank": 5,
+          "slug": "black-forest-labs-flux",
+          "name": "Black Forest Labs FLUX",
+          "url": "https://bfl.ai",
+          "description": "FLUX family of image models from Black Forest Labs.",
+          "pricing": "freemium",
+          "bestFor": "API and open-weight image generation"
+        },
+        {
+          "rank": 6,
+          "slug": "recraft",
+          "name": "Recraft",
+          "url": "https://www.recraft.ai",
+          "description": "AI image generator with vector and brand-style tools.",
+          "pricing": "freemium",
+          "bestFor": "Vector icons and brand-consistent assets"
+        },
+        {
+          "rank": 7,
+          "slug": "leonardo-ai",
+          "name": "Leonardo.Ai",
+          "url": "https://leonardo.ai",
+          "description": "Creative image and asset generation platform.",
+          "pricing": "freemium",
+          "bestFor": "Game and creative asset workflows"
+        }
+      ]
+    },
+    {
+      "slug": "video-gen",
+      "name": "Video Generation",
+      "description": "Text- and image-to-video models.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "google-veo-flow",
+          "name": "Google Veo (Flow)",
+          "url": "https://labs.google/flow",
+          "description": "Google's Veo video models in the Flow filmmaking tool.",
+          "pricing": "paid",
+          "bestFor": "Cinematic clips with native audio"
+        },
+        {
+          "rank": 2,
+          "slug": "sora",
+          "name": "Sora",
+          "url": "https://openai.com/sora/",
+          "description": "OpenAI's video generation model and app.",
+          "pricing": "freemium",
+          "bestFor": "Short-form social video"
+        },
+        {
+          "rank": 3,
+          "slug": "runway",
+          "name": "Runway",
+          "url": "https://runwayml.com",
+          "description": "AI video generation and editing suite.",
+          "pricing": "freemium",
+          "bestFor": "Creators who need editing tools too"
+        },
+        {
+          "rank": 4,
+          "slug": "kling-ai",
+          "name": "Kling AI",
+          "url": "https://klingai.com",
+          "description": "Kuaishou's text/image-to-video generator.",
+          "pricing": "freemium",
+          "bestFor": "Realistic motion at a lower price"
+        },
+        {
+          "rank": 5,
+          "slug": "luma-dream-machine",
+          "name": "Luma Dream Machine",
+          "url": "https://lumalabs.ai",
+          "description": "Luma's video generation platform.",
+          "pricing": "freemium",
+          "bestFor": "Fast ideation and image-to-video"
+        },
+        {
+          "rank": 6,
+          "slug": "pika",
+          "name": "Pika",
+          "url": "https://pika.art",
+          "description": "Playful AI video creation app.",
+          "pricing": "freemium",
+          "bestFor": "Fun effects and social clips"
+        },
+        {
+          "rank": 7,
+          "slug": "hailuo-ai",
+          "name": "Hailuo AI",
+          "url": "https://hailuoai.video",
+          "description": "MiniMax's video generation app.",
+          "pricing": "freemium",
+          "bestFor": "Budget-friendly video generation"
+        }
+      ]
+    },
+    {
+      "slug": "voice",
+      "name": "Voice & Audio",
+      "description": "Text-to-speech, voice agents and music.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "elevenlabs",
+          "name": "ElevenLabs",
+          "url": "https://elevenlabs.io",
+          "description": "Text-to-speech, voice cloning and voice agents.",
+          "pricing": "freemium",
+          "bestFor": "Best-in-class TTS for products"
+        },
+        {
+          "rank": 2,
+          "slug": "openai-realtime-api",
+          "name": "OpenAI Realtime API",
+          "url": "https://platform.openai.com/docs/guides/realtime",
+          "description": "Low-latency speech-to-speech API.",
+          "pricing": "paid",
+          "bestFor": "Building real-time voice agents"
+        },
+        {
+          "rank": 3,
+          "slug": "vapi",
+          "name": "Vapi",
+          "url": "https://vapi.ai",
+          "description": "Developer platform for voice AI agents.",
+          "pricing": "paid",
+          "bestFor": "Phone and voice agents with telephony"
+        },
+        {
+          "rank": 4,
+          "slug": "cartesia",
+          "name": "Cartesia",
+          "url": "https://cartesia.ai",
+          "description": "Low-latency real-time voice models.",
+          "pricing": "freemium",
+          "bestFor": "Ultra-fast TTS for live agents"
+        },
+        {
+          "rank": 5,
+          "slug": "deepgram",
+          "name": "Deepgram",
+          "url": "https://deepgram.com",
+          "description": "Speech-to-text and voice AI APIs.",
+          "pricing": "freemium",
+          "bestFor": "Fast transcription at scale"
+        },
+        {
+          "rank": 6,
+          "slug": "suno",
+          "name": "Suno",
+          "url": "https://suno.com",
+          "description": "AI music generation.",
+          "pricing": "freemium",
+          "bestFor": "Songs and soundtracks from a prompt"
+        },
+        {
+          "rank": 7,
+          "slug": "hume-ai",
+          "name": "Hume AI",
+          "url": "https://www.hume.ai",
+          "description": "Emotionally expressive voice AI.",
+          "pricing": "freemium",
+          "bestFor": "Expressive, empathetic voice"
+        }
+      ]
+    },
+    {
+      "slug": "llm-apis",
+      "name": "LLM APIs",
+      "description": "Model APIs to power your app.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "anthropic-api",
+          "name": "Anthropic API",
+          "url": "https://www.anthropic.com/api",
+          "description": "Claude models via the Claude Platform.",
+          "pricing": "paid",
+          "bestFor": "Coding and agentic workloads"
+        },
+        {
+          "rank": 2,
+          "slug": "openai-api",
+          "name": "OpenAI API",
+          "url": "https://platform.openai.com",
+          "description": "GPT models, images, audio and more.",
+          "pricing": "paid",
+          "bestFor": "Broadest ecosystem and modalities"
+        },
+        {
+          "rank": 3,
+          "slug": "google-gemini-api",
+          "name": "Google Gemini API",
+          "url": "https://ai.google.dev",
+          "description": "Gemini models via AI Studio and the Gemini API.",
+          "pricing": "freemium",
+          "bestFor": "Long context and free tier experimentation"
+        },
+        {
+          "rank": 4,
+          "slug": "openrouter",
+          "name": "OpenRouter",
+          "url": "https://openrouter.ai",
+          "description": "One API for hundreds of models.",
+          "pricing": "freemium",
+          "bestFor": "Switching models without rewiring"
+        },
+        {
+          "rank": 5,
+          "slug": "xai-api",
+          "name": "xAI API",
+          "url": "https://x.ai/api",
+          "description": "Grok models via API.",
+          "pricing": "paid",
+          "bestFor": "Grok models in your app"
+        },
+        {
+          "rank": 6,
+          "slug": "groq",
+          "name": "Groq",
+          "url": "https://groq.com",
+          "description": "Very fast inference for open models.",
+          "pricing": "freemium",
+          "bestFor": "Latency-sensitive apps"
+        },
+        {
+          "rank": 7,
+          "slug": "mistral-ai",
+          "name": "Mistral AI",
+          "url": "https://mistral.ai",
+          "description": "Open and commercial models from Mistral.",
+          "pricing": "freemium",
+          "bestFor": "European hosting and open weights"
+        },
+        {
+          "rank": 8,
+          "slug": "together-ai",
+          "name": "Together AI",
+          "url": "https://www.together.ai",
+          "description": "Inference and fine-tuning for open models.",
+          "pricing": "paid",
+          "bestFor": "Running open-weight models at scale"
+        }
+      ]
+    },
+    {
+      "slug": "agent-frameworks",
+      "name": "Agent Frameworks",
+      "description": "Libraries for building agents and AI apps.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "vercel-ai-sdk",
+          "name": "Vercel AI SDK",
+          "url": "https://ai-sdk.dev",
+          "description": "TypeScript toolkit for AI apps and agents.",
+          "pricing": "free",
+          "bestFor": "TS/Next.js builders"
+        },
+        {
+          "rank": 2,
+          "slug": "openai-agents-sdk",
+          "name": "OpenAI Agents SDK",
+          "url": "https://openai.github.io/openai-agents-python/",
+          "description": "Lightweight framework for multi-agent workflows.",
+          "pricing": "free",
+          "bestFor": "Simple agents on OpenAI models"
+        },
+        {
+          "rank": 3,
+          "slug": "claude-agent-sdk",
+          "name": "Claude Agent SDK",
+          "url": "https://docs.claude.com/en/api/agent-sdk/overview",
+          "description": "The agent harness behind Claude Code as an SDK.",
+          "pricing": "free",
+          "bestFor": "Agents that use tools and files like Claude Code"
+        },
+        {
+          "rank": 4,
+          "slug": "langgraph",
+          "name": "LangGraph",
+          "url": "https://www.langchain.com/langgraph",
+          "description": "Stateful, controllable agent orchestration.",
+          "pricing": "free",
+          "bestFor": "Complex graphs with human-in-the-loop"
+        },
+        {
+          "rank": 5,
+          "slug": "mastra",
+          "name": "Mastra",
+          "url": "https://mastra.ai",
+          "description": "TypeScript agent framework with workflows and memory.",
+          "pricing": "free",
+          "bestFor": "Full-featured TS agents"
+        },
+        {
+          "rank": 6,
+          "slug": "crewai",
+          "name": "CrewAI",
+          "url": "https://www.crewai.com",
+          "description": "Framework for role-based multi-agent crews.",
+          "pricing": "freemium",
+          "bestFor": "Multi-agent role-play pipelines"
+        },
+        {
+          "rank": 7,
+          "slug": "pydantic-ai",
+          "name": "Pydantic AI",
+          "url": "https://ai.pydantic.dev",
+          "description": "Type-safe Python agent framework.",
+          "pricing": "free",
+          "bestFor": "Python devs who love typing"
+        },
+        {
+          "rank": 8,
+          "slug": "llamaindex",
+          "name": "LlamaIndex",
+          "url": "https://www.llamaindex.ai",
+          "description": "Framework for agents over your data.",
+          "pricing": "freemium",
+          "bestFor": "RAG and document agents"
+        }
+      ]
+    },
+    {
+      "slug": "deployment-backend",
+      "name": "Deployment & Backend",
+      "description": "Hosting, databases and auth for shipped vibes.",
+      "tools": [
+        {
+          "rank": 1,
+          "slug": "vercel",
+          "name": "Vercel",
+          "url": "https://vercel.com",
+          "description": "Frontend cloud for Next.js and more.",
+          "pricing": "freemium",
+          "bestFor": "Next.js apps and previews"
+        },
+        {
+          "rank": 2,
+          "slug": "supabase",
+          "name": "Supabase",
+          "url": "https://supabase.com",
+          "description": "Postgres backend with auth, storage and realtime.",
+          "pricing": "freemium",
+          "bestFor": "Default backend for vibe-coded apps"
+        },
+        {
+          "rank": 3,
+          "slug": "cloudflare",
+          "name": "Cloudflare",
+          "url": "https://www.cloudflare.com/developer-platform/",
+          "description": "Workers, Pages, D1 and R2 on the edge.",
+          "pricing": "freemium",
+          "bestFor": "Cheap global edge hosting"
+        },
+        {
+          "rank": 4,
+          "slug": "netlify",
+          "name": "Netlify",
+          "url": "https://www.netlify.com",
+          "description": "Web platform for deploying sites and apps.",
+          "pricing": "freemium",
+          "bestFor": "Static sites and Jamstack"
+        },
+        {
+          "rank": 5,
+          "slug": "convex",
+          "name": "Convex",
+          "url": "https://www.convex.dev",
+          "description": "Reactive backend database with TypeScript functions.",
+          "pricing": "freemium",
+          "bestFor": "Realtime apps without backend glue"
+        },
+        {
+          "rank": 6,
+          "slug": "railway",
+          "name": "Railway",
+          "url": "https://railway.com",
+          "description": "Deploy apps, databases and services easily.",
+          "pricing": "paid",
+          "bestFor": "Long-running servers and workers"
+        },
+        {
+          "rank": 7,
+          "slug": "clerk",
+          "name": "Clerk",
+          "url": "https://clerk.com",
+          "description": "Drop-in authentication and user management.",
+          "pricing": "freemium",
+          "bestFor": "Auth in minutes"
+        },
+        {
+          "rank": 8,
+          "slug": "neon",
+          "name": "Neon",
+          "url": "https://neon.com",
+          "description": "Serverless Postgres with branching.",
+          "pricing": "freemium",
+          "bestFor": "Postgres per preview branch"
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "date": "2026-10-15",
+      "title": "Meta releases Muse Spark Open weights",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "tag": "Open model"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Gemini 4 Argon generally available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "tag": "LLM"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Anthropic launches Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "tag": "LLM"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Mistral Large 4 public preview; Nano Banana 2.1 (via release tracker)",
+      "url": "https://www.nocode.mba/ai-release-tracker/2026/10",
+      "tag": "Roundup"
+    }
+  ]
+}

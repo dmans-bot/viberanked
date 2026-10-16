@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import data from '../data/tools.json';
+---
+<Base title="Vibe Ranked — AI tools for builders, ranked">
+<section style="padding:70px 0 40px">
+<h1 style="font-size:clamp(36px,6vw,64px);line-height:1.05;margin:0 0 16px">The AI tools builders <span class="logo"><span>actually use</span></span>,<br/>ranked by use case.</h1>
+<p class="mut" style="font-size:19px;max-width:640px">Opinionated leaderboards for vibe coders and indie builders. {data.categories.reduce((n,c)=>n+c.tools.length,0)} tools across {data.categories.length} categories. Updated {data.updated}.</p>
+</section>
+<h2 id="categories">Leaderboards</h2>
+<div class="grid">{data.categories.map(c=>(
+<div class="card"><a href={`/category/${c.slug}/`}><h3 style="margin:0 0 4px">{c.name} →</h3></a><p class="mut" style="margin:0 0 8px;font-size:14px">{c.description}</p>
+{c.tools.slice(0,3).map(t=>(<a class="row" href={`/tool/${t.slug}/`}><span class="rank">#{t.rank}</span><span style="flex:1">{t.name}</span><span class={`pill ${t.pricing}`}>{t.pricing}</span></a>))}
+</div>))}</div>
+<h2 style="margin-top:50px">New this week</h2>
+<div class="card">{data.releases.map(r=>(<a class="row" href={r.url} target="_blank" rel="noopener"><span class="mut" style="font-family:monospace;width:7em">{r.date}</span><span style="flex:1">{r.title}</span><span class="pill">{r.tag}</span></a>))}</div>
+<section class="card" style="margin-top:50px;text-align:center;padding:36px">
+<h2 style="margin-top:0">Get the weekly ranking shake-ups</h2><p class="mut">One email a week. What moved, what launched, what's worth your time.</p>
+<!-- TODO: wire to newsletter provider (e.g. Buttondown/Beehiiv/ConvertKit). Placeholder action below. -->
+<form action="#TODO-newsletter-endpoint" method="post" onsubmit="event.preventDefault();this.querySelector('button').textContent='Coming soon ✓'">
+<input type="email" name="email" placeholder="you@builder.dev" required/> <button class="btn" type="submit">Subscribe</button></form>
+</section>
+</Base>

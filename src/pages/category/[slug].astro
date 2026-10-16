@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import data from '../../data/tools.json';
+export function getStaticPaths(){return data.categories.map(c=>({params:{slug:c.slug},props:{c}}))}
+const {c}=Astro.props;
+---
+<Base title={`Best ${c.name} — Vibe Ranked`}>
+<h1 style="font-size:44px;margin:40px 0 6px">{c.name}</h1><p class="mut">{c.description}</p>
+<div style="display:grid;gap:12px;margin-top:24px">{c.tools.map(t=>(
+<div class="card" style="display:flex;gap:16px;align-items:center"><span class="rank" style="font-size:28px">#{t.rank}</span>
+<div style="flex:1"><a href={`/tool/${t.slug}/`}><strong style="font-size:18px">{t.name}</strong></a> <span class={`pill ${t.pricing}`}>{t.pricing}</span>
+<div class="mut">{t.description}</div><div style="font-size:14px"><span style="color:var(--acc2)">Best for:</span> {t.bestFor}</div></div>
+<a class="pill" href={t.url} target="_blank" rel="noopener">Visit ↗</a></div>))}</div>
+</Base>
