@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    { "source": "/tool/sora", "destination": "/category/video-gen/", "permanent": true },
+    { "source": "/tool/sora/", "destination": "/category/video-gen/", "permanent": true },
+    { "source": "/tool/firebase-studio", "destination": "/tool/google-ai-studio/", "permanent": true },
+    { "source": "/tool/firebase-studio/", "destination": "/tool/google-ai-studio/", "permanent": true }
+  ],
+  "headers": [
+    { "source": "/(llms.txt|llms-full.txt|robots.txt)", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }] },
+    { "source": "/og.png", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+  ]
+}

@@ -1,13 +1,30 @@
 ---
 import Base from '../../layouts/Base.astro';
 import data from '../../data/tools.json';
+import { SITE, clip, fmtDate } from '../../lib/site.js';
 export function getStaticPaths(){return data.categories.flatMap(c=>c.tools.map(t=>({params:{slug:t.slug},props:{t,c}})))}
 const {t,c}=Astro.props;
+const url = `${SITE}/tool/${t.slug}/`;
+const others = c.tools.filter(x=>x.slug!==t.slug).slice(0,4);
+const title = `${t.name}: Pricing & Review (#${t.rank} in ${c.name}) | Vibe Ranked`;
+const description = clip(`${t.description} Pricing: ${t.pricingNote}. Ranked #${t.rank} of ${c.tools.length} in ${c.name} on Vibe Ranked.`);
+const jsonLd = [
+  { '@context':'https://schema.org','@type':'SoftwareApplication', name:t.name, url:t.url, description:t.description, applicationCategory:c.name, operatingSystem:'Web',
+    ...(t.pricing==='free' ? { offers:{ '@type':'Offer', price:'0', priceCurrency:'USD' } } : {}) },
+  { '@context':'https://schema.org','@type':'BreadcrumbList', itemListElement:[
+    { '@type':'ListItem', position:1, name:'Vibe Ranked', item:`${SITE}/` },
+    { '@type':'ListItem', position:2, name:c.name, item:`${SITE}/category/${c.slug}/` },
+    { '@type':'ListItem', position:3, name:t.name, item:url } ] },
+];
 ---
-<Base title={`${t.name} — Vibe Ranked`}>
-<p style="margin-top:40px"><a class="mut" href={`/category/${c.slug}/`}>← {c.name}</a></p>
-<div class="card" style="padding:32px"><span class="rank" style="font-size:22px">#{t.rank}</span><span class="mut"> in {c.name}</span>
+<Base title={title} description={description} jsonLd={jsonLd}>
+<p class="crumbs mut"><a href="/">Home</a> / <a href={`/category/${c.slug}/`}>{c.name}</a> / {t.name}</p>
+<article class="card" style="padding:32px"><span class="rank" style="font-size:22px">#{t.rank}</span><span class="mut"> in <a href={`/category/${c.slug}/`}>{c.name}</a></span>
 <h1 style="font-size:48px;margin:8px 0">{t.name}</h1><p style="font-size:19px">{t.description}</p>
-<p><span class={`pill ${t.pricing}`}>{t.pricing}</span></p><p><span style="color:var(--acc2)">Best for:</span> {t.bestFor}</p>
-<a class="btn" style="display:inline-block" href={t.url} target="_blank" rel="noopener">Visit {t.name} ↗</a> <span class="mut" style="font-size:13px">{t.url}</span></div>
+<p><span class={`pill ${t.pricing}`}>{t.pricing}</span> <span class="price">{t.pricingNote}</span></p><p><span style="color:var(--acc2)">Best for:</span> {t.bestFor}</p>
+<a class="btn" style="display:inline-block" href={t.url} target="_blank" rel="noopener">Visit {t.name} ↗</a> <span class="mut" style="font-size:13px">{t.url}</span>
+<p class="mut" style="font-size:13px;margin-bottom:0">Pricing verified {fmtDate(data.lastVerified)} against <a href={t.verifiedSource} rel="nofollow noopener" target="_blank" style="text-decoration:underline">the official source</a>.</p></article>
+<section aria-labelledby="alts"><h2 id="alts" style="margin-top:36px">Alternatives to {t.name}</h2>
+<div class="card">{others.map(o=>(<a class="row" href={`/tool/${o.slug}/`}><span class="rank">#{o.rank}</span><span style="flex:1">{o.name} <span class="mut">— {o.bestFor}</span></span><span class={`pill ${o.pricing}`}>{o.pricing}</span></a>))}
+<a class="row" href={`/category/${c.slug}/`}><span style="flex:1;color:var(--acc)">See all {c.tools.length} {c.name} →</span></a></div></section>
 </Base>

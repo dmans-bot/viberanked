@@ -1,24 +1,39 @@
 ---
 import Base from '../layouts/Base.astro';
 import data from '../data/tools.json';
+import { SITE, SITE_NAME, fmtDate } from '../lib/site.js';
+const total = data.categories.reduce((n, c) => n + c.tools.length, 0);
+const description = `Opinionated rankings of ${total} AI tools for vibe coders and indie builders: coding agents, app builders, image, video, voice, LLM APIs, agent frameworks and hosting. Verified ${fmtDate(data.lastVerified)}.`;
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Organization', '@id': `${SITE}/#org`, name: SITE_NAME, url: `${SITE}/`, logo: `${SITE}/favicon.svg`,
+    description: 'Opinionated, independent rankings of AI tools for builders. No paid placements.' },
+  { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${SITE}/#website`, name: SITE_NAME, url: `${SITE}/`, inLanguage: 'en',
+    publisher: { '@id': `${SITE}/#org` }, dateModified: data.lastVerified, description },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Vibe Ranked leaderboards', itemListElement: data.categories.map((c, i) => ({
+    '@type': 'ListItem', position: i + 1, name: c.headline, url: `${SITE}/category/${c.slug}/` })) },
+];
 ---
-<Base title="Vibe Ranked — AI tools for builders, ranked">
+<Base title="Vibe Ranked — The Best AI Tools for Builders, Ranked by Use Case (2026)" description={description} jsonLd={jsonLd}>
 <section style="padding:70px 0 40px">
 <h1 style="font-size:clamp(36px,6vw,64px);line-height:1.05;margin:0 0 16px">The AI tools builders <span class="logo"><span>actually use</span></span>,<br/>ranked by use case.</h1>
-<p class="mut" style="font-size:19px;max-width:640px">Opinionated leaderboards for vibe coders and indie builders. {data.categories.reduce((n,c)=>n+c.tools.length,0)} tools across {data.categories.length} categories. Updated {data.updated}.</p>
+<p class="mut" style="font-size:19px;max-width:640px">Opinionated leaderboards for vibe coders and indie builders. {total} tools across {data.categories.length} categories. <strong>Last verified {fmtDate(data.lastVerified)}</strong>.</p>
 </section>
+<section aria-labelledby="categories">
 <h2 id="categories">Leaderboards</h2>
 <div class="grid">{data.categories.map(c=>(
-<div class="card"><a href={`/category/${c.slug}/`}><h3 style="margin:0 0 4px">{c.name} →</h3></a><p class="mut" style="margin:0 0 8px;font-size:14px">{c.description}</p>
+<article class="card"><h3 style="margin:0 0 4px"><a href={`/category/${c.slug}/`}>{c.headline} →</a></h3><p class="mut" style="margin:0 0 8px;font-size:14px">{c.description}</p>
 {c.tools.slice(0,3).map(t=>(<a class="row" href={`/tool/${t.slug}/`}><span class="rank">#{t.rank}</span><span style="flex:1">{t.name}</span><span class={`pill ${t.pricing}`}>{t.pricing}</span></a>))}
-</div>))}</div>
-<h2 style="margin-top:50px">New this week</h2>
-<div class="card">{data.releases.map(r=>(<a class="row" href={r.url} target="_blank" rel="noopener"><span class="mut" style="font-family:monospace;width:7em">{r.date}</span><span style="flex:1">{r.title}</span><span class="pill">{r.tag}</span></a>))}</div>
-<section class="card" style="margin-top:50px;text-align:center;padding:36px">
-<h2 style="margin-top:0">Get the weekly ranking shake-ups</h2><p class="mut">One email a week. What moved, what launched, what's worth your time.</p>
-<!-- TODO: wire to newsletter provider (e.g. Buttondown/Beehiiv/ConvertKit). Placeholder action below. -->
+</article>))}</div>
+</section>
+<section aria-labelledby="new">
+<h2 id="new" style="margin-top:50px">New this week</h2>
+<div class="card">{data.releases.map(r=>(<a class="row" href={r.url} target="_blank" rel="noopener"><time class="mut" datetime={r.date} style="font-family:monospace;width:7em">{r.date}</time><span style="flex:1">{r.title}</span><span class="pill">{r.tag}</span></a>))}</div>
+</section>
+<section class="card" style="margin-top:50px;text-align:center;padding:36px" aria-labelledby="nl">
+<h2 id="nl" style="margin-top:0">Get the weekly ranking shake-ups</h2><p class="mut">One email a week. What moved, what launched, what's worth your time.</p>
 <form id="nl-form" action="/api/subscribe" method="post">
-<input type="email" name="email" placeholder="you@builder.dev" required/>
+<label for="nl-email" style="position:absolute;left:-9999px">Email address</label>
+<input id="nl-email" type="email" name="email" placeholder="you@builder.dev" required/>
 <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"/>
 <button class="btn" type="submit">Subscribe</button>
 <p id="nl-msg" role="status" aria-live="polite" style="margin-top:.5rem;min-height:1.2em"></p></form>

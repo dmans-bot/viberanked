@@ -1,10 +1,14 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
+  "lastVerified": "2026-10-17",
   "categories": [
     {
       "slug": "ai-coding-agents",
       "name": "AI Coding Editors & Agents",
+      "headline": "Best AI Coding Agents & Editors",
       "description": "IDEs and terminal agents that write, refactor and ship code with you.",
+      "useCase": "AI coding agent",
+      "intro": "The best AI coding tool for most builders in 2026 is Cursor: an AI-first editor with a strong agent mode and a free plan to start. Pick Claude Code for large refactors and long-running terminal tasks, OpenAI Codex if you already pay for ChatGPT and want to hand tasks off to the cloud, and GitHub Copilot if your team lives in GitHub. Want free and open source? Use Cline or Aider with your own API key.",
       "tools": [
         {
           "rank": 1,
@@ -13,25 +17,31 @@
           "url": "https://cursor.com",
           "description": "AI-first code editor built on VS Code with agent mode.",
           "pricing": "freemium",
-          "bestFor": "Daily driver for builders who want an agentic IDE"
+          "bestFor": "Daily driver for builders who want an agentic IDE",
+          "pricingNote": "Free plan; paid from $8/mo (Plus), Teams $30/user/mo",
+          "verifiedSource": "https://cursor.com/pricing"
         },
         {
           "rank": 2,
           "slug": "claude-code",
           "name": "Claude Code",
-          "url": "https://www.anthropic.com/claude-code",
+          "url": "https://claude.com/product/claude-code",
           "description": "Anthropic's agentic coding tool for the terminal and IDE.",
           "pricing": "paid",
-          "bestFor": "Large refactors and long-running terminal tasks"
+          "bestFor": "Large refactors and long-running terminal tasks",
+          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo); or pay via API",
+          "verifiedSource": "https://claude.com/pricing"
         },
         {
           "rank": 3,
           "slug": "openai-codex",
           "name": "OpenAI Codex",
           "url": "https://openai.com/codex/",
-          "description": "OpenAI's coding agent across CLI, IDE and cloud.",
-          "pricing": "paid",
-          "bestFor": "ChatGPT subscribers delegating tasks to the cloud"
+          "description": "OpenAI's coding agent across the desktop app, CLI, IDE and cloud.",
+          "pricing": "freemium",
+          "bestFor": "ChatGPT users delegating coding tasks locally or in the cloud",
+          "pricingNote": "Included in ChatGPT plans, including a limited Free tier; Plus $20/mo, Pro from $100/mo; or API key",
+          "verifiedSource": "https://learn.chatgpt.com/docs/pricing"
         },
         {
           "rank": 4,
@@ -40,16 +50,20 @@
           "url": "https://github.com/features/copilot",
           "description": "AI pair programmer and coding agent integrated with GitHub.",
           "pricing": "freemium",
-          "bestFor": "Teams already living in GitHub"
+          "bestFor": "Teams already living in GitHub",
+          "pricingNote": "Free plan; Pro $10/mo, Pro+ $39/mo, Max $100/mo",
+          "verifiedSource": "https://github.com/features/copilot/plans"
         },
         {
           "rank": 5,
           "slug": "windsurf",
-          "name": "Windsurf",
-          "url": "https://windsurf.com",
-          "description": "Agentic IDE with the Cascade agent.",
+          "name": "Devin Desktop (formerly Windsurf)",
+          "url": "https://devin.ai/desktop",
+          "description": "Cognition's agentic IDE (formerly Windsurf) with an Agent Command Center for local and cloud agents.",
           "pricing": "freemium",
-          "bestFor": "An alternative agentic IDE experience"
+          "bestFor": "Managing many local and cloud coding agents from one editor",
+          "pricingNote": "Free plan; Pro $20/mo, Max $200/mo, Teams $80/mo + $40/seat",
+          "verifiedSource": "https://devin.ai/pricing"
         },
         {
           "rank": 6,
@@ -58,7 +72,9 @@
           "url": "https://antigravity.google",
           "description": "Google's agent-first development platform.",
           "pricing": "freemium",
-          "bestFor": "Trying Gemini models in an agent-first IDE"
+          "bestFor": "Trying Gemini models in an agent-first IDE",
+          "pricingNote": "Free individual plan; higher limits with Google AI Pro/Ultra",
+          "verifiedSource": "https://antigravity.google/pricing"
         },
         {
           "rank": 7,
@@ -67,7 +83,9 @@
           "url": "https://cline.bot",
           "description": "Open-source autonomous coding agent for VS Code.",
           "pricing": "free",
-          "bestFor": "Bring-your-own-key, open-source fans"
+          "bestFor": "Bring-your-own-key, open-source fans",
+          "pricingNote": "Free and open source; pay only for model inference (or bring your own key)",
+          "verifiedSource": "https://cline.bot/pricing"
         },
         {
           "rank": 8,
@@ -76,7 +94,9 @@
           "url": "https://aider.chat",
           "description": "Open-source AI pair programming in your terminal.",
           "pricing": "free",
-          "bestFor": "Git-native terminal workflows"
+          "bestFor": "Git-native terminal workflows",
+          "pricingNote": "Free and open source; bring your own model API keys",
+          "verifiedSource": "https://aider.chat"
         },
         {
           "rank": 9,
@@ -85,14 +105,19 @@
           "url": "https://zed.dev",
           "description": "High-performance editor with built-in AI agent features.",
           "pricing": "freemium",
-          "bestFor": "Speed-obsessed editors"
+          "bestFor": "Speed-obsessed editors",
+          "pricingNote": "Free editor (BYO keys/agents); Pro $10/mo with hosted AI",
+          "verifiedSource": "https://zed.dev/pricing"
         }
       ]
     },
     {
       "slug": "app-builders",
       "name": "App Builders (Vibe Coding Platforms)",
+      "headline": "Best AI App Builders",
       "description": "Prompt-to-app platforms: describe it, ship it.",
+      "useCase": "AI app builder",
+      "intro": "The best AI app builder for most people is Lovable: describe your app in chat and get a polished, full-stack web app with a free plan to try it. Bolt.new is the fastest way to spin up a full-stack prototype in the browser, v0 is best for React/Next.js UI that deploys to Vercel, and Replit is best if you want to build and host in one place. For internal tools with built-in auth and data, try Base44.",
       "tools": [
         {
           "rank": 1,
@@ -101,7 +126,9 @@
           "url": "https://lovable.dev",
           "description": "Build full-stack web apps by chatting with AI.",
           "pricing": "freemium",
-          "bestFor": "Non-devs shipping polished MVPs fast"
+          "bestFor": "Non-devs shipping polished MVPs fast",
+          "pricingNote": "Free plan (5 daily credits); Pro from $25/mo",
+          "verifiedSource": "https://docs.lovable.dev/introduction/subscription-plans"
         },
         {
           "rank": 2,
@@ -110,7 +137,9 @@
           "url": "https://bolt.new",
           "description": "StackBlitz's in-browser AI app builder.",
           "pricing": "freemium",
-          "bestFor": "Instant full-stack prototypes in the browser"
+          "bestFor": "Instant full-stack prototypes in the browser",
+          "pricingNote": "Free plan (1M tokens/mo); Pro $25/mo",
+          "verifiedSource": "https://bolt.new/pricing"
         },
         {
           "rank": 3,
@@ -119,7 +148,9 @@
           "url": "https://v0.app",
           "description": "Vercel's AI app and UI generator.",
           "pricing": "freemium",
-          "bestFor": "React/Next.js UI and Vercel deploys"
+          "bestFor": "React/Next.js UI and Vercel deploys",
+          "pricingNote": "Free plan; Plus $30/user/mo",
+          "verifiedSource": "https://v0.app/pricing"
         },
         {
           "rank": 4,
@@ -128,7 +159,9 @@
           "url": "https://replit.com",
           "description": "Cloud IDE with Replit Agent for building and deploying apps.",
           "pricing": "freemium",
-          "bestFor": "Build + host in one place"
+          "bestFor": "Build + host in one place",
+          "pricingNote": "Free Starter plan; Core $20/mo ($18/mo billed annually)",
+          "verifiedSource": "https://replit.com/pricing"
         },
         {
           "rank": 5,
@@ -137,32 +170,41 @@
           "url": "https://base44.com",
           "description": "AI platform for building apps with built-in backend.",
           "pricing": "freemium",
-          "bestFor": "Internal tools and simple apps with auth/data"
+          "bestFor": "Internal tools and simple apps with auth/data",
+          "pricingNote": "Free plan; paid from $16/mo billed annually",
+          "verifiedSource": "https://base44.com/pricing"
         },
         {
           "rank": 6,
-          "slug": "firebase-studio",
-          "name": "Firebase Studio",
-          "url": "https://firebase.studio",
-          "description": "Google's agentic cloud dev environment for full-stack apps.",
+          "slug": "google-ai-studio",
+          "name": "Google AI Studio",
+          "url": "https://aistudio.google.com",
+          "description": "Google's AI Studio Build mode: prompt-to-app full-stack web and Android apps powered by Gemini.",
           "pricing": "freemium",
-          "bestFor": "Firebase/Google Cloud stacks"
+          "bestFor": "Gemini-powered apps with Firebase/Google Cloud",
+          "pricingNote": "Free to use in AI Studio; paid Gemini API/Cloud usage for higher limits and deployment",
+          "verifiedSource": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode"
         },
         {
           "rank": 7,
           "slug": "create",
-          "name": "Create",
-          "url": "https://www.create.xyz",
-          "description": "Turn text descriptions into apps and sites.",
+          "name": "Anything (formerly Create)",
+          "url": "https://www.anything.com",
+          "description": "AI app builder that turns prompts into web and mobile apps with built-in backend, auth and payments.",
           "pricing": "freemium",
-          "bestFor": "Quick web and mobile prototypes"
+          "bestFor": "Prompt-to-app web and mobile MVPs",
+          "pricingNote": "Free plan; Pro from $19/mo",
+          "verifiedSource": "https://www.anything.com/pricing"
         }
       ]
     },
     {
       "slug": "image-gen",
       "name": "Image Generation",
+      "headline": "Best AI Image Generators",
       "description": "Models and apps for generating and editing images.",
+      "useCase": "AI image generator",
+      "intro": "The best AI image generator for raw aesthetics is Midjourney (paid only, from $10/mo). For images with readable text and step-by-step edits, use GPT Image in ChatGPT; for fast conversational editing, use Nano Banana in Gemini (both have free usage). Ideogram is the pick for logos and posters with typography, and Recraft for vector icons and brand-consistent assets.",
       "tools": [
         {
           "rank": 1,
@@ -171,7 +213,9 @@
           "url": "https://www.midjourney.com",
           "description": "Image generation known for strong aesthetics.",
           "pricing": "paid",
-          "bestFor": "Stylized, high-taste visuals"
+          "bestFor": "Stylized, high-taste visuals",
+          "pricingNote": "No free plan; Basic $10/mo ($8/mo billed annually)",
+          "verifiedSource": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
         },
         {
           "rank": 2,
@@ -180,7 +224,9 @@
           "url": "https://chatgpt.com",
           "description": "OpenAI image generation inside ChatGPT and the API.",
           "pricing": "freemium",
-          "bestFor": "Text-heavy images and iterative edits"
+          "bestFor": "Text-heavy images and iterative edits",
+          "pricingNote": "Limited free image creation in ChatGPT; Go $8/mo, Plus $20/mo; API billed per use",
+          "verifiedSource": "https://chatgpt.com/pricing/"
         },
         {
           "rank": 3,
@@ -189,7 +235,9 @@
           "url": "https://gemini.google.com",
           "description": "Google's Gemini image generation and editing model.",
           "pricing": "freemium",
-          "bestFor": "Fast conversational image editing"
+          "bestFor": "Fast conversational image editing",
+          "pricingNote": "Free in the Gemini app; Google AI Plus $4.99/mo, AI Pro $19.99/mo for higher limits",
+          "verifiedSource": "https://gemini.google/subscriptions/"
         },
         {
           "rank": 4,
@@ -198,7 +246,9 @@
           "url": "https://ideogram.ai",
           "description": "Image generator strong at typography.",
           "pricing": "freemium",
-          "bestFor": "Logos, posters and text in images"
+          "bestFor": "Logos, posters and text in images",
+          "pricingNote": "Free plan (30 credits/week); Plus $20/mo ($15/mo billed annually)",
+          "verifiedSource": "https://docs.ideogram.ai/plans-and-billing/available-plans"
         },
         {
           "rank": 5,
@@ -207,7 +257,9 @@
           "url": "https://bfl.ai",
           "description": "FLUX family of image models from Black Forest Labs.",
           "pricing": "freemium",
-          "bestFor": "API and open-weight image generation"
+          "bestFor": "API and open-weight image generation",
+          "pricingNote": "Pay-per-image API (no subscription); open-weight models available to self-host (license varies)",
+          "verifiedSource": "https://bfl.ai/pricing"
         },
         {
           "rank": 6,
@@ -216,7 +268,9 @@
           "url": "https://www.recraft.ai",
           "description": "AI image generator with vector and brand-style tools.",
           "pricing": "freemium",
-          "bestFor": "Vector icons and brand-consistent assets"
+          "bestFor": "Vector icons and brand-consistent assets",
+          "pricingNote": "Free plan (daily credits, public, non-commercial); Basic $12/mo ($10/mo billed annually)",
+          "verifiedSource": "https://www.recraft.ai/docs/plans-and-billing/paid-plans"
         },
         {
           "rank": 7,
@@ -225,84 +279,95 @@
           "url": "https://leonardo.ai",
           "description": "Creative image and asset generation platform.",
           "pricing": "freemium",
-          "bestFor": "Game and creative asset workflows"
+          "bestFor": "Game and creative asset workflows",
+          "pricingNote": "Free plan (150 tokens/day); Essential $12/mo ($10/mo billed annually)",
+          "verifiedSource": "https://www.leonardo.ai/pricing"
         }
       ]
     },
     {
       "slug": "video-gen",
       "name": "Video Generation",
+      "headline": "Best AI Video Generators",
       "description": "Text- and image-to-video models.",
+      "useCase": "AI video generator",
+      "intro": "The best AI video generator right now is Google Veo in Flow, which makes cinematic clips with native audio and now includes free daily credits. Runway is best if you also need editing tools, Kling AI gives realistic motion at a lower price, and Luma Dream Machine is great for fast ideation and image-to-video. For playful social clips, use Pika.",
       "tools": [
         {
           "rank": 1,
           "slug": "google-veo-flow",
           "name": "Google Veo (Flow)",
-          "url": "https://labs.google/flow",
+          "url": "https://flow.google.com",
           "description": "Google's Veo video models in the Flow filmmaking tool.",
-          "pricing": "paid",
-          "bestFor": "Cinematic clips with native audio"
+          "pricing": "freemium",
+          "bestFor": "Cinematic clips with native audio",
+          "pricingNote": "Free daily credits (50/day); more with Google AI Pro $19.99/mo or Ultra",
+          "verifiedSource": "https://support.google.com/flow/answer/16526234"
         },
         {
           "rank": 2,
-          "slug": "sora",
-          "name": "Sora",
-          "url": "https://openai.com/sora/",
-          "description": "OpenAI's video generation model and app.",
+          "slug": "runway",
+          "name": "Runway",
+          "url": "https://runway.com",
+          "description": "AI video generation and editing suite.",
           "pricing": "freemium",
-          "bestFor": "Short-form social video"
+          "bestFor": "Creators who need editing tools too",
+          "pricingNote": "Free plan (125 one-time credits); Standard $15/mo ($12/mo billed annually)",
+          "verifiedSource": "https://runway.com/pricing"
         },
         {
           "rank": 3,
-          "slug": "runway",
-          "name": "Runway",
-          "url": "https://runwayml.com",
-          "description": "AI video generation and editing suite.",
+          "slug": "kling-ai",
+          "name": "Kling AI",
+          "url": "https://kling.ai",
+          "description": "Kuaishou's text/image-to-video generator.",
           "pricing": "freemium",
-          "bestFor": "Creators who need editing tools too"
+          "bestFor": "Realistic motion at a lower price",
+          "pricingNote": "Free basic plan + paid plans",
+          "verifiedSource": "https://kling.ai"
         },
         {
           "rank": 4,
-          "slug": "kling-ai",
-          "name": "Kling AI",
-          "url": "https://klingai.com",
-          "description": "Kuaishou's text/image-to-video generator.",
-          "pricing": "freemium",
-          "bestFor": "Realistic motion at a lower price"
-        },
-        {
-          "rank": 5,
           "slug": "luma-dream-machine",
           "name": "Luma Dream Machine",
           "url": "https://lumalabs.ai",
           "description": "Luma's video generation platform.",
-          "pricing": "freemium",
-          "bestFor": "Fast ideation and image-to-video"
+          "pricing": "paid",
+          "bestFor": "Fast ideation and image-to-video",
+          "pricingNote": "No ongoing free plan; Plus $30/mo ($25/mo billed annually)",
+          "verifiedSource": "https://lumalabs.ai/pricing"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "slug": "pika",
           "name": "Pika",
           "url": "https://pika.art",
           "description": "Playful AI video creation app.",
           "pricing": "freemium",
-          "bestFor": "Fun effects and social clips"
+          "bestFor": "Fun effects and social clips",
+          "pricingNote": "Free plan; Starter $10/mo",
+          "verifiedSource": "https://pika.art/pricing"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "slug": "hailuo-ai",
           "name": "Hailuo AI",
           "url": "https://hailuoai.video",
           "description": "MiniMax's video generation app.",
-          "pricing": "freemium",
-          "bestFor": "Budget-friendly video generation"
+          "pricing": "paid",
+          "bestFor": "Budget-friendly video generation",
+          "pricingNote": "Paid plans; one-time free trial credits for new users",
+          "verifiedSource": "https://hailuoai.video/subscribe"
         }
       ]
     },
     {
       "slug": "voice",
       "name": "Voice & Audio",
+      "headline": "Best AI Voice & Audio Tools",
       "description": "Text-to-speech, voice agents and music.",
+      "useCase": "AI voice tool",
+      "intro": "The best AI voice and text-to-speech tool for most products is ElevenLabs, with natural voices, voice cloning and a free plan. To build real-time voice agents, use the OpenAI Realtime API; for phone agents with telephony built in, use Vapi; for the lowest-latency TTS, use Cartesia. Need transcription? Deepgram. Need music? Suno.",
       "tools": [
         {
           "rank": 1,
@@ -311,16 +376,20 @@
           "url": "https://elevenlabs.io",
           "description": "Text-to-speech, voice cloning and voice agents.",
           "pricing": "freemium",
-          "bestFor": "Best-in-class TTS for products"
+          "bestFor": "Best-in-class TTS for products",
+          "pricingNote": "Free plan (10k credits/mo); Starter $6/mo",
+          "verifiedSource": "https://elevenlabs.io/pricing"
         },
         {
           "rank": 2,
           "slug": "openai-realtime-api",
           "name": "OpenAI Realtime API",
-          "url": "https://platform.openai.com/docs/guides/realtime",
+          "url": "https://developers.openai.com/api/docs/guides/realtime",
           "description": "Low-latency speech-to-speech API.",
           "pricing": "paid",
-          "bestFor": "Building real-time voice agents"
+          "bestFor": "Building real-time voice agents",
+          "pricingNote": "Usage-based API pricing (per audio token)",
+          "verifiedSource": "https://developers.openai.com/api/docs/pricing"
         },
         {
           "rank": 3,
@@ -329,16 +398,20 @@
           "url": "https://vapi.ai",
           "description": "Developer platform for voice AI agents.",
           "pricing": "paid",
-          "bestFor": "Phone and voice agents with telephony"
+          "bestFor": "Phone and voice agents with telephony",
+          "pricingNote": "Pay-as-you-go per minute; $5 free credits to start; Core $29/mo",
+          "verifiedSource": "https://vapi.ai/pricing"
         },
         {
           "rank": 4,
           "slug": "cartesia",
           "name": "Cartesia",
-          "url": "https://cartesia.ai",
+          "url": "https://www.cartesia.ai",
           "description": "Low-latency real-time voice models.",
           "pricing": "freemium",
-          "bestFor": "Ultra-fast TTS for live agents"
+          "bestFor": "Ultra-fast TTS for live agents",
+          "pricingNote": "Free plan (20K credits/mo); Pro $5/mo",
+          "verifiedSource": "https://www.cartesia.ai/pricing"
         },
         {
           "rank": 5,
@@ -347,7 +420,9 @@
           "url": "https://deepgram.com",
           "description": "Speech-to-text and voice AI APIs.",
           "pricing": "freemium",
-          "bestFor": "Fast transcription at scale"
+          "bestFor": "Fast transcription at scale",
+          "pricingNote": "$200 free credit, then pay-as-you-go",
+          "verifiedSource": "https://deepgram.com/pricing"
         },
         {
           "rank": 6,
@@ -356,7 +431,9 @@
           "url": "https://suno.com",
           "description": "AI music generation.",
           "pricing": "freemium",
-          "bestFor": "Songs and soundtracks from a prompt"
+          "bestFor": "Songs and soundtracks from a prompt",
+          "pricingNote": "Free plan (50 credits/day); Pro from $8/mo billed annually",
+          "verifiedSource": "https://suno.com/pricing"
         },
         {
           "rank": 7,
@@ -365,23 +442,30 @@
           "url": "https://www.hume.ai",
           "description": "Emotionally expressive voice AI.",
           "pricing": "freemium",
-          "bestFor": "Expressive, empathetic voice"
+          "bestFor": "Expressive, empathetic voice",
+          "pricingNote": "Free tier + paid plans",
+          "verifiedSource": "https://www.hume.ai"
         }
       ]
     },
     {
       "slug": "llm-apis",
       "name": "LLM APIs",
+      "headline": "Best LLM APIs",
       "description": "Model APIs to power your app.",
+      "useCase": "LLM API",
+      "intro": "The best LLM API for coding and agentic apps is the Anthropic API (Claude). The OpenAI API has the broadest ecosystem and modalities, and the Google Gemini API is best for long context and has a free tier for experimenting. If you want to switch between hundreds of models with one key, use OpenRouter; if latency matters most, use Groq.",
       "tools": [
         {
           "rank": 1,
           "slug": "anthropic-api",
           "name": "Anthropic API",
-          "url": "https://www.anthropic.com/api",
+          "url": "https://claude.com/platform/api",
           "description": "Claude models via the Claude Platform.",
           "pricing": "paid",
-          "bestFor": "Coding and agentic workloads"
+          "bestFor": "Coding and agentic workloads",
+          "pricingNote": "Pay-as-you-go per token (e.g. Sonnet 5.5 $2/$10 per MTok in/out)",
+          "verifiedSource": "https://claude.com/platform/api"
         },
         {
           "rank": 2,
@@ -390,7 +474,9 @@
           "url": "https://platform.openai.com",
           "description": "GPT models, images, audio and more.",
           "pricing": "paid",
-          "bestFor": "Broadest ecosystem and modalities"
+          "bestFor": "Broadest ecosystem and modalities",
+          "pricingNote": "Pay-as-you-go per token",
+          "verifiedSource": "https://developers.openai.com/api/docs/pricing"
         },
         {
           "rank": 3,
@@ -399,7 +485,9 @@
           "url": "https://ai.google.dev",
           "description": "Gemini models via AI Studio and the Gemini API.",
           "pricing": "freemium",
-          "bestFor": "Long context and free tier experimentation"
+          "bestFor": "Long context and free tier experimentation",
+          "pricingNote": "Free tier with rate limits in AI Studio; pay-as-you-go for higher limits",
+          "verifiedSource": "https://ai.google.dev/gemini-api/docs/pricing"
         },
         {
           "rank": 4,
@@ -408,7 +496,9 @@
           "url": "https://openrouter.ai",
           "description": "One API for hundreds of models.",
           "pricing": "freemium",
-          "bestFor": "Switching models without rewiring"
+          "bestFor": "Switching models without rewiring",
+          "pricingNote": "Free models (rate-limited) + pay-as-you-go credits",
+          "verifiedSource": "https://openrouter.ai/pricing"
         },
         {
           "rank": 5,
@@ -417,7 +507,9 @@
           "url": "https://x.ai/api",
           "description": "Grok models via API.",
           "pricing": "paid",
-          "bestFor": "Grok models in your app"
+          "bestFor": "Grok models in your app",
+          "pricingNote": "Usage-based; from $2 per 1M input tokens",
+          "verifiedSource": "https://x.ai/api"
         },
         {
           "rank": 6,
@@ -426,7 +518,9 @@
           "url": "https://groq.com",
           "description": "Very fast inference for open models.",
           "pricing": "freemium",
-          "bestFor": "Latency-sensitive apps"
+          "bestFor": "Latency-sensitive apps",
+          "pricingNote": "Free tier (rate-limited); pay-as-you-go Developer tier",
+          "verifiedSource": "https://console.groq.com/docs/billing-faqs"
         },
         {
           "rank": 7,
@@ -435,7 +529,9 @@
           "url": "https://mistral.ai",
           "description": "Open and commercial models from Mistral.",
           "pricing": "freemium",
-          "bestFor": "European hosting and open weights"
+          "bestFor": "European hosting and open weights",
+          "pricingNote": "Free plan (Le Chat/Vibe); Pro and pay-as-you-go API",
+          "verifiedSource": "https://mistral.ai/pricing"
         },
         {
           "rank": 8,
@@ -444,14 +540,19 @@
           "url": "https://www.together.ai",
           "description": "Inference and fine-tuning for open models.",
           "pricing": "paid",
-          "bestFor": "Running open-weight models at scale"
+          "bestFor": "Running open-weight models at scale",
+          "pricingNote": "Pay-as-you-go per token",
+          "verifiedSource": "https://www.together.ai/pricing"
         }
       ]
     },
     {
       "slug": "agent-frameworks",
       "name": "Agent Frameworks",
+      "headline": "Best AI Agent Frameworks",
       "description": "Libraries for building agents and AI apps.",
+      "useCase": "AI agent framework",
+      "intro": "The best AI agent framework for TypeScript and Next.js builders is the Vercel AI SDK; for Python, start with the OpenAI Agents SDK or Pydantic AI. Use the Claude Agent SDK to build agents that work with tools and files like Claude Code, and LangGraph when you need complex, stateful graphs with human-in-the-loop. All of these are free, open-source libraries; you pay only for model usage.",
       "tools": [
         {
           "rank": 1,
@@ -460,7 +561,9 @@
           "url": "https://ai-sdk.dev",
           "description": "TypeScript toolkit for AI apps and agents.",
           "pricing": "free",
-          "bestFor": "TS/Next.js builders"
+          "bestFor": "TS/Next.js builders",
+          "pricingNote": "Free, open source",
+          "verifiedSource": "https://ai-sdk.dev"
         },
         {
           "rank": 2,
@@ -469,16 +572,20 @@
           "url": "https://openai.github.io/openai-agents-python/",
           "description": "Lightweight framework for multi-agent workflows.",
           "pricing": "free",
-          "bestFor": "Simple agents on OpenAI models"
+          "bestFor": "Simple agents on OpenAI models",
+          "pricingNote": "Free, open source (pay for model usage)",
+          "verifiedSource": "https://openai.github.io/openai-agents-python/"
         },
         {
           "rank": 3,
           "slug": "claude-agent-sdk",
           "name": "Claude Agent SDK",
-          "url": "https://docs.claude.com/en/api/agent-sdk/overview",
+          "url": "https://code.claude.com/docs/en/agent-sdk/overview",
           "description": "The agent harness behind Claude Code as an SDK.",
           "pricing": "free",
-          "bestFor": "Agents that use tools and files like Claude Code"
+          "bestFor": "Agents that use tools and files like Claude Code",
+          "pricingNote": "Free SDK (pay for Claude API usage)",
+          "verifiedSource": "https://code.claude.com/docs/en/agent-sdk/overview"
         },
         {
           "rank": 4,
@@ -487,7 +594,9 @@
           "url": "https://www.langchain.com/langgraph",
           "description": "Stateful, controllable agent orchestration.",
           "pricing": "free",
-          "bestFor": "Complex graphs with human-in-the-loop"
+          "bestFor": "Complex graphs with human-in-the-loop",
+          "pricingNote": "Free, open source (MIT); LangSmith platform is paid",
+          "verifiedSource": "https://www.langchain.com/langgraph"
         },
         {
           "rank": 5,
@@ -496,25 +605,31 @@
           "url": "https://mastra.ai",
           "description": "TypeScript agent framework with workflows and memory.",
           "pricing": "free",
-          "bestFor": "Full-featured TS agents"
+          "bestFor": "Full-featured TS agents",
+          "pricingNote": "Free, open source (Apache 2.0); enterprise features separately licensed",
+          "verifiedSource": "https://mastra.ai"
         },
         {
           "rank": 6,
           "slug": "crewai",
           "name": "CrewAI",
-          "url": "https://www.crewai.com",
+          "url": "https://crewai.com",
           "description": "Framework for role-based multi-agent crews.",
           "pricing": "freemium",
-          "bestFor": "Multi-agent role-play pipelines"
+          "bestFor": "Multi-agent role-play pipelines",
+          "pricingNote": "Open-source framework; hosted platform free tier (50 executions/mo) + enterprise",
+          "verifiedSource": "https://crewai.com/pricing"
         },
         {
           "rank": 7,
           "slug": "pydantic-ai",
           "name": "Pydantic AI",
-          "url": "https://ai.pydantic.dev",
+          "url": "https://pydantic.dev/docs/ai/overview/",
           "description": "Type-safe Python agent framework.",
           "pricing": "free",
-          "bestFor": "Python devs who love typing"
+          "bestFor": "Python devs who love typing",
+          "pricingNote": "Free, open source",
+          "verifiedSource": "https://pydantic.dev/docs/ai/overview/"
         },
         {
           "rank": 8,
@@ -523,14 +638,19 @@
           "url": "https://www.llamaindex.ai",
           "description": "Framework for agents over your data.",
           "pricing": "freemium",
-          "bestFor": "RAG and document agents"
+          "bestFor": "RAG and document agents",
+          "pricingNote": "Open-source framework; LlamaCloud free plan (10K credits), Starter $50/mo",
+          "verifiedSource": "https://www.llamaindex.ai/pricing"
         }
       ]
     },
     {
       "slug": "deployment-backend",
       "name": "Deployment & Backend",
+      "headline": "Best Hosting & Backend for AI Apps",
       "description": "Hosting, databases and auth for shipped vibes.",
+      "useCase": "hosting and backend",
+      "intro": "The best hosting for a vibe-coded web app is Vercel (free Hobby plan, ideal for Next.js), and the best default backend is Supabase: Postgres, auth, storage and realtime with a free plan. Use Cloudflare for cheap global edge hosting, Convex for realtime apps without backend glue, Railway for long-running servers and workers, and Clerk to add auth in minutes.",
       "tools": [
         {
           "rank": 1,
@@ -539,7 +659,9 @@
           "url": "https://vercel.com",
           "description": "Frontend cloud for Next.js and more.",
           "pricing": "freemium",
-          "bestFor": "Next.js apps and previews"
+          "bestFor": "Next.js apps and previews",
+          "pricingNote": "Free Hobby plan; Pro $20/mo",
+          "verifiedSource": "https://vercel.com/pricing"
         },
         {
           "rank": 2,
@@ -548,7 +670,9 @@
           "url": "https://supabase.com",
           "description": "Postgres backend with auth, storage and realtime.",
           "pricing": "freemium",
-          "bestFor": "Default backend for vibe-coded apps"
+          "bestFor": "Default backend for vibe-coded apps",
+          "pricingNote": "Free plan (2 projects); Pro from $25/mo",
+          "verifiedSource": "https://supabase.com/pricing"
         },
         {
           "rank": 3,
@@ -557,7 +681,9 @@
           "url": "https://www.cloudflare.com/developer-platform/",
           "description": "Workers, Pages, D1 and R2 on the edge.",
           "pricing": "freemium",
-          "bestFor": "Cheap global edge hosting"
+          "bestFor": "Cheap global edge hosting",
+          "pricingNote": "Generous free plan; Workers Paid from $5/mo",
+          "verifiedSource": "https://developers.cloudflare.com/workers/platform/pricing/"
         },
         {
           "rank": 4,
@@ -566,7 +692,9 @@
           "url": "https://www.netlify.com",
           "description": "Web platform for deploying sites and apps.",
           "pricing": "freemium",
-          "bestFor": "Static sites and Jamstack"
+          "bestFor": "Static sites and Jamstack",
+          "pricingNote": "Free plan; Personal $9/mo, Pro $20/mo",
+          "verifiedSource": "https://www.netlify.com/pricing/"
         },
         {
           "rank": 5,
@@ -575,7 +703,9 @@
           "url": "https://www.convex.dev",
           "description": "Reactive backend database with TypeScript functions.",
           "pricing": "freemium",
-          "bestFor": "Realtime apps without backend glue"
+          "bestFor": "Realtime apps without backend glue",
+          "pricingNote": "Free plan; Professional $25/developer/mo",
+          "verifiedSource": "https://www.convex.dev/pricing"
         },
         {
           "rank": 6,
@@ -583,8 +713,10 @@
           "name": "Railway",
           "url": "https://railway.com",
           "description": "Deploy apps, databases and services easily.",
-          "pricing": "paid",
-          "bestFor": "Long-running servers and workers"
+          "pricing": "freemium",
+          "bestFor": "Long-running servers and workers",
+          "pricingNote": "Free trial ($5 credits) and limited free plan; Hobby $5/mo minimum usage",
+          "verifiedSource": "https://railway.com/pricing"
         },
         {
           "rank": 7,
@@ -593,7 +725,9 @@
           "url": "https://clerk.com",
           "description": "Drop-in authentication and user management.",
           "pricing": "freemium",
-          "bestFor": "Auth in minutes"
+          "bestFor": "Auth in minutes",
+          "pricingNote": "Free Hobby plan (50K monthly retained users); Pro $20/mo billed annually",
+          "verifiedSource": "https://clerk.com/pricing"
         },
         {
           "rank": 8,
@@ -602,7 +736,9 @@
           "url": "https://neon.com",
           "description": "Serverless Postgres with branching.",
           "pricing": "freemium",
-          "bestFor": "Postgres per preview branch"
+          "bestFor": "Postgres per preview branch",
+          "pricingNote": "Free plan; usage-based paid plans",
+          "verifiedSource": "https://neon.com/pricing"
         }
       ]
     }

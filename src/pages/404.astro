@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import data from '../data/tools.json';
+---
+<Base title="Page not found | Vibe Ranked" description="That page doesn't exist. Browse the Vibe Ranked AI tool leaderboards instead." noindex>
+<h1 style="margin-top:60px">Page not found</h1><p class="mut">That page moved or never existed. Try a leaderboard:</p>
+<ul>{data.categories.map(c=>(<li><a href={`/category/${c.slug}/`} style="text-decoration:underline">{c.headline}</a></li>))}</ul>
+</Base>
