@@ -135,6 +135,7 @@
           "slug": "bolt-new",
           "name": "Bolt.new",
           "url": "https://bolt.new",
+          "affiliateUrl": "https://bolt.cello.so/7n3dpGrM0Cc",
           "description": "StackBlitz's in-browser AI app builder.",
           "pricing": "freemium",
           "bestFor": "Instant full-stack prototypes in the browser",
