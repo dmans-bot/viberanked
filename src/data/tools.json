@@ -712,6 +712,7 @@
           "slug": "railway",
           "name": "Railway",
           "url": "https://railway.com",
+          "affiliateUrl": "https://railway.com?referralCode=qYFJ1I",
           "description": "Deploy apps, databases and services easily.",
           "pricing": "freemium",
           "bestFor": "Long-running servers and workers",

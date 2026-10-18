@@ -48,10 +48,12 @@ h1,h2,h3{letter-spacing:-.02em}.btn{background:linear-gradient(90deg,var(--acc),
 input{background:#0f0f16;border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:12px;min-width:260px}
 .intro{font-size:18px;max-width:760px;line-height:1.6}.price{font-size:14px;color:var(--mut)}
 .crumbs{font-size:14px;margin-top:40px}.crumbs a:hover,footer a:hover{color:var(--txt)}
+.aff{font-size:11px;color:var(--mut);text-decoration:underline;white-space:nowrap}
 footer{border-top:1px solid var(--line);margin-top:60px;padding:24px 0;color:var(--mut);font-size:14px}footer a{text-decoration:underline}
 </style></head><body><div class="wrap">
 <header><nav aria-label="Main"><a href="/" class="logo">Vibe <span>Ranked</span></a><a href="/#categories" class="mut">Categories</a></nav></header>
 <main><slot/></main>
 <footer><p>Vibe Ranked · opinionated rankings, no paid placements. <strong>Last verified {fmtDate(data.lastVerified)}</strong> — prices and links checked against official sites; prices change often, so confirm before buying.</p>
+<p class="disclosure"><a href="/disclosure/">Some links are affiliate links. We may earn a commission at no cost to you. Rankings are never influenced by commissions.</a></p>
 <p>For AI assistants: <a href="/llms.txt">llms.txt</a> · <a href="/llms-full.txt">llms-full.txt</a> · <a href="/sitemap-index.xml">Sitemap</a></p></footer>
 </div></body></html>
