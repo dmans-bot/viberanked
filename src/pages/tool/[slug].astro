@@ -2,8 +2,10 @@
 import Base from '../../layouts/Base.astro';
 import data from '../../data/tools.json';
 import { SITE, clip, fmtDate } from '../../lib/site.js';
+import { comparisonsForTool } from '../../lib/comparisons.js';
 export function getStaticPaths(){return data.categories.flatMap(c=>c.tools.map(t=>({params:{slug:t.slug},props:{t,c}})))}
 const {t,c}=Astro.props;
+const comparisons = comparisonsForTool(t.slug);
 const url = `${SITE}/tool/${t.slug}/`;
 const others = c.tools.filter(x=>x.slug!==t.slug).slice(0,4);
 const title = `${t.name}: Pricing & Review (#${t.rank} in ${c.name}) | Vibe Ranked`;
@@ -22,9 +24,15 @@ const jsonLd = [
 <article class="card" style="padding:32px"><span class="rank" style="font-size:22px">#{t.rank}</span><span class="mut"> in <a href={`/category/${c.slug}/`}>{c.name}</a></span>
 <h1 style="font-size:48px;margin:8px 0">{t.name}</h1><p style="font-size:19px">{t.description}</p>
 <p><span class={`pill ${t.pricing}`}>{t.pricing}</span> <span class="price">{t.pricingNote}</span></p><p><span style="color:var(--acc2)">Best for:</span> {t.bestFor}</p>
-<a class="btn" style="display:inline-block" href={t.affiliateUrl ?? t.url} target="_blank" rel={t.affiliateUrl ? 'sponsored noopener' : 'noopener'}>Visit {t.name} ↗</a> {t.affiliateUrl && <a href="/disclosure/" class="aff">Affiliate link</a>} <span class="mut" style="font-size:13px">{t.url}</span>
+<a class="btn" style="display:inline-block" href={t.affiliateUrl ?? t.url} target="_blank" rel={t.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener'}>Visit {t.name} ↗</a> {t.affiliateUrl && <a href="/disclosure/" class="aff">Affiliate link</a>} <span class="mut" style="font-size:13px">{t.url}</span>
 <p class="mut" style="font-size:13px;margin-bottom:0">Pricing verified {fmtDate(data.lastVerified)} against <a href={t.verifiedSource} rel="nofollow noopener" target="_blank" style="text-decoration:underline">the official source</a>.</p></article>
 <section aria-labelledby="alts"><h2 id="alts" style="margin-top:36px">Alternatives to {t.name}</h2>
 <div class="card">{others.map(o=>(<a class="row" href={`/tool/${o.slug}/`}><span class="rank">#{o.rank}</span><span style="flex:1">{o.name} <span class="mut">— {o.bestFor}</span></span><span class={`pill ${o.pricing}`}>{o.pricing}</span></a>))}
 <a class="row" href={`/category/${c.slug}/`}><span style="flex:1;color:var(--acc)">See all {c.tools.length} {c.name} →</span></a></div></section>
+{comparisons.length > 0 && (
+<section aria-labelledby="vs"><h2 id="vs" style="margin-top:36px">{t.name} comparisons</h2>
+<div class="card">{comparisons.map((cmp) => (
+<a class="row" href={cmp.path}><span style="flex:1">{cmp.a.name} vs {cmp.b.name}</span>{cmp.sameCategory && <span class="mut">#{cmp.a.rank} vs #{cmp.b.rank}</span>}</a>
+))}</div></section>
+)}
 </Base>
