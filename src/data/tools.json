@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17",
-  "lastVerified": "2026-10-17",
+  "updated": "2026-10-19",
+  "lastVerified": "2026-10-19",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -17,8 +17,8 @@
           "url": "https://cursor.com",
           "description": "AI-first code editor built on VS Code with agent mode.",
           "pricing": "freemium",
-          "bestFor": "Daily driver for builders who want an agentic IDE",
-          "pricingNote": "Free plan; paid from $8/mo (Plus), Teams $30/user/mo",
+          "bestFor": "Daily driver for builders who want an agentic IDE (Premium+ for non-Grok models)",
+          "pricingNote": "Free plan; Plus $8/mo (Grok models only); Premium $30/mo, Super $100/mo, Ultra $200/mo; Teams from $30/user/mo; third-party models at API list price on Premium+",
           "verifiedSource": "https://cursor.com/pricing"
         },
         {
@@ -29,7 +29,7 @@
           "description": "Anthropic's agentic coding tool for the terminal and IDE.",
           "pricing": "paid",
           "bestFor": "Large refactors and long-running terminal tasks",
-          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo); or pay via API",
+          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo, includes $100\u2013$200/mo API credits); or pay via API",
           "verifiedSource": "https://claude.com/pricing"
         },
         {
@@ -746,6 +746,12 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-10-17",
+      "title": "DeepSeek releases V4.1-Flash-1017 open weights",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "tag": "Open model"
+    },
     {
       "date": "2026-10-15",
       "title": "Meta releases Muse Spark Open weights",

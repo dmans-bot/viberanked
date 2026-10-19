@@ -1,6 +1,6 @@
 # Fact-check log — Vibe Ranked
 
-**Last verified:** 2026-10-17 (all tools in `src/data/tools.json`).
+**Last verified:** 2026-10-19 (spot-check: Cursor + Claude Code pricing refreshed; full pass was 2026-10-17).
 
 Method: every tool URL was requested (redirects/dead links fixed), then the official site or pricing page was fetched (or, when the page blocks bots / renders prices with JavaScript, the vendor's own docs or a dated Oct 2026 search result). Each tool now has a `pricingNote` (free tier / starting price) and a `verifiedSource` field. Where a price couldn't be confirmed, the note is kept general.
 
@@ -30,6 +30,8 @@ Pricing badge rule: `free` = free/open source; `freemium` = ongoing free tier + 
 | CrewAI | URL normalized to crewai.com (www redirects); url: "https://www.crewai.com" → "https://crewai.com" | https://crewai.com/pricing |
 | Pydantic AI | URL updated (ai.pydantic.dev redirects to pydantic.dev/docs/ai); url: "https://ai.pydantic.dev" → "https://pydantic.dev/docs/ai/overview/" | https://pydantic.dev/docs/ai/overview/ |
 | Railway | Pricing paid→freemium (pricing page now lists a $0 Free plan after a 30-day trial); pricing: "paid" → "freemium" | https://railway.com/pricing |
+| Cursor | Pricing note updated for X Subscription ladder (Plus $8 Grok-only; Premium $30 / Super $100 / Ultra $200; Teams from $30/user; 3P models API-priced on Premium+) | https://cursor.com/pricing |
+| Claude Code | Max pricing note adds bundled $100–$200/mo API credits | https://claude.com/pricing |
 
 ## Could not fully verify
 
@@ -43,8 +45,8 @@ Pricing badge rule: `free` = free/open source; `freemium` = ongoing free tier + 
 
 | Category | # | Tool | Badge | Pricing note | Source |
 |---|---|---|---|---|---|
-| AI Coding Editors & Agents | 1 | [Cursor](https://cursor.com) | freemium | Free plan; paid from $8/mo (Plus), Teams $30/user/mo | https://cursor.com/pricing |
-| AI Coding Editors & Agents | 2 | [Claude Code](https://claude.com/product/claude-code) | paid | Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo); or pay via API | https://claude.com/pricing |
+| AI Coding Editors & Agents | 1 | [Cursor](https://cursor.com) | freemium | Free; Plus $8 (Grok only); Premium $30; Super $100; Ultra $200; Teams from $30/user; 3P models API-priced on Premium+ | https://cursor.com/pricing |
+| AI Coding Editors & Agents | 2 | [Claude Code](https://claude.com/product/claude-code) | paid | Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo, includes $100–$200/mo API credits); or pay via API | https://claude.com/pricing |
 | AI Coding Editors & Agents | 3 | [OpenAI Codex](https://openai.com/codex/) | freemium | Included in ChatGPT plans, including a limited Free tier; Plus $20/mo, Pro from $100/mo; or API key | https://learn.chatgpt.com/docs/pricing |
 | AI Coding Editors & Agents | 4 | [GitHub Copilot](https://github.com/features/copilot) | freemium | Free plan; Pro $10/mo, Pro+ $39/mo, Max $100/mo | https://github.com/features/copilot/plans |
 | AI Coding Editors & Agents | 5 | [Devin Desktop (formerly Windsurf)](https://devin.ai/desktop) | freemium | Free plan; Pro $20/mo, Max $200/mo, Teams $80/mo + $40/seat | https://devin.ai/pricing |
