@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+import data from '../../data/tools.json';
+import { SITE, fmtDate } from '../../lib/site.js';
+import { getComparisons, comparisonsForCategory } from '../../lib/comparisons.js';
+
+export function getStaticPaths() {
+  return getComparisons().map((cmp) => ({ params: { slug: cmp.slug }, props: { cmp } }));
+}
+
+const { cmp } = Astro.props;
+const sides = [
+  { tool: cmp.a, category: cmp.categoryA },
+  { tool: cmp.b, category: cmp.categoryB },
+];
+const pricingLine = cmp.a.pricing === cmp.b.pricing
+  ? `Both are ${cmp.a.pricing}.`
+  : `${cmp.a.name} is ${cmp.a.pricing}; ${cmp.b.name} is ${cmp.b.pricing}.`;
+const lede = cmp.sameCategory
+  ? `In ${cmp.categoryA.name}, Vibe Ranked ranks ${cmp.a.name} #${cmp.a.rank} and ${cmp.b.name} #${cmp.b.rank}. ${pricingLine}`
+  : `Vibe Ranked ranks ${cmp.a.name} #${cmp.a.rank} in ${cmp.categoryA.name} (${cmp.a.pricing}) and ${cmp.b.name} #${cmp.b.rank} in ${cmp.categoryB.name} (${cmp.b.pricing}).`;
+const related = [...new Map(
+  [...comparisonsForCategory(cmp.categoryA.slug), ...comparisonsForCategory(cmp.categoryB.slug)]
+    .filter((c) => c.slug !== cmp.slug)
+    .map((c) => [c.slug, c])
+).values()];
+const crumbLd = [
+  { '@type': 'ListItem', position: 1, name: 'Vibe Ranked', item: `${SITE}/` },
+];
+if (cmp.sameCategory) {
+  crumbLd.push({ '@type': 'ListItem', position: 2, name: cmp.categoryA.name, item: `${SITE}/category/${cmp.categoryA.slug}/` });
+  crumbLd.push({ '@type': 'ListItem', position: 3, name: `${cmp.a.name} vs ${cmp.b.name}`, item: cmp.url });
+} else {
+  crumbLd.push({ '@type': 'ListItem', position: 2, name: `${cmp.a.name} vs ${cmp.b.name}`, item: cmp.url });
+}
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: cmp.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbLd },
+];
+---
+<Base title={cmp.title} description={cmp.description} jsonLd={jsonLd}>
+<p class="crumbs mut"><a href="/">Home</a>{cmp.sameCategory && <> / <a href={`/category/${cmp.categoryA.slug}/`}>{cmp.categoryA.name}</a></>} / {cmp.a.name} vs {cmp.b.name}</p>
+<h1 style="font-size:clamp(32px,5vw,48px);margin:8px 0 10px">{cmp.a.name} vs {cmp.b.name}</h1>
+<p class="intro">{lede} Prices last verified {fmtDate(data.lastVerified)}.</p>
+<h2 style="margin-top:32px">Rankings and pricing</h2>
+<div class="grid" style="margin-top:16px">
+{sides.map(({ tool, category }) => (
+<article class="card">
+<p style="margin:0"><span class="rank" style="font-size:28px" aria-label={`Rank ${tool.rank}`}>#{tool.rank}</span> <span class="mut">in <a href={`/category/${category.slug}/`}>{category.name}</a></span></p>
+<h3 style="font-size:28px;margin:8px 0"><a href={`/tool/${tool.slug}/`}>{tool.name}</a></h3>
+<p style="margin-top:0">{tool.description}</p>
+<p><span class={`pill ${tool.pricing}`}>{tool.pricing}</span></p>
+<p class="price">Pricing: {tool.pricingNote}</p>
+<p style="margin-bottom:18px"><span style="color:var(--acc2)">Best for:</span> {tool.bestFor}</p>
+<a class="btn" style="display:inline-block" href={tool.affiliateUrl ?? tool.url} target="_blank" rel={tool.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener'} aria-label={`Visit ${tool.name} (opens in a new tab${tool.affiliateUrl ? ', affiliate link' : ''})`}>Visit {tool.name} ↗</a>
+{tool.affiliateUrl && <a href="/disclosure/" class="aff">Affiliate link</a>}
+<span class="mut" style="font-size:13px">{tool.url}</span>
+<p class="mut" style="font-size:13px;margin-bottom:0">Pricing verified {fmtDate(data.lastVerified)} against <a href={tool.verifiedSource} rel="nofollow noopener" target="_blank">the official source</a>.</p>
+</article>
+))}
+</div>
+<section aria-labelledby="faq">
+<h2 id="faq" style="margin-top:36px">Questions</h2>
+{cmp.faqs.map((f) => (
+<div class="card" style="margin-top:12px"><h3 style="margin:0 0 8px;font-size:18px">{f.q}</h3><p style="margin:0">{f.a}</p></div>
+))}
+</section>
+<section aria-labelledby="more">
+<h2 id="more" style="margin-top:36px">More from this ranking</h2>
+<div class="card">
+{cmp.sameCategory ? (
+<a class="row" href={`/category/${cmp.categoryA.slug}/`}><span style="flex:1;color:var(--acc)">All {cmp.categoryA.name} rankings →</span></a>
+) : (
+<>
+<a class="row" href={`/category/${cmp.categoryA.slug}/`}><span style="flex:1;color:var(--acc)">All {cmp.categoryA.name} rankings →</span></a>
+<a class="row" href={`/category/${cmp.categoryB.slug}/`}><span style="flex:1;color:var(--acc)">All {cmp.categoryB.name} rankings →</span></a>
+</>
+)}
+<a class="row" href={`/tool/${cmp.a.slug}/`}><span style="flex:1">{cmp.a.name} details</span></a>
+<a class="row" href={`/tool/${cmp.b.slug}/`}><span style="flex:1">{cmp.b.name} details</span></a>
+{related.map((other) => (
+<a class="row" href={other.path}><span style="flex:1">{other.a.name} vs {other.b.name}</span>{other.sameCategory && <span class="mut">#{other.a.rank} vs #{other.b.rank}</span>}</a>
+))}
+</div>
+</section>
+</Base>
