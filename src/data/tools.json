@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19",
-  "lastVerified": "2026-10-19",
+  "updated": "2026-10-20",
+  "lastVerified": "2026-10-20",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -29,7 +29,7 @@
           "description": "Anthropic's agentic coding tool for the terminal and IDE.",
           "pricing": "paid",
           "bestFor": "Large refactors and long-running terminal tasks",
-          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo, includes $100\u2013$200/mo API credits); or pay via API",
+          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo, includes $100–$200/mo API credits); or pay via API",
           "verifiedSource": "https://claude.com/pricing"
         },
         {
@@ -127,7 +127,7 @@
           "description": "Build full-stack web apps by chatting with AI.",
           "pricing": "freemium",
           "bestFor": "Non-devs shipping polished MVPs fast",
-          "pricingNote": "Free plan (5 daily credits); Pro from $25/mo",
+          "pricingNote": "Free plan (5 daily credits, up to 30/month); Pro from $25/mo",
           "verifiedSource": "https://docs.lovable.dev/introduction/subscription-plans"
         },
         {
@@ -746,6 +746,30 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-10-19",
+      "title": "MiniMax M3.1 Flash GA: faster, cheaper agentic + coding model ($0.15/$0.60 per 1M tokens)",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "tag": "LLM"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Inception launches Mercury 3 diffusion LLM (1,000+ tok/s, 1M context)",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "tag": "LLM"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "OpenAI: GPT-6 Astra hits 87.4% on new MultiLangBench for COBOL, Fortran, Visual Basic",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "tag": "Coding"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Meta releases Muse Glimmer 30B on-device agentic model (Apache 2.0)",
+      "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/",
+      "tag": "Open model"
+    },
     {
       "date": "2026-10-17",
       "title": "DeepSeek releases V4.1-Flash-1017 open weights",
