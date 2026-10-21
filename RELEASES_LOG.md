@@ -2,6 +2,33 @@
 
 Running log of feed additions and listing fixes for the weekly CEO report. Newest first.
 
+## 2026-10-21 (daily release scan)
+
+### Releases feed
+- **Added:** OpenAI models + Codex on Google Cloud (2026-10-21) — GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna rolling out in private preview to select enterprise customers in Google Cloud Model Garden, purchasable via Google Cloud Marketplace; Codex CLI/Desktop can connect to Google Cloud for inference. Official: [OpenAI](https://openai.com/index/openai-models-google-cloud), confirmed by [Google Cloud blog](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers).
+- **Added:** Mistral Voxtral 3 (2026-10-20) — Mini/Small Transcribe 3 (50+ languages, diarization, context biasing), Mini Transcribe Realtime 3, Voxtral TTS 3, plus a voice agent SDK; Mini transcription $0.0035/min, Small $0.004/min (public preview). Official: [Mistral](https://mistral.ai/news/voxtral-3/), dates confirmed on [Mistral docs](https://docs.mistral.ai/models/voxtral-small-transcribe-3-0).
+- **Added:** OpenAI API 12-hour prompt caching (2026-10-20) — Responses API option to keep shared instructions/tools/context cached for 12h; 12h cache writes cost 2.5x input. Official: [OpenAI API changelog](https://developers.openai.com/api/docs/changelog).
+- **Added:** Vercel `durable-harness` (2026-10-19 blog; announced on X Oct 20) — open-source adapters that make Pi, OpenCode, Codex and Claude Code agent sessions survive crashes/timeouts on Vercel, Postgres or local. Official: [Vercel blog](https://vercel.com/blog/making-every-harness-durable).
+- **Added (catch-up):** Kling 4.0 (2026-10-15) — up to 30s single-pass video, Omni Reference with up to 15 assets and 10 keyframes, Kling MCP/CLI; API for enterprises/devs "soon". Missed by earlier scans; added because Kling is a ranked tool. Official: [Kuaishou IR release](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-officially-launches-next-generation-kling-40-raising/).
+
+### Ranking slots
+- No new ranking tools. Video category still full (Veo, Runway, Kling, Luma, Pika, Hailuo).
+
+### Listing fixes
+- **Kling AI:** Description now mentions Kling 4.0's 30-second single-pass clips (per Kuaishou release). Pricing note unchanged.
+
+### Scanned but not added (unverifiable date, niche, or not builder tooling)
+- Ornith-1.5-122B open coding model (MIT) — HF repo created Oct 16, X coverage says Oct 20; no official dated announcement, skipped
+- vLLM TorchTPU / SGLang on TPU (Oct 20; infra niche)
+- AWS Polly Generative upgrade (Oct 20; niche)
+- Anthropic Claude Platform notes (inference hooks GA for Enterprise, user profiles; Oct 20) and attack-surface research post
+- GitHub Copilot CLI 1.0.101 (patch); Copilot model deprecations Oct 19
+- Vercel WebSockets GA (Oct 20), FastH3 Omni open video (Hao AI Lab), Beacon (Asymptote Labs), Humans& Ampersand, Runway on Claude Marketplace, Lovable referral credits
+- Earlier Oct 15 drops not added: FLUX 3 Image Klein, Krea 3, ElevenLabs Instant Soundtracks
+
+### Shutdown / rename watch
+- No shutdowns or renames among listed tools. Spot-checked GitHub Copilot plans (Free / Pro $10 / Pro+ $39 / Max $100, unchanged) and Bolt (Free 1M tokens/mo; Pro $25/mo, $18/mo billed annually, still accurate).
+
 ## 2026-10-20 (daily release scan)
 
 ### Releases feed

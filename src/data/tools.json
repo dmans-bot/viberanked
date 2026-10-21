@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20",
-  "lastVerified": "2026-10-20",
+  "updated": "2026-10-21",
+  "lastVerified": "2026-10-21",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -321,7 +321,7 @@
           "slug": "kling-ai",
           "name": "Kling AI",
           "url": "https://kling.ai",
-          "description": "Kuaishou's text/image-to-video generator.",
+          "description": "Kuaishou's text/image-to-video generator; Kling 4.0 makes up to 30-second clips in one pass.",
           "pricing": "freemium",
           "bestFor": "Realistic motion at a lower price",
           "pricingNote": "Free basic plan + paid plans",
@@ -747,6 +747,24 @@
   ],
   "releases": [
     {
+      "date": "2026-10-21",
+      "title": "OpenAI's GPT-6 models and Codex workflows coming to Google Cloud Model Garden (private preview)",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "tag": "LLM"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Mistral launches Voxtral 3 speech-to-text and TTS models plus a voice agent SDK",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "tag": "Voice"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "OpenAI API adds 12-hour prompt caching for long-running agents",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "tag": "Dev tools"
+    },
+    {
       "date": "2026-10-19",
       "title": "MiniMax M3.1 Flash GA: faster, cheaper agentic + coding model ($0.15/$0.60 per 1M tokens)",
       "url": "https://www.minimax.io/blog/minimax-m31f",
@@ -771,6 +789,12 @@
       "tag": "Open model"
     },
     {
+      "date": "2026-10-19",
+      "title": "Vercel open-sources durable-harness: run Claude Code, Codex, OpenCode and Pi agents durably",
+      "url": "https://vercel.com/blog/making-every-harness-durable",
+      "tag": "Dev tools"
+    },
+    {
       "date": "2026-10-17",
       "title": "DeepSeek releases V4.1-Flash-1017 open weights",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -781,6 +805,12 @@
       "title": "Meta releases Muse Spark Open weights",
       "url": "https://research.meta.ai/blog/muse-spark-open",
       "tag": "Open model"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Kling 4.0 launches with 30-second single-pass video and 15-asset Omni Reference",
+      "url": "https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-officially-launches-next-generation-kling-40-raising/",
+      "tag": "Video"
     },
     {
       "date": "2026-10-13",
