@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21",
-  "lastVerified": "2026-10-21",
+  "updated": "2026-10-22",
+  "lastVerified": "2026-10-22",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -161,7 +161,7 @@
           "description": "Cloud IDE with Replit Agent for building and deploying apps.",
           "pricing": "freemium",
           "bestFor": "Build + host in one place",
-          "pricingNote": "Free Starter plan; Core $20/mo ($18/mo billed annually)",
+          "pricingNote": "Core $20/mo ($18/mo billed annually), Pro $100/mo; free Starter tier no longer on the pricing page (Replit docs still describe it)",
           "verifiedSource": "https://replit.com/pricing"
         },
         {
@@ -746,6 +746,24 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-10-22",
+      "tag": "Dev tools",
+      "title": "Google Cloud announces Agent Compute Engine: hardware-isolated microVM sandboxes for running AI agents (preview in coming months)",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
+    },
+    {
+      "date": "2026-10-21",
+      "tag": "Agents",
+      "title": "Anthropic opens Claude Duet research preview: proactive background agent app on Opus 5.5 (US Pro/Max waitlist)",
+      "url": "https://claude.com/resources/articles/claude-duet"
+    },
+    {
+      "date": "2026-10-21",
+      "tag": "Open model",
+      "title": "Recursive releases Flint: 40B MoE (2.5B active) local coding model, Apache 2.0, 125+ tok/s on an M4 Pro MacBook",
+      "url": "https://recursive.com/updates/introducing-recursive-flint"
+    },
     {
       "date": "2026-10-21",
       "title": "OpenAI's GPT-6 models and Codex workflows coming to Google Cloud Model Garden (private preview)",

@@ -2,6 +2,30 @@
 
 Running log of feed additions and listing fixes for the weekly CEO report. Newest first.
 
+## 2026-10-22 (daily release scan)
+
+### Releases feed
+- **Added:** Google Cloud Agent Compute Engine (2026-10-22) — purpose-built, hardware-isolated microVM runtime for AI agents (fast boot, pause/resume, per-agent identity) announced at AGNTCon + MCPCon; preview "in the coming months", plus expanded agent governance. Official: [Google Cloud blog](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance).
+- **Added:** Anthropic Claude Duet research preview (2026-10-21) — standalone proactive agent app (iOS, Android, claude.ai) running on Claude Opus 5.5 with its own cloud VM/browser; waitlist for US Pro and Max, uses plan limits. Official: [Claude](https://claude.com/resources/articles/claude-duet), [help center](https://support.claude.com/en/articles/17631495-get-started-with-claude-duet); date confirmed by CNBC (Wed Oct 21).
+- **Added:** Recursive Flint (2026-10-21) — 40B-total / 2.5B-active MoE local coding model, Apache 2.0 weights on Hugging Face, 125+ tok/s on M4 Pro MacBook Pro, up to 512k context; works with llama.cpp, Ollama, LM Studio, vLLM, SGLang. Official: [Recursive](https://recursive.com/updates/introducing-recursive-flint), [HF](https://huggingface.co/RecursiveSI/flint); date confirmed by TechCrunch (Oct 21).
+
+### Ranking slots
+- No new ranking tools. Claude Duet is a personal-agent app (not a builder tool category); Flint is a model, not a directory product.
+
+### Listing fixes
+- **Replit:** Pricing note updated: [replit.com/pricing](https://replit.com/pricing) now lists only Core ($20/mo, $18/mo annual), Pro ($100/mo, $90/mo annual) and Enterprise; the free Starter tier is gone from the pricing page, though [Replit docs](https://docs.replit.com/help/pricing-and-plans) still describe Starter as free. Kept `freemium`, note reflects both.
+
+### Scanned but not added (out of window, already listed, misdated, or niche)
+- Qwen3.6-27B (LLM Gateway lists Oct 21, but official HF card/blog date it April 2026)
+- Meta Muse Code "launch" (GMT Eight Oct 22 item is stale; Muse Code launched Aug 5 and left beta Aug 31, 2026)
+- Mistral Large 4 (already in feed, Oct 6 preview); Muse Spark Open (already in feed)
+- DeepSeek DeepInfer inference framework (Oct 20; infra niche)
+- NVIDIA Nemotron 3.5 retriever/Kumo/Cosmos 3.5 (Oct 21; enterprise/infra), Vercel Labs fx open-source coverage (announced Aug), Perplexity local Computer agent on Mac, Bria Fibo 2.0, Base Labs Mammoth-1/Elephant-1, Gradium Phonon TTS, Breken, HF Carbon-X
+- Rumored Kimi K3.1 ("Kibitz") / Qwen 4 ("Kalmia") on Arena: unconfirmed, watch for official launches
+
+### Shutdown / rename watch
+- No shutdowns or renames among listed tools. Cross-checked a third-party price-change log against our notes: Bolt (Pro $25, Lite closed to new sign-ups Oct 14, not listed), Cursor, Copilot, v0, Devin Desktop, ElevenLabs Starter $6 all still accurate. Antigravity free tier loses Claude 4.6/GPT-OSS models Nov 2 (prices unchanged; note still accurate).
+
 ## 2026-10-21 (daily release scan)
 
 ### Releases feed
