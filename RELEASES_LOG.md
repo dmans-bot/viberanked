@@ -99,3 +99,29 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No new shutdowns or renames among listed tools in this window (Sora / Windsurf→Devin Desktop / Create→Anything already handled earlier).
+
+## 2026-10-23 (daily release scan)
+
+### Releases feed
+- **Added:** Ideogram Vector 1.0 (2026-10-22) — editable SVGs from text or images, app + API ($0.10–$0.32 per SVG). Official: [Ideogram Vector](https://ideogram.ai/models/vector/), announced by @ideogram_ai.
+- **Added:** Canva Craft (2026-10-22) — Canva's first in-house image model, 2K, 30+ aspect ratios, all users + public API. Official: [Canva Newsroom](https://www.canva.com/newsroom/news/canva-craft/).
+- **Added:** OpenAI Decisions API GA (2026-10-22) — GPT-6 Luna, $0.10/1M input, no output charges, 400 questions/request. Official: [OpenAI](https://openai.com/index/decisions-api/) and API changelog.
+- **Added:** Agent Skills donated to the Agentic AI Foundation (2026-10-22). Official: [Anthropic](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation).
+- **Added:** Microsoft Copilot Code rollout (2026-10-21, Frontier preview) — prompt-to-app builder inside Microsoft Copilot. Official: [Microsoft Copilot blog](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/4562358).
+
+### Ranking slots
+- No new ranking tools. Copilot Code is enterprise-only (M365 Copilot license + Frontier), so not a fit for the App Builders ranking yet; revisit at GA. Video category already full.
+
+### Listing fixes
+- **Ideogram:** description now mentions editable SVG vector output.
+
+### Scanned but not added (out of window, incremental, or not builder tooling)
+- Claude Code Review GA (official date Oct 15; out of window)
+- HeyGen Video 1 (launched Sep 30; out of window)
+- MiniMax M3.1 Flash open weights (already in feed as Oct 19 GA)
+- Gemini API CLI preview (Google post dated Oct 19; experimental, unsupported)
+- Claude apps auto mode default next week, Ling 3.1 Flash 1019 (no weights/API), Kimi K3.1 teaser (unconfirmed), Carbon-X DNA model, You.com Inference Router (contact sales)
+- Antigravity free tier loses Claude 4.6/GPT-OSS on Nov 2 (prices unchanged; listing note still accurate)
+
+### Shutdown / rename watch
+- Arc browser shutting down Dec 22 and Zeabur winding down — neither is listed. No listed tool shut down or renamed.

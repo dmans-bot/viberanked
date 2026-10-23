@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22",
-  "lastVerified": "2026-10-22",
+  "updated": "2026-10-23",
+  "lastVerified": "2026-10-23",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -245,7 +245,7 @@
           "slug": "ideogram",
           "name": "Ideogram",
           "url": "https://ideogram.ai",
-          "description": "Image generator strong at typography.",
+          "description": "Image generator strong at typography, now with editable SVG vector output.",
           "pricing": "freemium",
           "bestFor": "Logos, posters and text in images",
           "pricingNote": "Free plan (30 credits/week); Plus $20/mo ($15/mo billed annually)",
@@ -746,6 +746,36 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-10-22",
+      "tag": "Image",
+      "title": "Ideogram launches Vector 1.0: editable SVGs from a prompt or any image, in the app and API ($0.10–$0.32 per SVG)",
+      "url": "https://ideogram.ai/models/vector/"
+    },
+    {
+      "date": "2026-10-22",
+      "tag": "Image",
+      "title": "Canva launches Craft, its first in-house image model: 2K images in 30+ aspect ratios, free for all Canva users and in the public API",
+      "url": "https://www.canva.com/newsroom/news/canva-craft/"
+    },
+    {
+      "date": "2026-10-22",
+      "tag": "Dev tools",
+      "title": "OpenAI Decisions API is generally available on GPT-6 Luna: fast classification/routing calls at $0.10 per 1M input tokens, no output charges",
+      "url": "https://openai.com/index/decisions-api/"
+    },
+    {
+      "date": "2026-10-22",
+      "tag": "Agents",
+      "title": "Anthropic donates the Agent Skills (SKILL.md) open standard to the Linux Foundation's Agentic AI Foundation, MCP's home",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    },
+    {
+      "date": "2026-10-21",
+      "tag": "App builder",
+      "title": "Microsoft starts rolling out Copilot Code: build and publish apps from plain-language prompts inside Microsoft Copilot (Frontier preview)",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/4562358"
+    },
     {
       "date": "2026-10-22",
       "tag": "Dev tools",
