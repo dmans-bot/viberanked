@@ -65,3 +65,11 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - POST /api/subscribe with invalid email: 400 (as expected)
 - Latest Vercel production deploy (from 24b2c8c, ~49h old; no new commits since): Ready (GitHub deployment status success)
 - Local main in sync with origin/main; no fixes needed.
+
+## 2026-10-26 15:05 UTC — All healthy
+- Home, /robots.txt, /llms.txt, /sitemap-index.xml: 200
+- All 75 URLs in sitemap-0.xml: 200
+- 134 outbound links: all 200 or 403 (bot-blocking); Meta Muse Glimmer page returned 400 with the Chrome UA (known UA quirk) but 200 on recheck with default UA
+- POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (viberanked-ql7c7wtim, from b724785 release scan, ~40m old): Ready (GitHub deployment status success)
+- Local main in sync with origin/main; no fixes needed.
