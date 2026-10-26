@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import data from '../../data/tools.json';
 import { SITE, fmtDate } from '../../lib/site.js';
 import { getComparisons, comparisonsForCategory } from '../../lib/comparisons.js';
+import { guidesForCategory } from '../../lib/guides.js';
 
 export function getStaticPaths() {
   return getComparisons().map((cmp) => ({ params: { slug: cmp.slug }, props: { cmp } }));
@@ -23,6 +24,10 @@ const related = [...new Map(
   [...comparisonsForCategory(cmp.categoryA.slug), ...comparisonsForCategory(cmp.categoryB.slug)]
     .filter((c) => c.slug !== cmp.slug)
     .map((c) => [c.slug, c])
+).values()];
+const relatedGuides = [...new Map(
+  [...guidesForCategory(cmp.categoryA.slug), ...guidesForCategory(cmp.categoryB.slug)]
+    .map((g) => [g.slug, g])
 ).values()];
 const crumbLd = [
   { '@type': 'ListItem', position: 1, name: 'Vibe Ranked', item: `${SITE}/` },
@@ -88,6 +93,9 @@ const jsonLd = [
 <a class="row" href={`/tool/${cmp.b.slug}/`}><span style="flex:1">{cmp.b.name} details</span></a>
 {related.map((other) => (
 <a class="row" href={other.path}><span style="flex:1">{other.a.name} vs {other.b.name}</span>{other.sameCategory && <span class="mut">#{other.a.rank} vs #{other.b.rank}</span>}</a>
+))}
+{relatedGuides.map((g) => (
+<a class="row" href={g.path}><span style="flex:1">{g.headline}</span></a>
 ))}
 </div>
 </section>

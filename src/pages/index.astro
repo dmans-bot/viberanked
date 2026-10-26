@@ -2,7 +2,11 @@
 import Base from '../layouts/Base.astro';
 import data from '../data/tools.json';
 import { SITE, SITE_NAME, fmtDate } from '../lib/site.js';
+import { getComparisons } from '../lib/comparisons.js';
+import { getGuides } from '../lib/guides.js';
 const total = data.categories.reduce((n, c) => n + c.tools.length, 0);
+const comparisons = getComparisons();
+const guides = getGuides();
 const description = `Opinionated rankings of ${total} AI tools for vibe coders and indie builders: coding agents, app builders, image, video, voice, LLM APIs, agent frameworks and hosting. Verified ${fmtDate(data.lastVerified)}.`;
 const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'Organization', '@id': `${SITE}/#org`, name: SITE_NAME, url: `${SITE}/`, logo: `${SITE}/favicon.svg`,
@@ -11,6 +15,10 @@ const jsonLd = [
     publisher: { '@id': `${SITE}/#org` }, dateModified: data.lastVerified, description },
   { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Vibe Ranked leaderboards', itemListElement: data.categories.map((c, i) => ({
     '@type': 'ListItem', position: i + 1, name: c.headline, url: `${SITE}/category/${c.slug}/` })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Best for a specific job', itemListElement: guides.map((g, i) => ({
+    '@type': 'ListItem', position: i + 1, name: g.headline, url: g.url })) },
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Head-to-head comparisons', itemListElement: comparisons.map((c, i) => ({
+    '@type': 'ListItem', position: i + 1, name: `${c.a.name} vs ${c.b.name}`, url: c.url })) },
 ];
 ---
 <Base title="Vibe Ranked — The Best AI Tools for Builders, Ranked by Use Case (2026)" description={description} jsonLd={jsonLd}>
@@ -24,6 +32,21 @@ const jsonLd = [
 <article class="card"><h3 style="margin:0 0 4px"><a href={`/category/${c.slug}/`}>{c.headline} →</a></h3><p class="mut" style="margin:0 0 8px;font-size:14px">{c.description}</p>
 {c.tools.slice(0,3).map(t=>(<a class="row" href={`/tool/${t.slug}/`}><span class="rank">#{t.rank}</span><span style="flex:1">{t.name}</span><span class={`pill ${t.pricing}`}>{t.pricing}</span></a>))}
 </article>))}</div>
+</section>
+<section aria-labelledby="guides">
+<h2 id="guides" style="margin-top:50px">Best for a specific job</h2>
+<p class="mut">Same leaderboards, pointed at a specific job. No separate score.</p>
+<div class="grid">{guides.map((g) => (
+<article class="card"><h3 style="margin:0 0 4px"><a href={g.path}>{g.headline} →</a></h3>
+<p class="mut" style="margin:0;font-size:14px">{g.picks.map((p) => `#${p.rank} ${p.name}`).join(', ')} · {g.category.name}</p>
+</article>
+))}</div>
+</section>
+<section aria-labelledby="compare">
+<h2 id="compare" style="margin-top:50px">Head-to-head comparisons</h2>
+<div class="card">{comparisons.map((cmp) => (
+<a class="row" href={cmp.path}><span style="flex:1">{cmp.a.name} vs {cmp.b.name}</span>{cmp.sameCategory && <span class="mut">#{cmp.a.rank} vs #{cmp.b.rank}</span>}</a>
+))}</div>
 </section>
 <section aria-labelledby="new">
 <h2 id="new" style="margin-top:50px">New this week</h2>
