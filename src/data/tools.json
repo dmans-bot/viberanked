@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23",
-  "lastVerified": "2026-10-23",
+  "updated": "2026-10-26",
+  "lastVerified": "2026-10-26",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -139,7 +139,7 @@
           "description": "StackBlitz's in-browser AI app builder.",
           "pricing": "freemium",
           "bestFor": "Instant full-stack prototypes in the browser",
-          "pricingNote": "Free plan (1M tokens/mo); Pro $25/mo",
+          "pricingNote": "Free plan (1M tokens/mo); Pro $25/mo ($18/mo billed yearly)",
           "verifiedSource": "https://bolt.new/pricing"
         },
         {
@@ -747,6 +747,30 @@
   ],
   "releases": [
     {
+      "date": "2026-10-24",
+      "tag": "Open model",
+      "title": "Nanbeige releases Nanbeige4.3-33B open weights (Apache 2.0): a 33B agentic coding model with 512K context that tops its size class on Terminal-Bench in the lab's own tests",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+    },
+    {
+      "date": "2026-10-23",
+      "tag": "LLM",
+      "title": "Moonshot launches Kimi K3.1 Pro: 3T-class model with 1M context for coding and agents, $2/$10 per 1M tokens via the Kimi API (Highspeed variant 2-3x faster); full open weights due by Nov 4",
+      "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart"
+    },
+    {
+      "date": "2026-10-23",
+      "tag": "App builder",
+      "title": "Replit launches Monitoring Agent: an autonomous on-call engineer that triages production alerts from your app's logs and metrics, then attempts and validates fixes",
+      "url": "https://docs.replit.com/updates/2026/10/23/changelog"
+    },
+    {
+      "date": "2026-10-23",
+      "tag": "Agents",
+      "title": "OpenAI adds scheduled automations to the Agents API (beta): run agents on a cron schedule or at a future time, and let agents manage their own schedules",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/sessions/automations"
+    },
+    {
       "date": "2026-10-22",
       "tag": "Image",
       "title": "Ideogram launches Vector 1.0: editable SVGs from a prompt or any image, in the app and API ($0.10–$0.32 per SVG)",
@@ -771,16 +795,16 @@
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
     },
     {
-      "date": "2026-10-21",
-      "tag": "App builder",
-      "title": "Microsoft starts rolling out Copilot Code: build and publish apps from plain-language prompts inside Microsoft Copilot (Frontier preview)",
-      "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/4562358"
-    },
-    {
       "date": "2026-10-22",
       "tag": "Dev tools",
       "title": "Google Cloud announces Agent Compute Engine: hardware-isolated microVM sandboxes for running AI agents (preview in coming months)",
       "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
+    },
+    {
+      "date": "2026-10-21",
+      "tag": "App builder",
+      "title": "Microsoft starts rolling out Copilot Code: build and publish apps from plain-language prompts inside Microsoft Copilot (Frontier preview)",
+      "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/4562358"
     },
     {
       "date": "2026-10-21",

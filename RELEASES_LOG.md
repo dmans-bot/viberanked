@@ -125,3 +125,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - Arc browser shutting down Dec 22 and Zeabur winding down — neither is listed. No listed tool shut down or renamed.
+
+## 2026-10-26 (daily release scan, covering Oct 23–26)
+
+### Releases feed
+- **Added:** Nanbeige4.3-33B (2026-10-24) — Apache 2.0 open weights, 33B agentic coding model, 512K context; self-reported 80.9 Terminal-Bench 2.1. Official: [Hugging Face](https://huggingface.co/Nanbeige/Nanbeige4.3-33B) (created 2026-10-24 02:49 UTC).
+- **Added:** Kimi K3.1 Pro (2026-10-23) — 3T-class, 1M context, $2/$10 per 1M tokens (Highspeed $4/$20), open weights due by Nov 4. Official: [Kimi API docs](https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart), Moonshot forum announcement.
+- **Added:** Replit Monitoring Agent (2026-10-23) — autonomous production triage + validated fixes, optional auto-republish. Official: [Replit changelog](https://docs.replit.com/updates/2026/10/23/changelog).
+- **Added:** OpenAI Agents API scheduled automations (2026-10-23, beta) — cron/one-time schedules, agents can manage their own. Official: [OpenAI docs](https://developers.openai.com/api/docs/guides/agents-api/sessions/automations) and OpenAI community announcement.
+
+### Ranking slots
+- No new ranking tools. Video category is full; Seedance 2.5 4K is enterprise-only with no API yet, LTX-2.5 has no stated release date.
+
+### Listing fixes
+- **Bolt.new:** pricing note now includes Pro $18/mo billed yearly (verified on [bolt.new/pricing](https://bolt.new/pricing)); Free 1M tokens/mo still accurate.
+
+### Scanned but not added (incremental, out of window, or not verifiable)
+- Claude Code 2.1.310 (fixes), Claude desktop redesign, Vercel CLI budgets/feedback, Vercel Kimi K3.1 on AI Gateway, NVIDIA Nemotron 3.5 Bolt (date unclear), GPT-6.1 Terra (leak only), Theo's tstack (community skills), Sume API, Seedance 2.5 4K (enterprise-only).
+
+### Shutdown / rename watch
+- Google shut down the Veo 3.1 preview endpoints in the Gemini API on Oct 22; our Veo listing is Flow-based (50 free credits/day still accurate), so no change. Replit pricing page still omits the free Starter tier (note accurate). No listed tool shut down or renamed.
