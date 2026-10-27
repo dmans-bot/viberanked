@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26",
-  "lastVerified": "2026-10-26",
+  "updated": "2026-10-27",
+  "lastVerified": "2026-10-27",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -747,6 +747,24 @@
   ],
   "releases": [
     {
+      "date": "2026-10-26",
+      "tag": "LLM",
+      "title": "OpenAI releases GPT-6.1 Terra: a fast, cheaper model for computer use, visual reasoning and coding (50.3% Terminal-Bench 4.0 at max effort), $1/$5 per 1M tokens, in ChatGPT, Codex and the API as gpt-6.1-terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+    },
+    {
+      "date": "2026-10-26",
+      "tag": "App builder",
+      "title": "Runway launches App Studio: describe a creative tool in plain language and it builds, tests and hosts a shareable app that uses Runway's image, video and audio models; included in all paid plans",
+      "url": "https://runway.com/news/company-news/introducing-runway-app-studio"
+    },
+    {
+      "date": "2026-10-26",
+      "tag": "Dev tools",
+      "title": "Entire (from ex-GitHub CEO Thomas Dohmke) launches an agent-first Git forge for every developer: Trails replace pull requests with agent-scored evals, plus Continuous Memory for coding agents and Buildkite/Depot CI",
+      "url": "https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration"
+    },
+    {
       "date": "2026-10-24",
       "tag": "Open model",
       "title": "Nanbeige releases Nanbeige4.3-33B open weights (Apache 2.0): a 33B agentic coding model with 512K context that tops its size class on Terminal-Bench in the lab's own tests",
@@ -823,6 +841,18 @@
       "title": "OpenAI's GPT-6 models and Codex workflows coming to Google Cloud Model Garden (private preview)",
       "url": "https://openai.com/index/openai-models-google-cloud",
       "tag": "LLM"
+    },
+    {
+      "date": "2026-10-20",
+      "tag": "Agents",
+      "title": "Cursor releases the Agent SDK (GA): define agents as code with Markdown prompts and TypeScript tools, test with evals and event replay, then deploy to Cursor with one command or self-host",
+      "url": "https://cursor.com/blog/agent-sdk"
+    },
+    {
+      "date": "2026-10-20",
+      "tag": "Voice",
+      "title": "ElevenLabs launches Eleven Realtime v1 Mini and Max: speech-to-speech voice agent models in 90+ languages, compatible with OpenAI's Realtime API",
+      "url": "https://elevenlabs.io/blog/realtime"
     },
     {
       "date": "2026-10-20",

@@ -145,3 +145,24 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - Google shut down the Veo 3.1 preview endpoints in the Gemini API on Oct 22; our Veo listing is Flow-based (50 free credits/day still accurate), so no change. Replit pricing page still omits the free Starter tier (note accurate). No listed tool shut down or renamed.
+
+## 2026-10-27 (daily release scan, covering Oct 25–27)
+
+### Releases feed
+- **Added:** OpenAI GPT-6.1 Terra (2026-10-26) — fast computer-use/visual-reasoning model, 50.3% Terminal-Bench 4.0 at max effort, $1 in / $0.05 cached / $5 out per 1M tokens; in ChatGPT Work + Codex (Plus/Pro/Enterprise/Edu) and API as `gpt-6.1-terra`. Official: [OpenAI](https://openai.com/index/introducing-gpt-6-1-terra), date confirmed on the [OpenAI API changelog](https://developers.openai.com/api/docs/changelog) (Oct 26).
+- **Added:** Runway App Studio (2026-10-26) — prompt-to-app builder for creative tools on Runway's image/video/audio models; included in all paid plans, uses existing credits. Official: [Runway](https://runway.com/news/company-news/introducing-runway-app-studio).
+- **Added:** Entire agent-first Git forge (2026-10-26) — Trails (agent-scored evals instead of PRs), Continuous Memory, Buildkite/Depot CI; available to every developer. Official: [Entire](https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration).
+- **Backfilled (missed earlier):** Cursor Agent SDK GA (2026-10-20; SDK changelog lists 0.3.0 GA on Oct 23). Official: [Cursor blog](https://cursor.com/blog/agent-sdk).
+- **Backfilled (missed earlier):** ElevenLabs Eleven Realtime v1 Mini/Max (2026-10-20) — speech-to-speech agent models, 90+ languages, OpenAI Realtime API-compatible. Official: [ElevenLabs](https://elevenlabs.io/blog/realtime).
+
+### Ranking slots
+- No new ranking tools. Video candidates checked: FLUX 3 Max by fal (Oct 19, API-only, promo pricing), LTX-2.5 (Aug 11, open weights), Kling 4.0 (already listed); none clearly beats the current six on verified consumer access/pricing. Fern 0.1 (Mirendil, Oct 26) has no public access or pricing yet.
+
+### Listing fixes
+- None needed. Runway Standard $15/mo and App Studio-in-paid-plans consistent; Cursor, ElevenLabs, OpenAI notes still accurate.
+
+### Scanned but not added (incremental, out of window, or not verifiable)
+- Mirendil Fern 0.1 (10M context, "coming soon" access), Bito Governor model router, Google EGM plugin, Microsoft Scope benchmark, Copilot assisted permissions GA (Oct 26) + Copilot CLI v1.0.104, Vercel custom monitors / Agent alert validation (Oct 26), Krea 3 and Kling 4.0 (Oct 15), FLUX 3 Max (Oct 19), Eleven v4 (Sep 28), Ling-3.1-flash-1019, Riverside Agents, Pomerado, Claude Enterprise unified Chat+Cowork.
+
+### Shutdown / rename watch
+- Gemini API (Oct 26): new paid-tier projects using generateContent now store requests by default (`store=true`); opt out per request or in Logs settings. No listing change. No listed tool shut down or renamed.
