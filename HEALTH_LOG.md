@@ -73,3 +73,11 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - POST /api/subscribe with invalid email: 400 (as expected)
 - Latest Vercel production deploy (viberanked-ql7c7wtim, from b724785 release scan, ~40m old): Ready (GitHub deployment status success)
 - Local main in sync with origin/main; no fixes needed.
+
+## 2026-10-27 15:05 UTC — All healthy
+- Home, /robots.txt, /llms.txt, /sitemap-index.xml: 200
+- All 75 URLs in sitemap-0.xml: 200
+- 139 outbound links: all 200 or 403 (bot-blocking) after recheck; transient first-pass failures: zed.dev 503, hailuoai.video and /subscribe timed out, Meta Muse Glimmer 400 (known Chrome UA quirk). All returned 200 on recheck (hailuoai.video is intermittently slow/timing out; watch it).
+- POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (from f46cea3 release scan, ~40m old): Ready (GitHub deployment status success)
+- Local main in sync with origin/main; no fixes needed.
