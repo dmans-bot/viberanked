@@ -3,9 +3,11 @@ import Base from '../../layouts/Base.astro';
 import data from '../../data/tools.json';
 import { SITE, clip, fmtDate } from '../../lib/site.js';
 import { comparisonsForTool } from '../../lib/comparisons.js';
+import { guidesForCategory } from '../../lib/guides.js';
 export function getStaticPaths(){return data.categories.flatMap(c=>c.tools.map(t=>({params:{slug:t.slug},props:{t,c}})))}
 const {t,c}=Astro.props;
 const comparisons = comparisonsForTool(t.slug);
+const guides = guidesForCategory(c.slug);
 const url = `${SITE}/tool/${t.slug}/`;
 const others = c.tools.filter(x=>x.slug!==t.slug).slice(0,4);
 const title = `${t.name}: Pricing & Review (#${t.rank} in ${c.name}) | Vibe Ranked`;
@@ -33,6 +35,12 @@ const jsonLd = [
 <section aria-labelledby="vs"><h2 id="vs" style="margin-top:36px">{t.name} comparisons</h2>
 <div class="card">{comparisons.map((cmp) => (
 <a class="row" href={cmp.path}><span style="flex:1">{cmp.a.name} vs {cmp.b.name}</span>{cmp.sameCategory && <span class="mut">#{cmp.a.rank} vs #{cmp.b.rank}</span>}</a>
+))}</div></section>
+)}
+{guides.length > 0 && (
+<section aria-labelledby="guides"><h2 id="guides" style="margin-top:36px">Guides in {c.name}</h2>
+<div class="card">{guides.map((g) => (
+<a class="row" href={g.path}><span style="flex:1">{g.headline}</span>{g.picks.some((p) => p.slug === t.slug) && <span class="mut">features {t.name}</span>}</a>
 ))}</div></section>
 )}
 </Base>

@@ -1,0 +1,107 @@
+---
+import Base from '../../layouts/Base.astro';
+import data from '../../data/tools.json';
+import { SITE, fmtDate } from '../../lib/site.js';
+import { getGuides, guidesForCategory } from '../../lib/guides.js';
+import { comparisonsForCategory } from '../../lib/comparisons.js';
+
+export function getStaticPaths() {
+  return getGuides().map((guide) => ({ params: { slug: guide.slug }, props: { guide } }));
+}
+
+const { guide } = Astro.props;
+const comparisons = comparisonsForCategory(guide.category.slug);
+const otherGuides = guidesForCategory(guide.category.slug).filter((g) => g.slug !== guide.slug);
+const crumbLd = [
+  { '@type': 'ListItem', position: 1, name: 'Vibe Ranked', item: `${SITE}/` },
+  { '@type': 'ListItem', position: 2, name: guide.category.name, item: `${SITE}/category/${guide.category.slug}/` },
+  { '@type': 'ListItem', position: 3, name: guide.headline, item: guide.url },
+];
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: guide.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbLd },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: guide.headline,
+    description: guide.answer,
+    url: guide.url,
+    numberOfItems: guide.tools.length,
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    itemListElement: guide.tools.map((t) => ({
+      '@type': 'ListItem',
+      position: t.rank,
+      url: `${SITE}/tool/${t.slug}/`,
+      item: {
+        '@type': 'SoftwareApplication',
+        name: t.name,
+        url: t.url,
+        description: t.description,
+        applicationCategory: guide.category.name,
+        operatingSystem: 'Web',
+        ...(t.pricing === 'free' ? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } } : {}),
+      },
+    })),
+  },
+];
+---
+<Base title={guide.title} description={guide.description} jsonLd={jsonLd}>
+<p class="crumbs mut"><a href="/">Home</a> / <a href={`/category/${guide.category.slug}/`}>{guide.category.name}</a> / {guide.headline}</p>
+<h1 style="font-size:clamp(32px,5vw,48px);margin:8px 0 10px">{guide.headline}</h1>
+<p class="intro">{guide.answer}</p>
+<p class="mut" style="font-size:14px">Prices last verified {fmtDate(data.lastVerified)}. <a href={`/category/${guide.category.slug}/`}>See the full {guide.category.name} leaderboard</a>.</p>
+<h2 style="margin-top:32px">From the leaderboard</h2>
+<div class="grid" style="margin-top:16px">
+{guide.picks.map((tool) => (
+<article class="card">
+<p style="margin:0"><span class="rank" style="font-size:28px" aria-label={`Rank ${tool.rank}`}>#{tool.rank}</span> <span class="mut">in <a href={`/category/${guide.category.slug}/`}>{guide.category.name}</a></span></p>
+<h3 style="font-size:28px;margin:8px 0"><a href={`/tool/${tool.slug}/`}>{tool.name}</a></h3>
+<p style="margin-top:0">{tool.description}</p>
+<p><span class={`pill ${tool.pricing}`}>{tool.pricing}</span></p>
+<p class="price">Pricing: {tool.pricingNote}</p>
+<p style="margin-bottom:18px"><span style="color:var(--acc2)">Best for:</span> {tool.bestFor}</p>
+<a class="btn" style="display:inline-block" href={tool.affiliateUrl ?? tool.url} target="_blank" rel={tool.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener'} aria-label={`Visit ${tool.name} (opens in a new tab${tool.affiliateUrl ? ', affiliate link' : ''})`}>Visit {tool.name} ↗</a>
+{tool.affiliateUrl && <a href="/disclosure/" class="aff">Affiliate link</a>}
+<span class="mut" style="font-size:13px">{tool.url}</span>
+<p class="mut" style="font-size:13px;margin-bottom:0">Pricing verified {fmtDate(data.lastVerified)} against <a href={tool.verifiedSource} rel="nofollow noopener" target="_blank">the official source</a>.</p>
+</article>
+))}
+</div>
+<h2 style="margin-top:36px">Full {guide.category.name} ranking</h2>
+<ol style="display:grid;gap:12px;margin:16px 0 0;padding:0;list-style:none">{guide.tools.map((t) => (
+<li class="card" style="display:flex;gap:16px;align-items:center"><span class="rank" style="font-size:28px" aria-label={`Rank ${t.rank}`}>#{t.rank}</span>
+<div style="flex:1"><h3 style="display:inline;font-size:18px;margin:0"><a href={`/tool/${t.slug}/`}>{t.name}</a></h3> <span class={`pill ${t.pricing}`}>{t.pricing}</span>
+<p class="mut" style="margin:4px 0">{t.description}</p><div style="font-size:14px"><span style="color:var(--acc2)">Best for:</span> {t.bestFor}</div>
+<div class="price">Pricing: {t.pricingNote}</div></div>
+<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px"><a class="pill" href={t.affiliateUrl ?? t.url} target="_blank" rel={t.affiliateUrl ? 'sponsored nofollow noopener' : 'noopener'} aria-label={`Visit ${t.name} (opens in new tab${t.affiliateUrl ? ', affiliate link' : ''})`}>Visit ↗</a>{t.affiliateUrl && <a href="/disclosure/" class="aff">Affiliate link</a>}</div></li>
+))}</ol>
+<section aria-labelledby="faq">
+<h2 id="faq" style="margin-top:36px">Questions</h2>
+{guide.faqs.map((f) => (
+<div class="card" style="margin-top:12px"><h3 style="margin:0 0 8px;font-size:18px">{f.q}</h3><p style="margin:0">{f.a}</p></div>
+))}
+</section>
+<section aria-labelledby="more">
+<h2 id="more" style="margin-top:36px">More from this ranking</h2>
+<div class="card">
+<a class="row" href={`/category/${guide.category.slug}/`}><span style="flex:1;color:var(--acc)">All {guide.category.name} rankings →</span></a>
+{guide.picks.map((tool) => (
+<a class="row" href={`/tool/${tool.slug}/`}><span style="flex:1">{tool.name} details</span></a>
+))}
+{comparisons.map((cmp) => (
+<a class="row" href={cmp.path}><span style="flex:1">{cmp.a.name} vs {cmp.b.name}</span>{cmp.sameCategory && <span class="mut">#{cmp.a.rank} vs #{cmp.b.rank}</span>}</a>
+))}
+{otherGuides.map((g) => (
+<a class="row" href={g.path}><span style="flex:1">{g.headline}</span></a>
+))}
+</div>
+</section>
+</Base>

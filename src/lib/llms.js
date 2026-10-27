@@ -1,6 +1,7 @@
 import data from '../data/tools.json';
 import { SITE, fmtDate } from './site.js';
 import { getComparisons } from './comparisons.js';
+import { getGuides } from './guides.js';
 
 function comparisonLine(c) {
   const where = c.sameCategory ? ` in ${c.categoryA.name}` : '';
@@ -30,6 +31,14 @@ export function llmsTxt() {
     out.push('', '## Head-to-head comparisons', '');
     for (const c of comparisons) out.push(comparisonLine(c));
   }
+  const guides = getGuides();
+  if (guides.length) {
+    out.push('', '## Best for a specific job', '');
+    for (const g of guides) {
+      const who = g.picks.map((p) => `#${p.rank} ${p.name} (${p.pricing}; best for: ${p.bestFor})`).join(', ');
+      out.push(`- [${g.headline}](${g.url}): ${who} in ${g.category.name}.`);
+    }
+  }
   out.push('', '## Optional', '', `- [Full rankings with pricing for every tool](${SITE}/llms-full.txt)`, `- [Sitemap](${SITE}/sitemap-index.xml)`, '');
   return out.join('\n');
 }
@@ -48,6 +57,15 @@ export function llmsFullTxt() {
     out.push('## Head-to-head comparisons', '');
     for (const c of comparisons) {
       out.push(`${comparisonLine(c)} ${c.a.name}: ${c.a.description} Pricing: ${c.a.pricingNote}. ${c.b.name}: ${c.b.description} Pricing: ${c.b.pricingNote}.`);
+    }
+    out.push('');
+  }
+  const guides = getGuides();
+  if (guides.length) {
+    out.push('## Best for a specific job', '');
+    for (const g of guides) {
+      const sites = g.picks.map((p) => `${p.name} official site: ${p.url}. Details: ${SITE}/tool/${p.slug}/`).join(' ');
+      out.push(`- [${g.headline}](${g.url}): ${g.answer} ${sites}`);
     }
     out.push('');
   }
