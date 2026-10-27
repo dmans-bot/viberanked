@@ -375,6 +375,7 @@
           "slug": "elevenlabs",
           "name": "ElevenLabs",
           "url": "https://elevenlabs.io",
+          "affiliateUrl": "https://try.elevenlabs.io/ht68ybbyb6h",
           "description": "Text-to-speech, voice cloning and voice agents.",
           "pricing": "freemium",
           "bestFor": "Best-in-class TTS for products",
