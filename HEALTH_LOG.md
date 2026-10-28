@@ -87,3 +87,4 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - All 93 URLs in sitemap-0.xml: 200
 - 142 outbound links: all 200 or 403 except **ElevenLabs affiliate link https://try.elevenlabs.io/ht68ybbyb6h → 404 "Link not found"** (confirmed with multiple UAs). Fixed by removing affiliateUrl so ElevenLabs buttons fall back to https://elevenlabs.io; the referral link needs to be re-copied from the PartnerStack dashboard. Transient: Meta Muse Glimmer 400 (known Chrome UA quirk) and ai.google.dev 302s, all 200 on recheck.
 - POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (from 3359171, this fix): Ready (GitHub deployment status success); live /tool/elevenlabs/ now links to https://elevenlabs.io. Re-verified home and sitemap 200.
