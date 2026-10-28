@@ -166,3 +166,22 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - Gemini API (Oct 26): new paid-tier projects using generateContent now store requests by default (`store=true`); opt out per request or in Logs settings. No listing change. No listed tool shut down or renamed.
+
+## 2026-10-28 (daily release scan, covering Oct 26–28)
+
+### Releases feed
+- **Added:** DiffuSpace Clover-35B-A3B-Preview (2026-10-28) — Apache 2.0 open-weight diffusion LLM (35B MoE, ~3B active, 128K context), derived from Qwen3.6-35B-A3B; self-reported 73.6 SWE-bench Verified, 51.7 Terminal-Bench 2.1, 680 tok/s on one GB300. Only a Transformers path (~69 GB GPU) works today. Official: [Hugging Face](https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview), [DiffuSpace blog](https://diffuspace.ai/blog/clover-35b/).
+- **Added:** Replit Cloud Agents for existing repos (2026-10-27) — plain-language changes to GitHub/GitLab repos with live preview, tested PR/MR plus video; Pro & Enterprise; Slack integration for all. Official: [Replit blog](https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase).
+- **Added:** Liquid AI LFM3 (2026-10-27) — six open-weight ~2B models (text, VL with video, audio, omni, d1 decision) on LFM3-1.7B-Base; single-GPU fine-tuning, on-device. Official: [Hugging Face blog](https://huggingface.co/blog/LiquidAI/lfm3).
+
+### Ranking slots
+- No new ranking tools. MAI Image 2.7 (Oct 27) is an editing preview only on Arena/Artificial Analysis/MAI Playground; Genie 4 (Oct 27) is trusted-tester research preview only.
+
+### Listing fixes
+- None needed. Replit listing (Core $20/mo, Pro $100/mo) consistent; Cloud Agents sit in Pro/Enterprise.
+
+### Scanned but not added (incremental, out of window, or not verifiable)
+- Google Genie 4 (research preview), Gemini Robotics ER 2 (enterprise robotics preview), MAI Image 2.7 (editing preview), Gemini 4 Argon in Antigravity (Oct 13, already listed), Judgment Labs GA, Neywa Labs Nativ, GLM-5.5-Flash (unconfirmed listing), Claude Code 2.1.312, Codex CLI 0.165.0, Copilot CLI 1.0.105, Gemini CLI 0.66.0, Amp Android app, OpenCode 2.2.0, MiniMax M3.1 Flash GGUFs, Ling-3.1-flash-1019 (already skipped).
+
+### Shutdown / rename watch
+- No listed tool shut down, renamed, or changed pricing in this window.

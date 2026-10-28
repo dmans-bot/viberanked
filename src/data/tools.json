@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27",
-  "lastVerified": "2026-10-27",
+  "updated": "2026-10-28",
+  "lastVerified": "2026-10-28",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -748,6 +748,24 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-10-28",
+      "tag": "Open model",
+      "title": "DiffuSpace releases Clover-35B-A3B-Preview, an Apache 2.0 open-weight diffusion language model (35B MoE, ~3B active, 128K context) that drafts text in parallel blocks; reports 73.6 SWE-bench Verified and up to 680 tokens/s on a single GPU",
+      "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview"
+    },
+    {
+      "date": "2026-10-27",
+      "tag": "App builder",
+      "title": "Replit launches Cloud Agents for existing GitHub and GitLab repos: anyone on the team describes a change in plain language, sees a live preview, and the agent opens a tested pull request for engineers to review; available on Pro and Enterprise",
+      "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+    },
+    {
+      "date": "2026-10-27",
+      "tag": "Open model",
+      "title": "Liquid AI releases LFM3: six open-weight ~2B models (text, vision with video input, audio, omni, and decision) on one backbone, built to fine-tune on a single GPU and run on-device; the text model fits in about 1 GB at 4-bit with 256K context",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
     {
       "date": "2026-10-26",
       "tag": "LLM",
