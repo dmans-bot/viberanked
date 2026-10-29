@@ -185,3 +185,26 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No listed tool shut down, renamed, or changed pricing in this window.
+
+## 2026-10-29 (daily release scan, covering Oct 27–29)
+
+### Releases feed
+- **Added:** Google DeepMind Gemini 4 Carbon (2026-10-28) — new frontier model, #1 on Artificial Analysis Intelligence Index v5 (59); coding, long-horizon agentic and cybersecurity gains (SEC-bench Pro 88.2%). Initially limited to cyber defenders via the Fairwind Program; developer/consumer access "soon" at intro $2/$10 per 1M tokens (later $4/$20). Official: [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/).
+- **Added:** GitHub Copilot Fusion GA (2026-10-28) — Standard/High/Max effort model routing and orchestration (single, cascade, critique); all Copilot plans; billed per model used, 30% discount for a limited time. Official: [GitHub changelog](https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/).
+- **Added:** GitHub Copilot app Projects, public preview (2026-10-28) — multi-repo parallel agent work with shared context; computer use public preview. Official: [GitHub changelog](https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/).
+- **Added:** Vercel CI beta (2026-10-28) — Turborepo-driven affected-task CI on per-task compute, all plans. Official: [Vercel blog](https://vercel.com/blog/introducing-vercel-ci).
+- **Added:** Particle-1 (2026-10-28) — SWE model post-trained on DeepSeek V4.1 Flash, 28–52% fewer output tokens at comparable accuracy; Particle API ($0.30/$1.20 per 1M per blog footnote, not put in the feed text). Official: [Particle blog](https://particle.ai/blog/introducing-particle-1).
+- **Added:** NVIDIA Nemotron 3.5 Transcribe (2026-10-28) — open-weight 30B-A4B promptable ASR (40 languages, diarization, translation, audio Q&A). Official: [Hugging Face blog](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary).
+- **Added:** AssemblyAI-TTS-1 GA (2026-10-27) — voice-agent TTS, ~90 ms to first audio, $15 per 1M characters, unlimited concurrency. Official: [AssemblyAI blog](https://www.assemblyai.com/blog/text-to-speech-api).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty. No new consumer video model with verified public access/pricing in the window (Seedance 2.5 Oct 23 is a staged regional rollout/enterprise trial; FLUX 3 Max by fal Oct 19 API-only; Hy-Nomas Oct 21–23 research open weights).
+
+### Listing fixes
+- None needed. GitHub Copilot: Fusion replaces the Auto option, plan prices unchanged per changelog. Cursor's new plan lineup already reflected. Affiliate links untouched.
+
+### Scanned but not added (incremental, out of window, preview-only, or not verifiable)
+- Rime Prism speech-to-speech (Oct 28; no public access/pricing details), GitLab Orbit GA (Oct 29; enterprise Premium/Ultimate add-on), Copilot image gen in chat (Oct 28 preview), Copilot JetBrains local sandboxes/NES GA, Codex CLI 0.165.0 Vertex provider, Claude Code 2.1.312, Mistral Timestral (forecasting), SenseNova 6.8 Code2Video, Articul8 Bivia, Giotto Alto/Solo, Tavus Griffin, Vercel fx in T3 Code, SuperPlane 1.0, Qwen4 (teased for next week, not released), DeepSeek V4.1 Flash Cyber (gateway listing only, no official source found), OpenAI–ServiceNow partnership.
+
+### Shutdown / rename watch
+- No listed tool shut down, renamed, or changed pricing in this window. Noted: Google stopped selling Gemini Code Assist Standard/Enterprise (Oct 9) and Firebase Studio is sunsetting; neither is listed.

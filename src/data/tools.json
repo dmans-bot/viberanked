@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28",
-  "lastVerified": "2026-10-28",
+  "updated": "2026-10-29",
+  "lastVerified": "2026-10-29",
   "categories": [
     {
       "slug": "ai-coding-agents",
@@ -750,9 +750,51 @@
   "releases": [
     {
       "date": "2026-10-28",
+      "tag": "Frontier model",
+      "title": "Google DeepMind announces Gemini 4 Carbon, its strongest model yet: #1 on the Artificial Analysis Intelligence Index v5 (59) with big gains in coding, long-horizon agentic work and cybersecurity; rolling out first to cyber defenders, with developer access coming soon at $2/$10 per 1M tokens (introductory)",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+      "date": "2026-10-28",
+      "tag": "Coding agent",
+      "title": "GitHub Copilot Fusion is generally available: pick Standard, High or Max effort and Copilot routes and combines models per task (single, cascade or critique); Fusion Max scored within two points of Claude Code with Opus 5.5 Max on the Artificial Analysis Coding Agent Index at about half the cost. On all Copilot plans in VS Code, the Copilot app, CLI and JetBrains",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+    },
+    {
+      "date": "2026-10-28",
+      "tag": "Coding agent",
+      "title": "GitHub Copilot app adds Projects (public preview): give Copilot a goal plus context from repos, Slack, Figma or notes, and it runs parallel agents across multiple repositories and brings back pull requests for review; computer use for desktop apps also enters public preview",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/"
+    },
+    {
+      "date": "2026-10-28",
+      "tag": "Dev infra",
+      "title": "Vercel launches Vercel CI in beta on all plans: reads your turbo.json, runs only the tasks affected by a change on per-task compute, with Remote Cache on by default; Vercel says push-to-green is 2-6x faster for its own agent-heavy repos",
+      "url": "https://vercel.com/blog/introducing-vercel-ci"
+    },
+    {
+      "date": "2026-10-28",
+      "tag": "LLM",
+      "title": "Particle launches Particle-1, a software-engineering model post-trained on DeepSeek V4.1 Flash that uses 28-52% fewer output tokens with comparable accuracy on Terminal-Bench 2.1, DeepSWE, ReactBench and ADE Bench; available now via the Particle API",
+      "url": "https://particle.ai/blog/introducing-particle-1"
+    },
+    {
+      "date": "2026-10-28",
+      "tag": "Voice",
+      "title": "NVIDIA releases Nemotron 3.5 Transcribe open weights: one promptable 30B (about 4B active) model for transcription in 40 languages, speaker labels, translation and audio Q&A on recordings up to an hour; first among open-weight models on the Hugging Face Open ASR Leaderboard (English)",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+    },
+    {
+      "date": "2026-10-28",
       "tag": "Open model",
       "title": "DiffuSpace releases Clover-35B-A3B-Preview, an Apache 2.0 open-weight diffusion language model (35B MoE, ~3B active, 128K context) that drafts text in parallel blocks; reports 73.6 SWE-bench Verified and up to 680 tokens/s on a single GPU",
       "url": "https://huggingface.co/Diffuspace/Clover-35B-A3B-Preview"
+    },
+    {
+      "date": "2026-10-27",
+      "tag": "Voice",
+      "title": "AssemblyAI launches AssemblyAI-TTS-1 (GA): text-to-speech built for voice agents with about 90 ms to first audio, 4,000+ voices and instant voice cloning, unlimited concurrency and no annual contract, at $15 per 1M characters",
+      "url": "https://www.assemblyai.com/blog/text-to-speech-api"
     },
     {
       "date": "2026-10-27",
