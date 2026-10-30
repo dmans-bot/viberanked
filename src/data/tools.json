@@ -749,6 +749,30 @@
   ],
   "releases": [
     {
+      "date": "2026-10-29",
+      "tag": "Open model",
+      "title": "Mistral releases open weights for an improved Mistral Large 4 (Le Chonk): a 1T-parameter multimodal MoE it calls the best open-weight model for coding, with big gains in defensive cybersecurity and reasoning efficiency; free to use and commercialize under a modified-MIT license (Model-as-a-Service providers need a separate license), and the API drops to $0.70/$2.10 per 1M tokens",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+      "date": "2026-10-29",
+      "tag": "Coding agent",
+      "title": "Factory ships Droid 1.0, its biggest harness update yet: programmatic tool calling is now the default, so the model writes a sandboxed script that runs hundreds of tool calls in one request; Factory reports higher Terminal-Bench 4 scores than Codex, Claude Code and Cursor at lower cost (self-reported). Desktop app for macOS and Windows, terminal, and a TypeScript SDK",
+      "url": "https://factory.com/news/frontier-harness"
+    },
+    {
+      "date": "2026-10-29",
+      "tag": "Video",
+      "title": "Pika releases Pika H3 Flex, a post-trained MiniMax H3 video model with open weights: 15-second clips with synchronized audio at 768p in about seven seconds of compute, up to 12 references, five audio stems and 4K upscaling on Pika's hosted version; open weights and code are out now, and it comes to the Pika app on November 2",
+      "url": "https://pika.art/blog/pika-h3-flex"
+    },
+    {
+      "date": "2026-10-29",
+      "tag": "Design",
+      "title": "Canva launches Brush, a vision-language model for editing designs in plain language, from one line of copy to every slide in a deck; up to 69% faster and 46% cheaper per edit than its previous design agent, live now in Canva AI for Canva Pro subscribers",
+      "url": "https://www.canva.com/newsroom/news/canva-brush/"
+    },
+    {
       "date": "2026-10-28",
       "tag": "Frontier model",
       "title": "Google DeepMind announces Gemini 4 Carbon, its strongest model yet: #1 on the Artificial Analysis Intelligence Index v5 (59) with big gains in coding, long-horizon agentic work and cybersecurity; rolling out first to cyber defenders, with developer access coming soon at $2/$10 per 1M tokens (introductory)",

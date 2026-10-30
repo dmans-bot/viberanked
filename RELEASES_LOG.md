@@ -208,3 +208,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No listed tool shut down, renamed, or changed pricing in this window. Noted: Google stopped selling Gemini Code Assist Standard/Enterprise (Oct 9) and Firebase Studio is sunsetting; neither is listed.
+
+## 2026-10-30 (daily release scan, covering Oct 28–30)
+
+### Releases feed
+- **Added:** Mistral Large 4 (Le Chonk) open weights (2026-10-29) — improved 1T-param multimodal MoE, "best open-weight model for coding", cyber-defense gains; modified-MIT license (MaaS providers need a commercial license); API $0.70 in / $0.07 cached / $2.10 out per 1M. Official: [Mistral](https://mistral.ai/news/mistral-large-4-oss/).
+- **Added:** Factory Droid 1.0 (2026-10-29) — programmatic tool calling by default (sandboxed JS Script tool), self-reported Terminal-Bench 4 wins over Codex/Claude Code/Cursor at lower cost; desktop (macOS/Windows), terminal, TypeScript SDK. Official: [Factory](https://factory.com/news/frontier-harness).
+- **Added:** Pika H3 Flex (2026-10-29) — open-weight post-trained MiniMax H3 video model (480p/768p with audio locally; 1080p–4K upscaling, stems hosted); in the Pika app Nov 2. Official: [Pika blog](https://pika.art/blog/pika-h3-flex).
+- **Added:** Canva Brush (2026-10-29, date inferred from "a week after" Craft on Oct 22) — design-editing VLM in Canva AI for Pro subscribers. Official: [Canva newsroom](https://www.canva.com/newsroom/news/canva-brush/).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty. Pika H3 Flex is a model from an already-listed tool (Pika); Mischief 1 (Biological Computing Co., fal/OpenRouter API) not verified from an official page and API-only.
+
+### Listing fixes
+- None needed. Mistral listing is generic (free plan, Pro, pay-as-you-go API) and still accurate; Pika listing unchanged (Flex app pricing not announced).
+
+### Scanned but not added (incremental, out of window, or not verifiable)
+- Cursor Agent SDK GA (Oct 20/23, out of window), OpenAI Model Spec update (policy, not a tool), Vercel Firewall AI Bots rules (incremental), Anthropic Usage and Cost Analytics API beta (incremental), Local Code for Mac (Draw Things team), Tencent Marvis Coding Manager (China-only), Kakao Kanana-2-embedding, Simulon Reality-Aware Rendering, HeyClicky overlays, GitHub Copilot code review Max tier (part of Universe), Qwen4 (still teased for next week), Mischief 1.
+
+### Shutdown / rename watch
+- No listed tool shut down, renamed, or changed pricing in this window.
