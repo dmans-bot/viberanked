@@ -60,6 +60,46 @@ const REQUESTED_GUIDES = [
     picks: ['vercel'],
     quotes: ['The best hosting for a vibe-coded web app is Vercel (free Hobby plan, ideal for Next.js)'],
   },
+  {
+    slug: 'ai-app-builder-for-nextjs',
+    headline: 'Best AI App Builder for Next.js',
+    question: 'What is the best AI app builder for Next.js?',
+    category: 'app-builders',
+    picks: ['v0'],
+    quotes: ['v0 is best for React/Next.js UI that deploys to Vercel'],
+  },
+  {
+    slug: 'ai-app-builder-for-internal-tools',
+    headline: 'Best AI App Builder for Internal Tools',
+    question: 'What is the best AI app builder for internal tools?',
+    category: 'app-builders',
+    picks: ['base44'],
+    quotes: ['For internal tools with built-in auth and data, try Base44.'],
+  },
+  {
+    slug: 'ai-app-builder-that-hosts',
+    headline: 'Best AI App Builder That Hosts Your App',
+    question: 'What is the best AI app builder if you want to build and host in one place?',
+    category: 'app-builders',
+    picks: ['replit'],
+    quotes: ['Replit is best if you want to build and host in one place'],
+  },
+  {
+    slug: 'coding-agent-for-chatgpt',
+    headline: 'Best AI Coding Agent for ChatGPT Users',
+    question: 'What is the best AI coding agent if you already use ChatGPT?',
+    category: 'ai-coding-agents',
+    picks: ['openai-codex'],
+    quotes: ['OpenAI Codex if you already pay for ChatGPT and want to hand tasks off to the cloud'],
+  },
+  {
+    slug: 'realtime-voice-agents',
+    headline: 'Best AI Tool for Real-Time Voice Agents',
+    question: 'What is the best AI tool for real-time voice agents?',
+    category: 'voice',
+    picks: ['openai-realtime-api'],
+    quotes: ['To build real-time voice agents, use the OpenAI Realtime API'],
+  },
 ];
 
 function categoryBySlug(slug) {
