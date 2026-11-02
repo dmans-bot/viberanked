@@ -27,6 +27,19 @@ const REQUESTED_PAIRS = [
   { a: 'google-veo-flow', b: 'runway' },
   // Hosting: the long-running "where should this site live" query.
   { a: 'vercel', b: 'netlify' },
+  // Coding agents people compare against Cursor, and the Devin rename of Windsurf.
+  { a: 'cursor', b: 'google-antigravity' },
+  { a: 'claude-code', b: 'windsurf', slug: 'claude-code-vs-devin-desktop' },
+  // Codex and Copilot both shipped agent updates in late Oct 2026.
+  { a: 'openai-codex', b: 'github-copilot' },
+  // Video: Veo is #1; Kling's own description calls out Kling 4.0's 30-second clips.
+  { a: 'google-veo-flow', b: 'kling-ai' },
+  // Pika H3 Flex shipped 2026-10-29; Runway is the editing-suite alternative.
+  { a: 'runway', b: 'pika' },
+  // Voice: product TTS vs the speech-to-speech API named in the voice intro.
+  { a: 'elevenlabs', b: 'openai-realtime-api' },
+  // App builders: AI Studio Build mode is the Gemini prompt-to-app path.
+  { a: 'lovable', b: 'google-ai-studio' },
 ];
 
 function locate(slug) {

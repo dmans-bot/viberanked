@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Newsletter from '../../components/Newsletter.astro';
 import data from '../../data/tools.json';
 import { SITE, fmtDate } from '../../lib/site.js';
 import { getComparisons, comparisonsForCategory } from '../../lib/comparisons.js';
@@ -72,6 +73,7 @@ const jsonLd = [
 </article>
 ))}
 </div>
+<Newsletter />
 <section aria-labelledby="faq">
 <h2 id="faq" style="margin-top:36px">Questions</h2>
 {cmp.faqs.map((f) => (

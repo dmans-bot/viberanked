@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Newsletter from '../../components/Newsletter.astro';
 import data from '../../data/tools.json';
 import { SITE, fmtDate } from '../../lib/site.js';
 import { getGuides, guidesForCategory } from '../../lib/guides.js';
@@ -75,6 +76,7 @@ const jsonLd = [
 </article>
 ))}
 </div>
+<Newsletter />
 <h2 style="margin-top:36px">Full {guide.category.name} ranking</h2>
 <ol style="display:grid;gap:12px;margin:16px 0 0;padding:0;list-style:none">{guide.tools.map((t) => (
 <li class="card" style="display:flex;gap:16px;align-items:center"><span class="rank" style="font-size:28px" aria-label={`Rank ${t.rank}`}>#{t.rank}</span>
