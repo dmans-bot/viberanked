@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -29,8 +29,8 @@
           "description": "Anthropic's agentic coding tool for the terminal and IDE.",
           "pricing": "paid",
           "bestFor": "Large refactors and long-running terminal tasks",
-          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo, includes $100–$200/mo API credits); or pay via API",
-          "verifiedSource": "https://claude.com/pricing"
+          "pricingNote": "Included with Claude Pro ($20/mo, $17/mo billed annually), Max ($100/mo) and Ultra ($200/mo, formerly Max 20x); Max and Ultra include $100 and $200/mo in API credits; or pay via API",
+          "verifiedSource": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
         },
         {
           "rank": 3,
@@ -748,6 +748,30 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-02",
+      "tag": "LLM",
+      "title": "Meituan releases LongCat-2.5, a 1.6T-parameter (about 48B active) native multimodal model built for long-horizon agentic coding, visual coding, design and 3D tasks; it works with Claude Code, Codex and other agent harnesses, and is available now on longcat.ai and through the LongCat API",
+      "url": "https://longcat.ai/blog/longcat-2.5/"
+    },
+    {
+      "date": "2026-10-30",
+      "tag": "Coding agent",
+      "title": "Anthropic renames its Claude plans: Max 5x is now just Max ($100/mo) and Max 20x becomes Ultra ($200/mo, no price change), with 10x Pro's weekly usage and no five-hour limit for verified accounts; both still include Claude Code and monthly API credits",
+      "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan"
+    },
+    {
+      "date": "2026-10-30",
+      "tag": "Agents",
+      "title": "Google makes the Gemini API Computer Use tool generally available across the Interactions and GenerateContent APIs, so agents can operate browser and app UIs in production; it follows the beta gemini-api CLI for coding agents, scripts and CI shipped October 27",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "date": "2026-10-29",
+      "tag": "App builder",
+      "title": "Lovable can now import apps built in Replit, Bolt, v0, Base44, Manus or any code ZIP: it migrates the code and moves your database and users to Lovable's built-in backend, and you can also rebuild a public website from its URL; your first import is free, then normal credits apply",
+      "url": "https://docs.lovable.dev/features/projects/import-project"
+    },
     {
       "date": "2026-10-29",
       "tag": "Open model",

@@ -228,3 +228,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No listed tool shut down, renamed, or changed pricing in this window.
+
+## 2026-11-02 (daily release scan, covering Oct 30 – Nov 2)
+
+### Releases feed
+- **Added:** Meituan LongCat-2.5 (2026-11-02) — 1.6T-param (~48B active) native multimodal MoE for long-horizon agentic coding, visual coding, design and 3D; works with Claude Code/Codex/Hermes harnesses; on longcat.ai and the LongCat API (changelog version 2026-11-02). Official: [LongCat blog](https://longcat.ai/blog/longcat-2.5/).
+- **Added:** Claude plan rename (2026-10-30) — Max 5x is now Max ($100/mo), Max 20x is now Ultra ($200/mo, no price change), 10x Pro weekly usage, no five-hour limit for verified accounts. Official: [Claude Help Center](https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan).
+- **Added:** Gemini API Computer Use GA (2026-10-30), plus mention of the beta `gemini-api` CLI (Oct 27). Official: [Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog).
+- **Added:** Lovable project import (2026-10-29, rolling out) — import apps from Replit, Bolt, v0, Base44, Manus or any ZIP, or rebuild a public site from its URL; first import free. Official: [Lovable docs](https://docs.lovable.dev/features/projects/import-project).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty (no new consumer video tool with verified public access and pricing in the window).
+
+### Listing fixes
+- **Fixed:** Claude Code pricing note now names Max ($100/mo) and Ultra ($200/mo, formerly Max 20x), with $100/$200 monthly API credits per the Claude Help Center; verifiedSource points to the Ultra plan article.
+
+### Scanned but not added (out of window, prototype, rumor, or not verifiable)
+- Vercel Labs agent-desktop 1.0 (Oct 27, out of window; 1.0.2 Oct 30 is a patch), DeepSeek dsh-superagent (Oct 31, README calls it a research prototype, not an official product), Aura Autopilot open-source game QA agent, Nace AI Drex Max v1, Nanbeige4.3-33B, LobeHub v2.3.0, Microsoft Research TokenEconomizer, ElevenLabs SFX v3 (Oct 29), Cursor marketplace backdoored Claude Code extension notice (Oct 29 security incident, not a release), MecAgent paused free-tier data collection (not listed), Qwen4 (still unreleased; only client-code prep and "next week" claims), GPT-6.2 Astra / Claude Mythos 5.5 (leaks only).
+
+### Shutdown / rename watch
+- Claude Max 20x renamed to Ultra (fixed above). No listed tool shut down.
