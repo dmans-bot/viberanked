@@ -248,3 +248,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - Claude Max 20x renamed to Ultra (fixed above). No listed tool shut down.
+
+## 2026-11-03 (daily release scan, covering Nov 1–3)
+
+### Releases feed
+- **Added:** Anthropic message threads, public beta (2026-11-02) — Messages API keeps the conversation server-side so each later request sends only new messages; ~35% lower median TTFT on 500k–1M token Claude Code requests; prices and rate limits unchanged; threads expire 5 min after last request. Official: [Claude Platform release notes](https://platform.claude.com/docs/en/release-notes/overview).
+- **Added:** Runway Dev plugins for Claude Code, Codex and Cursor (2026-11-02) — one install connects a coding agent to a Runway Dev account via the Runway Dev MCP and skills. Official: [Runway news](https://runway.com/news/developers/runway-dev-plugins-for-coding-agents).
+- **Added:** Hume Audio Decision API (2026-11-02) — audio-native model returning probabilities for developer-defined yes/no, choice, scale and span questions; API access via waitlist, playground available. Official: [Hume blog](https://www.hume.ai/blog/introducing-hume-audio-decision-api).
+- **Added:** OpenAI shared ChatGPT + Codex usage allowance from December (2026-11-01; help article published over the Oct 31–Nov 1 weekend, page showed "Updated: 2 days ago" on Nov 3) — token-based shared pool for Plus, Pro and Business; Instant chat exempt; exact December date and allowance size not published. Official: [OpenAI Help Center](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty (no new consumer video tool with verified public access and pricing in the window; Mischief 1 is still API-only via fal/OpenRouter, and each::labs Lockstep has no official verification).
+
+### Listing fixes
+- None needed. Codex pricing note (Plus $20, Pro from $100) still accurate; shared allowance takes effect in December, so the listing can be revisited then. Hume listing still generic and accurate.
+
+### Scanned but not added (incremental, enterprise-only, out of window, or not verifiable)
+- Devin hierarchical budgets (Nov 2, enterprise admin feature), Replit Cloud Agents (Oct 30 changelog, Enterprise only), OpenAI Dots model expansion (Nov 2, Tibo post says "working on", no rollout), ChatGPT Chat/Work tab merge (email to select users), Eleven Realtime v1 Mini/Max (published Oct 20, out of window), Google Cloud Developer plugin for Antigravity (Sep 10), JetBrains Mellum2.1 (release date unclear), ServiceNow Apriel Voice 27B Preview (research preview), Deep Principle Hydrogen-1.0 (science model), Wanaka Studio 1.0, AWS Step Functions in AgentCore Gateway, xAI grok-imagine-image-quality retirement (not listed), Kimi K3.1 Pro weights (promised by Nov 4, not yet out), Qwen4 (still unreleased), Claude Mythos 5.5 / GPT-6.2 Astra / Fable 5.5 (rumor/leaks only).
+
+### Shutdown / rename watch
+- No listed tool shut down, renamed, or changed pricing in this window.

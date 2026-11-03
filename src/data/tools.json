@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -750,9 +750,33 @@
   "releases": [
     {
       "date": "2026-11-02",
+      "tag": "Agents",
+      "title": "Anthropic launches message threads in public beta on the Claude Messages API: agents send the full conversation once, then only new messages each turn, cutting time to first token on long sessions (about 35% median on 500k-1M token Claude Code requests); token prices and rate limits are unchanged",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "date": "2026-11-02",
+      "tag": "Video",
+      "title": "Runway launches Runway Dev plugins for Claude Code, Codex and Cursor: one install connects your coding agent to your Runway Dev account via the Runway Dev MCP plus skills, so it can build generative video features with Runway's API end to end from the editor",
+      "url": "https://runway.com/news/developers/runway-dev-plugins-for-coding-agents"
+    },
+    {
+      "date": "2026-11-02",
+      "tag": "Voice",
+      "title": "Hume introduces the Audio Decision API, an audio-native model that answers your own yes/no, multiple-choice, scale and timestamp questions about raw audio (tone, frustration, interruptions, background sounds) with probabilities, fast enough for live calls; API access is via waitlist, with a playground to try it",
+      "url": "https://www.hume.ai/blog/introducing-hume-audio-decision-api"
+    },
+    {
+      "date": "2026-11-02",
       "tag": "LLM",
       "title": "Meituan releases LongCat-2.5, a 1.6T-parameter (about 48B active) native multimodal model built for long-horizon agentic coding, visual coding, design and 3D tasks; it works with Claude Code, Codex and other agent harnesses, and is available now on longcat.ai and through the LongCat API",
       "url": "https://longcat.ai/blog/longcat-2.5/"
+    },
+    {
+      "date": "2026-11-01",
+      "tag": "Coding agent",
+      "title": "OpenAI says that starting in December, Plus, Pro and Business plans will share one token-based usage allowance across ChatGPT and Codex, with heavier models and tasks using more of it and Instant chat exempt; combined remaining usage will show in Settings, and credits can be bought when it runs out",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
     },
     {
       "date": "2026-10-30",
