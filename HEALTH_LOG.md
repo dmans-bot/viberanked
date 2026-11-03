@@ -128,3 +128,11 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - POST /api/subscribe with invalid email: 400 (as expected)
 - Latest Vercel production deploy (from 14761f5 release scan): Ready (GitHub deployment status success)
 - Local main in sync with origin/main; no fixes needed.
+
+## 2026-11-03 15:05 UTC — All healthy
+- Home, /robots.txt, /llms.txt, /sitemap-index.xml: 200
+- All 105 URLs in sitemap-0.xml: 200 (transient: /compare/v0-vs-replit/ timed out once, 200 on two rechecks)
+- 166 outbound URLs: all 200 or 403 (bot-blocking); support.google.com/flow help page returned 429 rate-limit once (rechecked below). ElevenLabs affiliate link ...ht68ybbyb6hj checked with GET.
+- POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (from dfc36f5 release scan): Ready (GitHub deployment status success)
+- Local main in sync with origin/main; no fixes needed.
