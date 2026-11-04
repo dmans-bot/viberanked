@@ -268,3 +268,19 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No listed tool shut down, renamed, or changed pricing in this window.
+
+## 2026-11-04 (daily release scan, covering Nov 2–4)
+
+### Releases feed
+- **Added:** Tencent Hy4 (2026-11-04) — new flagship Hunyuan model with first-time image understanding and computer use (CLI and GUI), 1M context, stronger front-end/game-dev coding; live in CodeBuddy, Tencent Cloud TokenHub and OpenRouter at ~$0.90/$2.70 per M input/output tokens; open weights "in the coming days". Official: [Tencent announcement](https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/).
+- **Added:** VS Code 1.145 (2026-11-04) — remote agent app previews and canvases, cron schedules for local automations, mixed harnesses in one session (preview), chat verbosity modes, attach files from anywhere. Official: [VS Code release notes](https://code.visualstudio.com/updates/v1_145).
+- **Added:** GitHub Copilot in JetBrains Air (2026-11-03) — Copilot as an ACP agent in Air, local or sandboxed cloud tasks via Air Teams, billed to the Copilot plan. Official: [GitHub Changelog](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty (no new consumer video tool with verified public access and pricing in the window; FilmLume is a Peerlist launch with no official verification yet).
+
+### Listing fixes
+- None needed. No listed tool shut down, renamed, or changed pricing in this window.
+
+### Scanned but not added (old, enterprise-only, unverified, or not yet shipped)
+- MiniMax M3 (some outlets dated it Nov 3, but the official blog and Hugging Face repo date it June 2026), Kimi K3.1 Pro open weights (promised by Nov 4; still no Moonshot Hugging Face repo at scan time), NorthCUA open computer-use models (weights posted Oct 30–Nov 1, research-oriented), Claude plugin auto-connect for Team/Enterprise (Nov 3, admin beta), Beacon open-source agent memory (Product Hunt launch Nov 3, early), Kimi game-dev solution (Nov 4, mostly China partner integrations), Xogot Godot AI agent, Crouton Alpha (anonymous stealth model on OpenRouter), Levanto Sage2, GPT-6.1 Terra (Oct 26, out of window).

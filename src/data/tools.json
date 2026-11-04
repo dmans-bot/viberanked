@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,24 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-04",
+      "tag": "LLM",
+      "title": "Tencent releases Hy4, its new flagship Hunyuan model, adding image understanding and computer use (command line and desktop apps) for the first time, with a 1M-token context and stronger front-end and game-dev coding; it's live in CodeBuddy and via API on Tencent Cloud and OpenRouter at about $0.90/$2.70 per million input/output tokens, with open weights promised in the coming days",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+    },
+    {
+      "date": "2026-11-04",
+      "tag": "Coding agent",
+      "title": "VS Code 1.145 ships: preview apps and canvases from remote agent sessions, cron schedules for local agent automations, mixing Copilot, Claude and Codex harnesses in one session (preview), a chat verbosity switch, and attaching files from anywhere on your computer",
+      "url": "https://code.visualstudio.com/updates/v1_145"
+    },
+    {
+      "date": "2026-11-03",
+      "tag": "Coding agent",
+      "title": "GitHub Copilot is now available as an agent in JetBrains Air over the Agent Client Protocol, running locally in your JetBrains IDE or as sandboxed cloud tasks through Air Teams, all billed to your existing Copilot plan instead of JetBrains AI credits",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/"
+    },
     {
       "date": "2026-11-02",
       "tag": "Agents",
