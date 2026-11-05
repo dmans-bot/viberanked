@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,36 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-04",
+      "tag": "Open model",
+      "title": "Moonshot publishes the open weights for Kimi K3.1 Pro on Hugging Face as promised: a 2.8T-parameter MoE (about 104B active) multimodal agentic model with a 1M-token context, under a modified MIT license that adds conditions for very large commercial services; the repo is about 1.56 TB and runs on vLLM or SGLang",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    },
+    {
+      "date": "2026-11-04",
+      "tag": "Image",
+      "title": "OpenAI releases GPT Image 2.6 Sunburst and Flare in the API, adding SVG and animated GIF output, a new complexity setting that controls planning effort separately from quality, and markup-guided editing for GPT Image 2.5 and 2.6",
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "date": "2026-11-04",
+      "tag": "Coding",
+      "title": "Cognition launches SWE-2 Flash, a fast, low-cost coding model built on Thinking Machines' Inkling-Small (276B total, 12B active) that it says runs 3x faster at one-fifth the price of SWE-2; it's in Devin Desktop and the Devin CLI now, free through November 30, with no public API or weights yet",
+      "url": "https://cognition.com/blog/swe-2-flash"
+    },
+    {
+      "date": "2026-11-04",
+      "tag": "App builder",
+      "title": "Lovable adds Dreaming on paid plans: in the background it checks project memory and your AGENTS.md rules against your code and chat, then rewrites or removes what no longer applies, without touching app code or using credits",
+      "url": "https://docs.lovable.dev/changelog"
+    },
+    {
+      "date": "2026-11-03",
+      "tag": "App builder",
+      "title": "Replit Agent now works inside Slack: bring it into channels to work on projects, turn feature requests into pull requests, link connected tools and pull company data into threads",
+      "url": "https://x.com/Replit/status/2117689305019887899"
+    },
     {
       "date": "2026-11-04",
       "tag": "LLM",

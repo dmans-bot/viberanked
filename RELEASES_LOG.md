@@ -284,3 +284,21 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Scanned but not added (old, enterprise-only, unverified, or not yet shipped)
 - MiniMax M3 (some outlets dated it Nov 3, but the official blog and Hugging Face repo date it June 2026), Kimi K3.1 Pro open weights (promised by Nov 4; still no Moonshot Hugging Face repo at scan time), NorthCUA open computer-use models (weights posted Oct 30–Nov 1, research-oriented), Claude plugin auto-connect for Team/Enterprise (Nov 3, admin beta), Beacon open-source agent memory (Product Hunt launch Nov 3, early), Kimi game-dev solution (Nov 4, mostly China partner integrations), Xogot Godot AI agent, Crouton Alpha (anonymous stealth model on OpenRouter), Levanto Sage2, GPT-6.1 Terra (Oct 26, out of window).
+
+## 2026-11-05 (daily release scan, covering Nov 3–5)
+
+### Releases feed
+- **Added:** Kimi K3.1 Pro open weights (2026-11-04) — Moonshot published the promised weights: 2.8T-total / ~104B-active multimodal MoE, 1M context, ~1.56 TB repo, Kimi K3.1 Pro License (MIT-style with conditions for very large services). Official: [Hugging Face](https://huggingface.co/moonshotai/Kimi-K3.1-Pro).
+- **Added:** GPT Image 2.6 Sunburst and Flare (2026-11-04) — SVG and animated GIF output, `complexity` setting, markup-guided editing for 2.5/2.6. Official: [OpenAI API changelog](https://developers.openai.com/api/docs/changelog).
+- **Added:** Cognition SWE-2 Flash (2026-11-04) — 276B/12B-active coding model on Inkling-Small, 3x faster and one-fifth the price of SWE-2, in Devin Desktop and CLI, free through Nov 30; no public API or weights. Official: [Cognition blog](https://cognition.com/blog/swe-2-flash).
+- **Added:** Lovable Dreaming (2026-11-04) — background cleanup of project memory and AGENTS.md rules on paid plans, no credits used. Official: [Lovable changelog](https://docs.lovable.dev/changelog).
+- **Added:** Replit Agent in Slack (2026-11-03) — Replit Agent works on projects and answers in Slack channels. Official: [@Replit on X](https://x.com/Replit/status/2117689305019887899).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty (only Synthesia-in-ChatGPT, Facy.ai, FilmLume and MCP integrations surfaced, none a verified consumer video generator with public pricing).
+
+### Listing fixes
+- None needed. No listed tool shut down, renamed, or changed pricing in this window.
+
+### Scanned but not added (prototype, niche, non-commercial, or already covered)
+- DeepSeek Super-Agent (Nov 4, prototype), Baidu ERNIE 5.5 Flash Base (Nov 5, base model), webAI TwIL-8B (non-commercial license), Sarvam Prism decision model (Nov 3), Atlassian Code Reviewer GA (Jira-bundled), Anthropic FlashProve (research prototype), Claude plugin auto-connect (Team/Enterprise beta), Bolt mobile and Bolt for Microsoft Teams, Fireworks Nexus Desktop, Crouton/Pulse Alpha stealth models, T3 Code and Aether (community tools), Wanaka Studio 1.0, Tencent Hy4 full release coverage (already in feed Nov 4).
