@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -15,7 +15,7 @@
           "slug": "cursor",
           "name": "Cursor",
           "url": "https://cursor.com",
-          "description": "AI-first code editor built on VS Code with agent mode.",
+          "description": "AI-first code editor built on VS Code with agent mode and Live Apps that deploy shareable hosted apps.",
           "pricing": "freemium",
           "bestFor": "Daily driver for builders who want an agentic IDE (Premium+ for non-Grok models)",
           "pricingNote": "Free plan; Plus $8/mo (Grok models only); Premium $30/mo, Super $100/mo, Ultra $200/mo; Teams from $30/user/mo; third-party models at API list price on Premium+",
@@ -748,6 +748,42 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-05",
+      "tag": "App builder",
+      "title": "Cursor ships Live Apps on paid plans with cloud agents: describe a tool and a cloud agent scaffolds the web app, provisions Postgres and Cursor SSO auth if needed, runs deterministic and agentic security checks, then deploys a shareable link from Cursor Origin or GitHub once you explicitly publish",
+      "url": "https://cursor.com/changelog/build-live-apps"
+    },
+    {
+      "date": "2026-11-05",
+      "tag": "Video",
+      "title": "Google launches Gemini Omni 1.2 Flash as generally available on the Gemini API and Google Cloud: native clips up to 15 seconds (up from 10), multi-turn conversational editing, stronger reference adherence, and a 30% price cut to $0.07 per second at 720p; also rolling into Flow, Google Vids (three free 15-second clips per month with a Google account), and Gemini Ultra",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    },
+    {
+      "date": "2026-11-05",
+      "tag": "LLM",
+      "title": "Thinking Machines Lab introduces Inkling 2 Small, a multimodal MoE with 594B total / 17B active parameters, image input, variable effort and up to 1M context, strong on agentic coding and visual coding; live on Tinker for inference and fine-tuning with closed weights now, Apache 2.0 weights planned next week after external safety testing",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    },
+    {
+      "date": "2026-11-05",
+      "tag": "LLM",
+      "title": "OpenAI releases GPT-6 Cyber, a cybersecurity model for finding and validating exploits that stays within researcher-set scope (Critical under OpenAI's Preparedness Framework); initially available via API and Codex to approved Daybreak Red customers, with Daybreak Blue expanding for verified defenders",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber"
+    },
+    {
+      "date": "2026-11-05",
+      "tag": "Agents",
+      "title": "Mistral expands Studio with managed agents and apps (plus workflow builder, HTTP connectors, and evaluations): durable long-running agents via the Agents SDK that can run in-process, self-hosted, or Mistral-managed with approvals and tracing, and `mistral apps` scaffolding that deploys enterprise apps to Studio",
+      "url": "https://mistral.ai/news/build-with-studio/"
+    },
+    {
+      "date": "2026-11-04",
+      "tag": "Coding agent",
+      "title": "GitHub Copilot is now available inside Xcode's built-in coding assistant in public preview starting with Xcode 27.3 beta (macOS Tahoe 26.6+), billed to existing Copilot plans; the separate Copilot for Xcode extension remains an option",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/"
+    },
     {
       "date": "2026-11-04",
       "tag": "Open model",

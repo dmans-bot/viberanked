@@ -302,3 +302,29 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Scanned but not added (prototype, niche, non-commercial, or already covered)
 - DeepSeek Super-Agent (Nov 4, prototype), Baidu ERNIE 5.5 Flash Base (Nov 5, base model), webAI TwIL-8B (non-commercial license), Sarvam Prism decision model (Nov 3), Atlassian Code Reviewer GA (Jira-bundled), Anthropic FlashProve (research prototype), Claude plugin auto-connect (Team/Enterprise beta), Bolt mobile and Bolt for Microsoft Teams, Fireworks Nexus Desktop, Crouton/Pulse Alpha stealth models, T3 Code and Aether (community tools), Wanaka Studio 1.0, Tencent Hy4 full release coverage (already in feed Nov 4).
+
+## 2026-11-06 (daily release scan, covering Nov 4–6)
+
+### Releases feed
+- **Added:** Cursor Live Apps (2026-11-05) — cloud agents build and deploy shareable apps (Postgres, Cursor SSO auth, security checks before publish) on paid plans with cloud agents; Origin + GitHub. Official: [Cursor changelog](https://cursor.com/changelog/build-live-apps).
+- **Added:** Gemini Omni 1.2 Flash GA (2026-11-05) — 15s native clips, multi-turn conversational editing, stronger reference adherence, 30% cheaper at $0.07/sec 720p; Gemini API, Google Cloud, Flow, Vids (3 free 15s clips/mo), Gemini Ultra. Official: [Google blog](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/).
+- **Added:** Inkling 2 Small (2026-11-05) — Thinking Machines 594B/17B-active multimodal MoE (image input, variable effort, 1M context); on Tinker now, Apache 2.0 weights planned next week after safety testing. Official: [Thinking Machines](https://thinkingmachines.ai/news/inkling-2-small/).
+- **Added:** GPT-6 Cyber (2026-11-05) — OpenAI cybersecurity model for scoped vulnerability research (Critical preparedness); Daybreak Red API/Codex for approved customers. Official: [OpenAI](https://openai.com/index/introducing-gpt-6-cyber).
+- **Added:** Mistral Studio managed agents & apps (2026-11-05) — durable managed agents (Agents SDK), workflow builder from natural language, `mistral apps` deploy, HTTP connectors, evaluations. Official: [Mistral](https://mistral.ai/news/build-with-studio/).
+- **Added:** GitHub Copilot in Xcode coding assistant (2026-11-04) — public preview in Xcode 27.3 beta, billed to Copilot plans; extension remains separate. Official: [GitHub Changelog](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty. Gemini Omni 1.2 Flash is a Google model/API update already reachable via Flow/Vids (Veo remains the ranked Google video product), not a distinct new consumer video directory tool. GPT-6 Cyber is Daybreak-restricted security research; Inkling 2 Small is a model/API, not a directory product.
+
+### Listing fixes
+- **Cursor:** Description now mentions Live Apps that deploy shareable hosted apps (pricing unchanged per [cursor.com/pricing](https://cursor.com/pricing)).
+
+### Scanned but not added (consumer niche, incremental, tease, or already covered)
+- Claude Personal Finance via Plaid (Nov 5; consumer money Q&A, not builder tooling)
+- Qwen "The becoming begins" teaser on X (Nov 6; no official Qwen 4 product page yet)
+- Factory Droid 1.3–1.5, Amp GitLab/orbs, Antigravity CLI 1.5.x, Codex CLI 0.167, Copilot CLI 1.0.106 (patch/feature increments)
+- Replit SMFL enterprise case study (not a product release)
+- Rumored GPT-6.2 Astra day (unconfirmed / not shipped)
+
+### Shutdown / rename watch
+- No shutdowns or renames among listed tools in this window.
