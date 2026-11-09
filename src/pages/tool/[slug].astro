@@ -3,11 +3,11 @@ import Base from '../../layouts/Base.astro';
 import data from '../../data/tools.json';
 import { SITE, clip, fmtDate } from '../../lib/site.js';
 import { comparisonsForTool } from '../../lib/comparisons.js';
-import { guidesForCategory } from '../../lib/guides.js';
+import { guidesForCategory, guidesFeaturing } from '../../lib/guides.js';
 export function getStaticPaths(){return data.categories.flatMap(c=>c.tools.map(t=>({params:{slug:t.slug},props:{t,c}})))}
 const {t,c}=Astro.props;
 const comparisons = comparisonsForTool(t.slug);
-const guides = guidesForCategory(c.slug);
+const guides = [...new Map([...guidesFeaturing(t.slug), ...guidesForCategory(c.slug)].map((g) => [g.slug, g])).values()];
 const url = `${SITE}/tool/${t.slug}/`;
 const others = c.tools.filter(x=>x.slug!==t.slug).slice(0,4);
 const title = `${t.name}: Pricing & Review (#${t.rank} in ${c.name}) | Vibe Ranked`;

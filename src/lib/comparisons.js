@@ -40,6 +40,17 @@ const REQUESTED_PAIRS = [
   { a: 'elevenlabs', b: 'openai-realtime-api' },
   // App builders: AI Studio Build mode is the Gemini prompt-to-app path.
   { a: 'lovable', b: 'google-ai-studio' },
+  // Antigravity is the free Gemini IDE; Codex and Copilot are the other agents people compare it with.
+  { a: 'google-antigravity', b: 'openai-codex' },
+  { a: 'google-antigravity', b: 'github-copilot' },
+  // v0 is the Next.js builder; AI Studio is the Gemini prompt-to-app path next to it.
+  { a: 'v0', b: 'google-ai-studio' },
+  // Kling's tool page and Pika H3 Flex (2026-10-29) are the video pair not yet compared.
+  { a: 'kling-ai', b: 'pika' },
+  // Codex vs the Devin Desktop rename of Windsurf, next to the Claude Code comparison.
+  { a: 'openai-codex', b: 'windsurf', slug: 'openai-codex-vs-devin-desktop' },
+  // Lovable vs Base44: polished MVPs vs internal tools with built-in auth and data.
+  { a: 'lovable', b: 'base44' },
 ];
 
 function locate(slug) {

@@ -1,8 +1,45 @@
 # Fact-check log — Vibe Ranked
 
-**Last verified:** 2026-10-19 (spot-check: Cursor + Claude Code pricing refreshed; full pass was 2026-10-17).
+**Last verified:** 2026-11-09 for the tools on the new compare and best pages (spot-check below). The full-catalog pass was 2026-10-17; Cursor and Claude Code were refreshed 2026-10-19. `tools.json` `lastVerified` stays 2026-10-29 because this pass did not re-check every category.
 
 Method: every tool URL was requested (redirects/dead links fixed), then the official site or pricing page was fetched (or, when the page blocks bots / renders prices with JavaScript, the vendor's own docs or a dated Oct 2026 search result). Each tool now has a `pricingNote` (free tier / starting price) and a `verifiedSource` field. Where a price couldn't be confirmed, the note is kept general.
+
+## 2026-11-09 — sources for the second compare / best batch
+
+Checked the tools whose prices, free plans, or feature lines appear on the new pages. Pages only repeat `tools.json` fields. No affiliate URL was changed.
+
+| Tool | Checked claim | Result | Source |
+|---|---|---|---|
+| Cursor | Free; Plus $8 (Grok only); Premium $30; Super $100; Ultra $200; Teams from $30/user; third-party models at API price on Premium+ | Unchanged | https://cursor.com/pricing |
+| Claude Code | Included with Pro $20/mo ($17/mo annual), Max $100/mo ($100 API credits), Ultra $200/mo ($200 API credits) | Unchanged | https://claude.com/pricing |
+| OpenAI Codex | Included on ChatGPT plans, including Free (Cloud requires Plus or higher); Plus $20/mo; Pro $100/mo on the Codex page, and Pro $100 / $200 / $500 on the help article. Published note stays "Pro from $100/mo". `verifiedSource` now points at the page that prints Plus $20 and Pro $100. | Source URL updated; prices unchanged | https://openai.com/codex/ · https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan · https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers |
+| GitHub Copilot | Free; Pro $10/mo; Pro+ $39/mo; Max $100/mo | Unchanged. Credit allowances were not added. | https://github.com/features/copilot/plans · https://docs.github.com/en/copilot/get-started/plans |
+| Devin Desktop | Free; Pro $20/mo; Max $200/mo; Teams $80/mo + $40/seat | Unchanged | https://devin.ai/pricing |
+| Google Antigravity | Free individual quota; higher limits on Google AI Pro and Ultra | Unchanged. Dollar prices for Google AI plans were not copied onto this listing. | https://antigravity.google/pricing · https://antigravity.google/docs/plans |
+| Cline | Free and open source; pay for inference or bring your own key | Unchanged | https://cline.bot/pricing |
+| Aider | Free; bring your own API keys; Apache 2.0 | Unchanged | https://aider.chat · https://github.com/Aider-AI/aider/blob/main/LICENSE.txt |
+| Zed | Free editor with your own keys; Pro $10/mo | Unchanged | https://zed.dev/pricing |
+| Lovable | Free plan, 5 daily build credits capped at 30/month; Pro from $25/mo | Unchanged | https://docs.lovable.dev/introduction/subscription-plans |
+| Bolt.new | Free plan is 300K tokens/day and 1M tokens/month; Pro $25/mo. Annual Pro 10M is $216/year ($18/mo) in Bolt's billing docs. | Note now includes the daily cap | https://bolt.new/pricing · https://support.bolt.new/account/billing |
+| v0 | Free plan; Plus $30/user/mo. Docs also list a legacy Premium plan no longer sold to new users, so it stays out of the note. | Unchanged | https://v0.app/pricing · https://v0.app/docs/pricing |
+| Replit | Pricing page shows Core $20/mo ($18/mo billed annually) and Pro $100/mo ($90/mo billed annually). Docs still describe a free Starter plan, and separately say Core is $204/year. The note keeps the pricing-page figures. | Unchanged | https://replit.com/pricing · https://docs.replit.com/help/pricing-and-plans |
+| Base44 | Free plan; paid plans from $16/mo billed annually | Unchanged | https://base44.com/pricing · https://base44.com/ |
+| Google AI Studio | Build mode generates full-stack web apps and Android apps from a prompt. Free daily use, with paid Gemini API or Cloud usage past that. The docs page timed out on a direct fetch; the feature description is from that official URL via search, and the free daily allowance is from a Google AI Developers Forum staff reply. No new numbers added. | Unchanged | https://ai.google.dev/gemini-api/docs/aistudio-build-mode |
+| Anything | Free plan; Pro from $19/mo | Unchanged | https://www.anything.com/pricing |
+| Google Veo (Flow) | 50 Flow credits/day with or without a subscription; Google AI Pro is $19.99/mo. Ultra prices were not added. The new best page quotes the existing category intro, which also says Flow makes cinematic clips with native audio; that audio line was not re-tested today. | Unchanged | https://support.google.com/flow/answer/16526234 · https://one.google.com/about/google-ai-plans/ |
+| Runway | Free plan, 125 one-time credits; Standard $15/mo ($12/mo billed annually) | Unchanged | https://runway.com/pricing |
+| Kling AI | Free Basic plan plus paid plans. Paid dollar amounts on kling.ai/llms.txt look stale (the file still describes Kling 3.0), so they were not added. | Unchanged | https://kling.ai/llms.txt |
+| Luma Dream Machine | No free plan on the pricing page; Plus $30/mo ($25/mo billed annually) | Unchanged | https://lumalabs.ai/pricing |
+| Pika | Free plan; Starter $10/mo ($8/mo billed annually, not added) | Unchanged | https://pika.art/pricing |
+| Hailuo AI | Paid plans, plus a one-time welcome credit pack for new accounts. Live checkout prices are client-rendered and were not copied. | Unchanged | https://hailuoai.video/doc/payment-policy.html |
+
+### Left out
+
+- Kling paid prices and the "lower price" wording already on the Kling listing. The new Kling page is a comparison, not a new price claim.
+- ChatGPT Go's dollar price. It is not in the Codex note.
+- Google AI Ultra's $99.99 / $199.99 prices. The Veo note only says "or Ultra".
+- v0's struck-through $90 figure next to Plus. Docs list Plus at $30/user/mo.
+- Replit docs' Core $204/year figure, which does not match the $18/mo annual price on the pricing page.
 
 Pricing badge rule: `free` = free/open source; `freemium` = ongoing free tier + paid plans; `paid` = no ongoing free tier (trials/one-time credits don't count).
 
@@ -47,7 +84,7 @@ Pricing badge rule: `free` = free/open source; `freemium` = ongoing free tier + 
 |---|---|---|---|---|---|
 | AI Coding Editors & Agents | 1 | [Cursor](https://cursor.com) | freemium | Free; Plus $8 (Grok only); Premium $30; Super $100; Ultra $200; Teams from $30/user; 3P models API-priced on Premium+ | https://cursor.com/pricing |
 | AI Coding Editors & Agents | 2 | [Claude Code](https://claude.com/product/claude-code) | paid | Included with Claude Pro ($20/mo, $17/mo billed annually) and Max (from $100/mo, includes $100–$200/mo API credits); or pay via API | https://claude.com/pricing |
-| AI Coding Editors & Agents | 3 | [OpenAI Codex](https://openai.com/codex/) | freemium | Included in ChatGPT plans, including a limited Free tier; Plus $20/mo, Pro from $100/mo; or API key | https://learn.chatgpt.com/docs/pricing |
+| AI Coding Editors & Agents | 3 | [OpenAI Codex](https://openai.com/codex/) | freemium | Included in ChatGPT plans, including a limited Free tier; Plus $20/mo, Pro from $100/mo; or API key | https://openai.com/codex/ |
 | AI Coding Editors & Agents | 4 | [GitHub Copilot](https://github.com/features/copilot) | freemium | Free plan; Pro $10/mo, Pro+ $39/mo, Max $100/mo | https://github.com/features/copilot/plans |
 | AI Coding Editors & Agents | 5 | [Devin Desktop (formerly Windsurf)](https://devin.ai/desktop) | freemium | Free plan; Pro $20/mo, Max $200/mo, Teams $80/mo + $40/seat | https://devin.ai/pricing |
 | AI Coding Editors & Agents | 6 | [Google Antigravity](https://antigravity.google) | freemium | Free individual plan; higher limits with Google AI Pro/Ultra | https://antigravity.google/pricing |
@@ -55,7 +92,7 @@ Pricing badge rule: `free` = free/open source; `freemium` = ongoing free tier + 
 | AI Coding Editors & Agents | 8 | [Aider](https://aider.chat) | free | Free and open source; bring your own model API keys | https://aider.chat |
 | AI Coding Editors & Agents | 9 | [Zed](https://zed.dev) | freemium | Free editor (BYO keys/agents); Pro $10/mo with hosted AI | https://zed.dev/pricing |
 | App Builders (Vibe Coding Platforms) | 1 | [Lovable](https://lovable.dev) | freemium | Free plan (5 daily credits); Pro from $25/mo | https://docs.lovable.dev/introduction/subscription-plans |
-| App Builders (Vibe Coding Platforms) | 2 | [Bolt.new](https://bolt.new) | freemium | Free plan (1M tokens/mo); Pro $25/mo | https://bolt.new/pricing |
+| App Builders (Vibe Coding Platforms) | 2 | [Bolt.new](https://bolt.new) | freemium | Free plan (300K tokens/day, 1M tokens/mo); Pro $25/mo ($18/mo billed yearly) | https://bolt.new/pricing |
 | App Builders (Vibe Coding Platforms) | 3 | [v0](https://v0.app) | freemium | Free plan; Plus $30/user/mo | https://v0.app/pricing |
 | App Builders (Vibe Coding Platforms) | 4 | [Replit](https://replit.com) | freemium | Free Starter plan; Core $20/mo ($18/mo billed annually) | https://replit.com/pricing |
 | App Builders (Vibe Coding Platforms) | 5 | [Base44](https://base44.com) | freemium | Free plan; paid from $16/mo billed annually | https://base44.com/pricing |
