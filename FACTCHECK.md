@@ -24,18 +24,18 @@ Checked the tools whose prices, free plans, or feature lines appear on the new p
 | v0 | Free plan; Plus $30/user/mo. Docs also list a legacy Premium plan no longer sold to new users, so it stays out of the note. | Unchanged | https://v0.app/pricing · https://v0.app/docs/pricing |
 | Replit | Pricing page shows Core $20/mo ($18/mo billed annually) and Pro $100/mo ($90/mo billed annually). Docs still describe a free Starter plan, and separately say Core is $204/year. The note keeps the pricing-page figures. | Unchanged | https://replit.com/pricing · https://docs.replit.com/help/pricing-and-plans |
 | Base44 | Free plan; paid plans from $16/mo billed annually | Unchanged | https://base44.com/pricing · https://base44.com/ |
-| Google AI Studio | Build mode generates full-stack web apps and Android apps from a prompt. Free daily use, with paid Gemini API or Cloud usage past that. The docs page timed out on a direct fetch; the feature description is from that official URL via search, and the free daily allowance is from a Google AI Developers Forum staff reply. No new numbers added. | Unchanged | https://ai.google.dev/gemini-api/docs/aistudio-build-mode |
+| Google AI Studio | Build mode generates full-stack web apps and Android apps from a prompt. The pricing note stays "Free to use in AI Studio; paid Gemini API/Cloud usage for higher limits and deployment". https://ai.google.dev/gemini-api/docs/pricing redirects to https://aistudio.google.com/docs/pricing, and that page's notes say "Google AI Studio usage is free of charge in all available regions." The same page's Paid card is higher rate limits for production. No new numbers added. | Unchanged; `verifiedSource` now points at the pricing page | https://ai.google.dev/gemini-api/docs/pricing · https://ai.google.dev/gemini-api/docs/aistudio-build-mode |
 | Anything | Free plan; Pro from $19/mo | Unchanged | https://www.anything.com/pricing |
 | Google Veo (Flow) | 50 Flow credits/day with or without a subscription; Google AI Pro is $19.99/mo. Ultra prices were not added. The new best page quotes the existing category intro, which also says Flow makes cinematic clips with native audio; that audio line was not re-tested today. | Unchanged | https://support.google.com/flow/answer/16526234 · https://one.google.com/about/google-ai-plans/ |
 | Runway | Free plan, 125 one-time credits; Standard $15/mo ($12/mo billed annually) | Unchanged | https://runway.com/pricing |
-| Kling AI | Free Basic plan plus paid plans. Paid dollar amounts on kling.ai/llms.txt look stale (the file still describes Kling 3.0), so they were not added. | Unchanged | https://kling.ai/llms.txt |
+| Kling AI | Free Basic plan plus paid plans. Paid dollar amounts on kling.ai/llms.txt look stale (the file still describes Kling 3.0), so they were not added. `bestFor` was "Realistic motion at a lower price"; that comparison is not on Kling's pages. It is now "Realistic motion and image-to-video workflows", from the official image-to-video page (the "Realistic Motion" section, and the upload-an-image, describe-the-motion, generate workflow). The video category intro no longer says "at a lower price". | `bestFor` and video intro updated; prices unchanged | https://kling.ai/llms.txt · https://kling.ai/feature/image-to-video |
 | Luma Dream Machine | No free plan on the pricing page; Plus $30/mo ($25/mo billed annually) | Unchanged | https://lumalabs.ai/pricing |
 | Pika | Free plan; Starter $10/mo ($8/mo billed annually, not added) | Unchanged | https://pika.art/pricing |
 | Hailuo AI | Paid plans, plus a one-time welcome credit pack for new accounts. Live checkout prices are client-rendered and were not copied. | Unchanged | https://hailuoai.video/doc/payment-policy.html |
 
 ### Left out
 
-- Kling paid prices and the "lower price" wording already on the Kling listing. The new Kling page is a comparison, not a new price claim.
+- Kling paid prices. kling.ai/llms.txt still describes Kling 3.0, so those dollar amounts stay out. The comparative "lower price" line was removed from `bestFor` and the video category intro.
 - ChatGPT Go's dollar price. It is not in the Codex note.
 - Google AI Ultra's $99.99 / $199.99 prices. The Veo note only says "or Ultra".
 - v0's struck-through $90 figure next to Plus. Docs list Plus at $30/user/mo.
@@ -96,7 +96,7 @@ Pricing badge rule: `free` = free/open source; `freemium` = ongoing free tier + 
 | App Builders (Vibe Coding Platforms) | 3 | [v0](https://v0.app) | freemium | Free plan; Plus $30/user/mo | https://v0.app/pricing |
 | App Builders (Vibe Coding Platforms) | 4 | [Replit](https://replit.com) | freemium | Free Starter plan; Core $20/mo ($18/mo billed annually) | https://replit.com/pricing |
 | App Builders (Vibe Coding Platforms) | 5 | [Base44](https://base44.com) | freemium | Free plan; paid from $16/mo billed annually | https://base44.com/pricing |
-| App Builders (Vibe Coding Platforms) | 6 | [Google AI Studio](https://aistudio.google.com) | freemium | Free to use in AI Studio; paid Gemini API/Cloud usage for higher limits and deployment | https://ai.google.dev/gemini-api/docs/aistudio-build-mode |
+| App Builders (Vibe Coding Platforms) | 6 | [Google AI Studio](https://aistudio.google.com) | freemium | Free to use in AI Studio; paid Gemini API/Cloud usage for higher limits and deployment | https://ai.google.dev/gemini-api/docs/pricing |
 | App Builders (Vibe Coding Platforms) | 7 | [Anything (formerly Create)](https://www.anything.com) | freemium | Free plan; Pro from $19/mo | https://www.anything.com/pricing |
 | Image Generation | 1 | [Midjourney](https://www.midjourney.com) | paid | No free plan; Basic $10/mo ($8/mo billed annually) | https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans |
 | Image Generation | 2 | [GPT Image (ChatGPT)](https://chatgpt.com) | freemium | Limited free image creation in ChatGPT; Go $8/mo, Plus $20/mo; API billed per use | https://chatgpt.com/pricing/ |
