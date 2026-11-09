@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-09",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -346,7 +346,7 @@
           "description": "Playful AI video creation app.",
           "pricing": "freemium",
           "bestFor": "Fun effects and social clips",
-          "pricingNote": "Free plan; Starter $10/mo",
+          "pricingNote": "Free plan; Starter $10/mo (600 credits)",
           "verifiedSource": "https://pika.art/pricing"
         },
         {
@@ -748,6 +748,24 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-09",
+      "tag": "Image",
+      "title": "ByteDance Seed introduces Seedream 5.5, its next-generation image model: pixel-level preservation of unedited regions across up to 100 rounds of multi-turn editing, native RGBA output with transparent backgrounds, more realistic lighting and skin, and much clearer small text; a Pro version is coming next",
+      "url": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5"
+    },
+    {
+      "date": "2026-11-06",
+      "tag": "Coding agent",
+      "title": "Cursor adds realtime Voice Chat with Agents in the Agents Window, IDE, web and Cursor for iOS: talk through a change while the coding agent works, ask about diffs or runs, and hear short spoken progress notes; powered by Grok Voice, with zero data retention when Privacy Mode is on",
+      "url": "https://cursor.com/changelog"
+    },
+    {
+      "date": "2026-11-06",
+      "tag": "Coding agent",
+      "title": "An Apple-authored Xcode plugin lands in Anthropic's official Claude Code plugin marketplace: Claude Code can build, run and test Xcode schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer docs",
+      "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
+    },
     {
       "date": "2026-11-05",
       "tag": "App builder",

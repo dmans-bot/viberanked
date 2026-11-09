@@ -328,3 +328,20 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns or renames among listed tools in this window.
+
+## 2026-11-09 (daily release scan, covering Nov 6–9)
+
+### Releases feed
+- **Added:** Seedream 5.5 (2026-11-09) — ByteDance Seed image model: stable multi-turn editing up to 100 rounds, native RGBA transparent assets, better realism and small text; Pro version to follow. Official: [ByteDance Seed](https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5).
+- **Added:** Cursor Voice Chat with Agents (2026-11-06) — realtime voice calls with agents across Agents Window, IDE, web, iOS; Grok Voice; ZDR with Privacy Mode. Official: [Cursor changelog](https://cursor.com/changelog).
+- **Added:** Apple Xcode plugin for Claude Code (2026-11-06) — Apple Inc.-authored plugin in the official Claude Code marketplace (build/run/test, SwiftUI previews, simulators, build logs, Apple docs). Official: [claude-plugins-official PR #6338](https://github.com/anthropics/claude-plugins-official/pull/6338).
+
+### Ranking slots
+- No new ranking tools; video slot stays empty (no new verified consumer video generator with public pricing this window).
+
+### Listing fixes
+- **Pika:** Pricing note now shows Starter's 600 monthly credits (price unchanged at $10/mo) per [pika.art/pricing](https://pika.art/pricing).
+- **Bolt.new:** Checked after reports Pro dropped newest-model/MCP access; listed price ($25/mo, Free 1M tokens/mo) still matches [bolt.new/pricing](https://bolt.new/pricing), so no change.
+
+### Scanned but not added
+- Tencent Hy4 full API rollout (already in feed Nov 4; weights still not public), Ling-3.2-flash (Nov 5), Qoder "Qoduck" stealth model, Nous Arete-27B fine-tune, TokenRhythm NeoHorse-1.5-Flash (limited beta), Qwen Office 2.0 (office suite), CMDAI CODE 1.0, Meta's Conductor acquisition (not listed), Google EGM plugin (Oct 22, old).
