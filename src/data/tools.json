@@ -41,7 +41,7 @@
           "pricing": "freemium",
           "bestFor": "ChatGPT users delegating coding tasks locally or in the cloud",
           "pricingNote": "Included in ChatGPT plans, including a limited Free tier; Plus $20/mo, Pro from $100/mo; or API key",
-          "verifiedSource": "https://learn.chatgpt.com/docs/pricing"
+          "verifiedSource": "https://openai.com/codex/"
         },
         {
           "rank": 4,
@@ -139,7 +139,7 @@
           "description": "StackBlitz's in-browser AI app builder.",
           "pricing": "freemium",
           "bestFor": "Instant full-stack prototypes in the browser",
-          "pricingNote": "Free plan (1M tokens/mo); Pro $25/mo ($18/mo billed yearly)",
+          "pricingNote": "Free plan (300K tokens/day, 1M tokens/mo); Pro $25/mo ($18/mo billed yearly)",
           "verifiedSource": "https://bolt.new/pricing"
         },
         {
@@ -184,7 +184,7 @@
           "pricing": "freemium",
           "bestFor": "Gemini-powered apps with Firebase/Google Cloud",
           "pricingNote": "Free to use in AI Studio; paid Gemini API/Cloud usage for higher limits and deployment",
-          "verifiedSource": "https://ai.google.dev/gemini-api/docs/aistudio-build-mode"
+          "verifiedSource": "https://ai.google.dev/gemini-api/docs/pricing"
         },
         {
           "rank": 7,
@@ -292,7 +292,7 @@
       "headline": "Best AI Video Generators",
       "description": "Text- and image-to-video models.",
       "useCase": "AI video generator",
-      "intro": "The best AI video generator right now is Google Veo in Flow, which makes cinematic clips with native audio and now includes free daily credits. Runway is best if you also need editing tools, Kling AI gives realistic motion at a lower price, and Luma Dream Machine is great for fast ideation and image-to-video. For playful social clips, use Pika.",
+      "intro": "The best AI video generator right now is Google Veo in Flow, which makes cinematic clips with native audio and now includes free daily credits. Runway is best if you also need editing tools, Kling AI is for realistic motion and image-to-video workflows, and Luma Dream Machine is great for fast ideation and image-to-video. For playful social clips, use Pika.",
       "tools": [
         {
           "rank": 1,
@@ -323,7 +323,7 @@
           "url": "https://kling.ai",
           "description": "Kuaishou's text/image-to-video generator; Kling 4.0 makes up to 30-second clips in one pass.",
           "pricing": "freemium",
-          "bestFor": "Realistic motion at a lower price",
+          "bestFor": "Realistic motion and image-to-video workflows",
           "pricingNote": "Free basic plan + paid plans",
           "verifiedSource": "https://kling.ai"
         },

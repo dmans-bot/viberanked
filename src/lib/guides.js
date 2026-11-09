@@ -100,6 +100,38 @@ const REQUESTED_GUIDES = [
     picks: ['openai-realtime-api'],
     quotes: ['To build real-time voice agents, use the OpenAI Realtime API'],
   },
+  {
+    slug: 'coding-agent-for-gemini',
+    headline: 'Best AI Coding Agent for Gemini',
+    question: 'What is the best AI coding agent for Gemini models?',
+    category: 'ai-coding-agents',
+    picks: ['google-antigravity'],
+    quotes: ['Trying Gemini models in an agent-first IDE'],
+  },
+  {
+    slug: 'ai-app-builder-for-gemini',
+    headline: 'Best AI App Builder for Gemini',
+    question: 'What is the best AI app builder for Gemini?',
+    category: 'app-builders',
+    picks: ['google-ai-studio'],
+    quotes: ['prompt-to-app full-stack web and Android apps powered by Gemini'],
+  },
+  {
+    slug: 'ai-app-builder-for-prototypes',
+    headline: 'Best AI App Builder for Prototypes',
+    question: 'What is the best AI app builder for a quick prototype?',
+    category: 'app-builders',
+    picks: ['bolt-new'],
+    quotes: ['Bolt.new is the fastest way to spin up a full-stack prototype in the browser'],
+  },
+  {
+    slug: 'ai-video-with-free-daily-credits',
+    headline: 'Best AI Video Generator with Free Daily Credits',
+    question: 'Which AI video generator includes free daily credits?',
+    category: 'video-gen',
+    picks: ['google-veo-flow'],
+    quotes: ['The best AI video generator right now is Google Veo in Flow, which makes cinematic clips with native audio and now includes free daily credits.'],
+  },
 ];
 
 function categoryBySlug(slug) {
