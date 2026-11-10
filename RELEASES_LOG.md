@@ -345,3 +345,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Scanned but not added
 - Tencent Hy4 full API rollout (already in feed Nov 4; weights still not public), Ling-3.2-flash (Nov 5), Qoder "Qoduck" stealth model, Nous Arete-27B fine-tune, TokenRhythm NeoHorse-1.5-Flash (limited beta), Qwen Office 2.0 (office suite), CMDAI CODE 1.0, Meta's Conductor acquisition (not listed), Google EGM plugin (Oct 22, old).
+
+## 2026-11-10 (daily release scan, covering Nov 9–10)
+
+### Releases feed
+- **Added:** Claude Fable 5.2 / Mythos 5.2 (2026-11-09) — Fable GA on all platforms (Mythos for verified cyber/life-sciences orgs); better coding/reasoning/vision, up to 30% faster, price cut to $8/$40 per MTok, optional 2.5x fast mode ($16/$80). Official: [Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2).
+- **Added:** Meta Muse Ember (2026-11-09) — smallest Muse model for agent volume work; 1M context, 512K output, multimodal input, $0.10/$0.50 per MTok on Meta Model API and Muse Code (`muse-ember-1.0`). Official: [Meta](https://research.meta.ai/blog/muse-ember).
+- **Added:** Automattic Spacefast (2026-11-09) — publish what your AI builds (Claude, ChatGPT, Cursor, Codex, etc.) to a private live link with database, domains, versions, comments; plugin/MCP/API/CLI; free Personal, Go $5/mo, Pro $15/member/mo. Official: [spacefast.com](https://spacefast.com/) and [Automattic press release](https://www.prnewswire.com/news-releases/automattic-launches-spacefast-a-new-company-that-gets-apps-and-websites-live-in-seconds-302933038.html).
+
+### Ranking slots
+- No new ranking tools. Spacefast is a candidate for Deployment & Backend once it has more track record; Muse Ember is a model, not a directory product. Video category unchanged.
+
+### Listing fixes
+- None needed. Anthropic API note cites Sonnet 5.5 pricing, which Fable 5.2 doesn't change; Claude Code plan pricing unchanged.
+
+### Scanned but not added
+- MiniMax H3-Image (Nov 9; early-access preview on Hailuo, listed in MiniMax API docs but no launch post or pricing yet — revisit when GA)
+- Codenotary AgentMon Live (open-source Claude Code monitor, niche), Entire Trails review platform, Praxivara AI video, Gaxos ArtGen Muse, Facy.ai Image-to-Video Long, Beeble SwitchX 3.0 (VFX niche), Rayline (launches Wednesday), Google Workspace skills, Lovable Jira/Mailjet connectors (incremental)
+
+### Shutdown / rename watch
+- No shutdowns or renames among listed tools. Note: MiniMax retires M2.5/M2.7 API models on Nov 18 (not listed individually).

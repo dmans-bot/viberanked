@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,24 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-09",
+      "tag": "LLM",
+      "title": "Anthropic releases Claude Fable 5.2 for all users (Mythos 5.2 for verified cyber and life-sciences orgs): better coding, reasoning and vision, up to 30% faster than 5.1, cheaper at $8/$40 per million input/output tokens, plus an optional 2.5x fast mode in Claude Code and the API; model id claude-fable-5-2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+      "date": "2026-11-09",
+      "tag": "LLM",
+      "title": "Meta launches Muse Ember, its smallest and most efficient Muse model for agent volume work like tool calls, coding subtasks, routing and extraction: 1M context, 512K output, text/image/audio/video input, $0.10/$0.50 per million tokens on the Meta Model API and Muse Code as muse-ember-1.0",
+      "url": "https://research.meta.ai/blog/muse-ember"
+    },
+    {
+      "date": "2026-11-09",
+      "tag": "Deployment",
+      "title": "Automattic launches Spacefast, a hosting home for what your AI builds: ask Claude, ChatGPT, Cursor, Codex or other agents to publish and get a private live link with a database, custom domains, version history and page comments; plugin, MCP, API and CLI (npx spacefast publish); free Personal plan, Go $5/mo, Pro $15/member/mo",
+      "url": "https://spacefast.com/"
+    },
     {
       "date": "2026-11-09",
       "tag": "Image",
