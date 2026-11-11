@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,36 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-11",
+      "tag": "Coding agent",
+      "title": "JetBrains ships Air in its IDEs with the 2026.3 release: run and review coding agents like Junie, Codex, Claude Code, GitHub Copilot, Gemini and Cursor (via ACP) in one place, with parallel sessions in their own Git worktrees and agent access to IDE inspections, builds, refactorings and the debugger; Junie's Lite configuration is now free with a JetBrains Account",
+      "url": "https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/"
+    },
+    {
+      "date": "2026-11-11",
+      "tag": "Coding agent",
+      "title": "Alibaba publishes Qwen Code 1.0 Preview, merging Qoder's agent harness into its open-source (Apache 2.0) terminal coding agent: works with Qwen and Qoder accounts, multiple model providers and custom endpoints, ships native macOS/Linux/Windows packages with no separate Node.js install, and supports session resume and non-interactive runs",
+      "url": "https://github.com/QwenLM/qwen-code/releases"
+    },
+    {
+      "date": "2026-11-11",
+      "tag": "Image",
+      "title": "MiniMax releases H3-Image, an open-weight image model that generates full 4K (4096x4096) images in under 10 seconds, with text-to-image, image editing and up to 16 reference images; weights on Hugging Face, also on the MiniMax API, MiniMax Code and Hailuo AI, with 50% off 4K+ requests during launch week",
+      "url": "https://www.minimax.io/blog/minimax-h3-image"
+    },
+    {
+      "date": "2026-11-10",
+      "tag": "LLM",
+      "title": "Google makes Gemini 4 Carbon generally available, its strongest model for long-horizon agentic coding, debugging, cybersecurity and scientific reasoning: on the Gemini API in Google AI Studio for paying developers at the same introductory $2/$10 per million input/output tokens as Gemini 4 Argon, and rolling out to Google AI Ultra subscribers in Antigravity and the Gemini app",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    },
+    {
+      "date": "2026-11-10",
+      "tag": "LLM",
+      "title": "Meituan open-sources LongCat-2.5 under the MIT license, a native multimodal model for long-horizon agent tasks like full project builds, visual coding and office work: 1.6T total parameters with about 48B active per token and a 1M-token context, with weights on Hugging Face and an API on the LongCat platform",
+      "url": "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html"
+    },
     {
       "date": "2026-11-09",
       "tag": "LLM",

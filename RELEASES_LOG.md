@@ -365,3 +365,24 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns or renames among listed tools. Note: MiniMax retires M2.5/M2.7 API models on Nov 18 (not listed individually).
+
+## 2026-11-11 (daily release scan, covering Nov 10–11)
+
+### Releases feed
+- **Added:** JetBrains Air in IDEs GA (2026-11-11) — 2026.3 release: run/review Junie, Codex, Claude Code, Copilot, Gemini, Cursor and more via ACP; parallel worktree sessions; agents use IDE inspections, builds, refactorings, debugger; Junie Lite now free. Official: [JetBrains AI blog](https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/).
+- **Added:** Qwen Code 1.0 Preview (2026-11-11) — Qoder harness merged into open-source Qwen Code; multi-provider, native packages, session resume, non-interactive runs (pre-release). Official: [GitHub releases](https://github.com/QwenLM/qwen-code/releases).
+- **Added:** MiniMax H3-Image (2026-11-11) — now officially released with open weights: 4K in under 10s, editing, up to 16 references; API, MiniMax Code, Hailuo; 50% off 4K+ in launch week. Official: [MiniMax blog](https://www.minimax.io/blog/minimax-h3-image).
+- **Added:** Gemini 4 Carbon GA (2026-11-10) — Google's strongest model for long-horizon coding/agentic/cyber/science; API $2/$10 per MTok (introductory, same as Argon); Ultra subscribers in Antigravity and Gemini app. Official: [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/).
+- **Added:** Meituan LongCat-2.5 (2026-11-10) — MIT open-source multimodal agent model, 1.6T total / ~48B active, 1M context. Official: [Meituan tech blog](https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html).
+
+### Ranking slots
+- No new ranking tools; video slot unchanged. JetBrains Air/Junie is a possible future Coding Editors candidate.
+
+### Listing fixes
+- None needed. Gemini API, AI Studio and Antigravity listing notes stay accurate (no tier changes); Hailuo listing unaffected by H3-Image.
+
+### Scanned but not added
+- Baidu ERNIE 5.5 Flash Preview (no official page verified yet; open-source promised Nov 25 — revisit), Gemini Robotics 2.5, NVIDIA GR00T 2 / Alpamayo 2 Edge, PAN 2 world model, Bielik 11B v3.1 (robotics/research/regional), ChatGPT Businesses beta (not builder-focused), Claude Whiteboards/Sheets/Data (workspace features), Grok 4.8 (not released yet), GPT-6.2 (rumor for Nov 13), Meta Muse Code (launched Aug 5, old), 169Pi Alpie Seed (small), Expo Exact (pre-alpha).
+
+### Shutdown / rename watch
+- No shutdowns, renames, or pricing changes among listed tools.
