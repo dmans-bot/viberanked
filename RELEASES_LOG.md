@@ -386,3 +386,24 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames, or pricing changes among listed tools.
+
+## 2026-11-12 (daily release scan, covering Nov 10–12)
+
+### Releases feed
+- **Added:** Gemini Decisions API + Gemini Decision 1 (2026-11-11) — closed-set decision model scoring up to 1,000 yes/no, choice and rubric questions per multimodal input (256K tokens) in ~150–250 ms; $0.10 per 1M input tokens, no output billing. Official: [Google blog](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/), [AI Studio docs](https://aistudio.google.com/docs/decisions-api).
+- **Added:** Google Antigravity built-in browser agent (2026-11-11 announcement; app v2.30.0+) — auto-invoked browser subagents test localhost apps, read console/network errors, screenshot and verify fixes; personal accounts Free/Plus/AI Pro/AI Ultra, Gemini Flash by default. Official: [Antigravity docs](https://antigravity.google/docs/browser/).
+- **Added:** AWS Emulator (2026-11-11) — free CC0 open-source local emulator of AWS services, written entirely by autonomous agents; works with SDKs, CLIs and coding agents, no AWS account needed locally. Official: [About Amazon](https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator).
+- **Added:** Cursor Projects multiplayer beta (2026-11-10) — shared task board, shared context and agent-to-agent coordination between teammates' coordinators. Official: [Cursor blog](https://cursor.com/blog/projects-multiplayer).
+
+### Ranking slots
+- No new ranking tools; video category still full.
+
+### Listing fixes
+- None needed.
+
+### Scanned but not added (niche, out of window, or not builder tooling)
+- Runway Praxis-1 open weights (Nov 11; robotics world action model), Zyphra ZONOS3-Mini open TTS (Nov 11), Baidu ERNIE 5.5 Flash Preview (Qianfan API; weights later), Bielik 11B v3.1 / Bielik-One, DeepMind AlphaGenome 2
+- GitHub Agentic Workflows GA (Oct 28; out of window), Azure Logic Apps local CLI preview, NVIDIA OpenShell donated to CNCF, Coder Agent Relay for Cursor (private preview)
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes spotted among listed tools.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -750,6 +750,24 @@
   "releases": [
     {
       "date": "2026-11-11",
+      "tag": "LLM",
+      "title": "Google launches the Gemini Decisions API with its new Gemini Decision 1 model: score up to 1,000 yes/no, multiple-choice and rubric questions against one multimodal input (text, images, audio, video, PDFs, up to 256K tokens) in a single pass, returning calibrated probabilities in about 150-250 ms at $0.10 per 1M input tokens with no output tokens billed",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    },
+    {
+      "date": "2026-11-11",
+      "tag": "Coding agent",
+      "title": "Google Antigravity's agent can now open its own built-in browser to test your app: from app v2.30.0 on personal accounts (Free, Plus, AI Pro, AI Ultra), describe what to check and browser subagents click through your localhost app, read console errors and failed network requests, take screenshots and verify fixes, running on Gemini Flash by default",
+      "url": "https://antigravity.google/docs/browser/"
+    },
+    {
+      "date": "2026-11-11",
+      "tag": "Dev tools",
+      "title": "AWS releases AWS Emulator, a free open-source (CC0) local emulator of AWS services written entirely by autonomous AI agents: test apps against AWS APIs on your machine or in CI with existing SDKs, CLIs and coding agents like Claude Code and Kiro, no AWS account needed for local testing",
+      "url": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator"
+    },
+    {
+      "date": "2026-11-11",
       "tag": "Coding agent",
       "title": "JetBrains ships Air in its IDEs with the 2026.3 release: run and review coding agents like Junie, Codex, Claude Code, GitHub Copilot, Gemini and Cursor (via ACP) in one place, with parallel sessions in their own Git worktrees and agent access to IDE inspections, builds, refactorings and the debugger; Junie's Lite configuration is now free with a JetBrains Account",
       "url": "https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/"
@@ -765,6 +783,12 @@
       "tag": "Image",
       "title": "MiniMax releases H3-Image, an open-weight image model that generates full 4K (4096x4096) images in under 10 seconds, with text-to-image, image editing and up to 16 reference images; weights on Hugging Face, also on the MiniMax API, MiniMax Code and Hailuo AI, with 50% off 4K+ requests during launch week",
       "url": "https://www.minimax.io/blog/minimax-h3-image"
+    },
+    {
+      "date": "2026-11-10",
+      "tag": "Coding agent",
+      "title": "Cursor Projects goes multiplayer (beta): invite teammates into a Project with a shared task board, shared context (specs, diagrams, mockups) and agent-to-agent coordination, so teammates' coordinators can spot overlapping work and agree on the order before merge conflicts happen",
+      "url": "https://cursor.com/blog/projects-multiplayer"
     },
     {
       "date": "2026-11-10",
@@ -875,12 +899,6 @@
       "url": "https://docs.lovable.dev/changelog"
     },
     {
-      "date": "2026-11-03",
-      "tag": "App builder",
-      "title": "Replit Agent now works inside Slack: bring it into channels to work on projects, turn feature requests into pull requests, link connected tools and pull company data into threads",
-      "url": "https://x.com/Replit/status/2117689305019887899"
-    },
-    {
       "date": "2026-11-04",
       "tag": "LLM",
       "title": "Tencent releases Hy4, its new flagship Hunyuan model, adding image understanding and computer use (command line and desktop apps) for the first time, with a 1M-token context and stronger front-end and game-dev coding; it's live in CodeBuddy and via API on Tencent Cloud and OpenRouter at about $0.90/$2.70 per million input/output tokens, with open weights promised in the coming days",
@@ -891,6 +909,12 @@
       "tag": "Coding agent",
       "title": "VS Code 1.145 ships: preview apps and canvases from remote agent sessions, cron schedules for local agent automations, mixing Copilot, Claude and Codex harnesses in one session (preview), a chat verbosity switch, and attaching files from anywhere on your computer",
       "url": "https://code.visualstudio.com/updates/v1_145"
+    },
+    {
+      "date": "2026-11-03",
+      "tag": "App builder",
+      "title": "Replit Agent now works inside Slack: bring it into channels to work on projects, turn feature requests into pull requests, link connected tools and pull company data into threads",
+      "url": "https://x.com/Replit/status/2117689305019887899"
     },
     {
       "date": "2026-11-03",
