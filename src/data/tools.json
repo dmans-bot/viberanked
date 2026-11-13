@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,42 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-12",
+      "tag": "LLM",
+      "title": "Google launches Gemini 4 Hydrogen, its fast model for everyday coding and agentic work: beats Gemini 4 Argon on the Artificial Analysis Intelligence Index (51 vs 50, 54 at the new xhigh thinking level), priced flat across its 1M-token context at $1.50/$7.50 per 1M input/output tokens, and available to all tiers of AI Studio and the Gemini API plus the Gemini app",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "date": "2026-11-12",
+      "tag": "Coding agent",
+      "title": "Google Antigravity adds Orchestrator, a model option that has Gemini 4 Carbon or Argon plan the task and hands execution to Gemini 4 Hydrogen, passing control back when it hits trouble; Google reports near-Carbon success on Terminal-Bench 4.1 with 24% less quota and 19% faster runs. Orchestrator (Carbon) is for AI Ultra, Orchestrator (Argon) for AI Pro and Ultra",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+    },
+    {
+      "date": "2026-11-12",
+      "tag": "Dev tools",
+      "title": "Expo launches Expo Simulators: cloud iOS Simulators and Android Emulators your coding agents (Claude Code, Codex, Cursor and others) can drive to verify their own work, with screen recordings, screenshots and logs saved for PR review and no Mac required; $0.10 per simulator minute on paid plans, with 60 minutes a month included",
+      "url": "https://expo.dev/blog/introducing-expo-simulators-cloud-simulators-built-for-agents"
+    },
+    {
+      "date": "2026-11-12",
+      "tag": "App builder",
+      "title": "Replit Agent can now buy supplies for your business through Link (by Stripe) and Visa, stopping for your approval before any charge (Core and Pro, US, one-time purchases), and can create and run Google Ads campaigns for your Replit-built app, including conversion tracking",
+      "url": "https://replit.com/blog/replit-agent-ads-commerce"
+    },
+    {
+      "date": "2026-11-12",
+      "tag": "Open model",
+      "title": "Thinking Machines releases open weights for Inkling 2 Small (594B total, 17B active MoE with image input) under Apache 2.0 on Hugging Face, now also served by Together, Fireworks, Baseten, Cloudflare and others and runnable with vLLM and SGLang",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    },
+    {
+      "date": "2026-11-12",
+      "tag": "Open model",
+      "title": "Edge0 open-sources Edge0-145B and Edge0-120B, on-device coding and agent models built to run locally on a compatible laptop (reported 29GB peak memory, 80+ tokens/s, 128K-256K context), with no cloud API fees",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+    },
     {
       "date": "2026-11-11",
       "tag": "LLM",

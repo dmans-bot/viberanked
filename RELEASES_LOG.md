@@ -407,3 +407,25 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes spotted among listed tools.
+
+## 2026-11-13 (daily release scan, covering Nov 11–13)
+
+### Releases feed
+- **Added:** Gemini 4 Hydrogen (2026-11-12) — fast everyday coding/agent model; AA Index 51 (54 at xhigh), $1.50/$7.50 per MTok flat to 1M context; all AI Studio/Gemini API tiers, Gemini app, Pro/Ultra in Antigravity. Official: [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/).
+- **Added:** Antigravity Orchestrator (2026-11-12) — Carbon/Argon plans, Hydrogen executes, with hand-back; near-Carbon Terminal-Bench 4.1 success, 24% less quota, 19% faster. Official: [Antigravity blog](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/).
+- **Added:** Expo Simulators GA (2026-11-12) — cloud iOS/Android simulators for coding agents; $0.10/min, 60 min/month included on paid plans. Official: [Expo blog](https://expo.dev/blog/introducing-expo-simulators-cloud-simulators-built-for-agents).
+- **Added:** Replit Agent commerce + Google Ads (2026-11-12) — buys via Link/Visa with approval (Core/Pro, US); runs Google Ads campaigns. Official: [Replit blog](https://replit.com/blog/replit-agent-ads-commerce).
+- **Added:** Inkling 2 Small open weights (2026-11-12) — Apache 2.0, 594B/17B active. Official: [Thinking Machines](https://thinkingmachines.ai/news/inkling-2-small/).
+- **Added:** Edge0-145B / Edge0-120B (2026-11-12) — open on-device coding/agent models, ~29GB peak memory. Official: [Edge0 blog](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer).
+
+### Ranking slots
+- No new ranking tools; video category still full. Expo is a possible future Deployment & Backend candidate.
+
+### Listing fixes
+- None needed. Gemini API / AI Studio / Antigravity listing notes remain accurate.
+
+### Scanned but not added
+- GPT-6.2 (did not ship; OpenAI's Nov 12 keynote launched Daybreak Red Team / Defense Factory security tools on GPT-6 Cyber), Codex CLI 0.168/0.169 (incremental), Codex banked usage reset, Claude Meetings beta & Claude for Manufacturing (not builder tooling), Perplexity Decider v1.3, Runway Praxis-1 (robotics), World Labs Atlas public release (3D; not verified from official page), Caveman Code (YC launch), Taan v1-preview music, Plurai Simulation, RaylineAI ARC, ci-proto (time series), Problembot (closed access), Meta Muse Code (earlier launch).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes spotted among listed tools.
