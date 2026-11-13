@@ -208,3 +208,11 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - POST /api/subscribe with invalid email: 400 (as expected)
 - Latest Vercel production deploy (from dbc70d6 release scan): Ready (GitHub deployment status success)
 - Local main in sync with origin/main; no fixes needed.
+
+## 2026-11-13 15:03 UTC — All healthy
+- Home, /robots.txt, /llms.txt, /sitemap-index.xml: 200
+- All 115 URLs in sitemap-0.xml: 200
+- 195 outbound URLs: 179× 200, 16× 403 (bot-blocking); Meta Muse Glimmer 400 with Chrome UA (known UA quirk, 200 with default UA). ElevenLabs affiliate link ...ht68ybbyb6hj returns 200 on GET.
+- POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (from 5b0cf07 release scan): Ready (GitHub deployment status success)
+- Local main in sync with origin/main; no fixes needed.
