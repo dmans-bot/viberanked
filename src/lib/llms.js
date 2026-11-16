@@ -2,6 +2,7 @@ import data from '../data/tools.json';
 import { SITE, fmtDate } from './site.js';
 import { getComparisons } from './comparisons.js';
 import { getGuides } from './guides.js';
+import { getAlternatives } from './alternatives.js';
 
 function comparisonLine(c) {
   const where = c.sameCategory ? ` in ${c.categoryA.name}` : '';
@@ -39,6 +40,14 @@ export function llmsTxt() {
       out.push(`- [${g.headline}](${g.url}): ${who} in ${g.category.name}.`);
     }
   }
+  const alternatives = getAlternatives();
+  if (alternatives.length) {
+    out.push('', '## Alternatives', '');
+    for (const page of alternatives) {
+      const who = page.alternatives.map((t) => `#${t.rank} ${t.name} (${t.pricing})`).join(', ');
+      out.push(`- [${page.headline}](${page.url}): ${who} in ${page.category.name}. ${page.tool.name} is #${page.tool.rank}.`);
+    }
+  }
   out.push('', '## Optional', '', `- [Full rankings with pricing for every tool](${SITE}/llms-full.txt)`, `- [Sitemap](${SITE}/sitemap-index.xml)`, '');
   return out.join('\n');
 }
@@ -66,6 +75,18 @@ export function llmsFullTxt() {
     for (const g of guides) {
       const sites = g.picks.map((p) => `${p.name} official site: ${p.url}. Details: ${SITE}/tool/${p.slug}/`).join(' ');
       out.push(`- [${g.headline}](${g.url}): ${g.answer} ${sites}`);
+    }
+    out.push('');
+  }
+  const alternatives = getAlternatives();
+  if (alternatives.length) {
+    out.push('## Alternatives', '');
+    for (const page of alternatives) {
+      const sites = page.alternatives.map((t) => {
+        const vs = t.comparison ? ` Comparison: ${t.comparison.url}.` : '';
+        return `${t.name} (#${t.rank}, ${t.pricing}) — ${t.description} Pick this if: ${t.bestFor}. Pricing: ${t.pricingNote}. Official site: ${t.url}. Details: ${SITE}/tool/${t.slug}/.${vs}`;
+      }).join(' ');
+      out.push(`- [${page.headline}](${page.url}): ${page.intro} ${sites}`);
     }
     out.push('');
   }
