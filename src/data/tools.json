@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,30 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-16",
+      "tag": "LLM",
+      "title": "Alibaba releases Qwen4-Max, its most capable Qwen model: a 2.4T-parameter MoE (71B active) with native vision and a 1M-token context, ranked 6th on Code Arena, with Alibaba reporting ~60% lower cost per task than Qwen3.8-Max; available now via the QwenCloud API and Token Plan, with smaller open-weight Qwen4 models coming soon",
+      "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783"
+    },
+    {
+      "date": "2026-11-16",
+      "tag": "LLM",
+      "title": "Tencent launches Hy4 flash, its cheapest Hy model yet: 224B total / 12B active, natively multimodal with a 1M-token context, priced at $0.07 input / $0.281 output per 1M tokens ($0.003 cached), aimed at everyday work like deep search, documents, simple frontend demos and computer use; 50% off on Tencent Cloud TokenHub through Nov 30, with open weights planned",
+      "url": "https://hy.tencent.ai/research/hy4-flash"
+    },
+    {
+      "date": "2026-11-13",
+      "tag": "Coding agent",
+      "title": "Google Antigravity adds Dynamic Workflows: type /run-workflow and the agent writes a short Python script that runs many agents in parallel or staged phases, shows it for approval, runs it in the background and can save it to rerun later; on Google AI Pro and Ultra in the Antigravity App and CLI",
+      "url": "https://antigravity.google/docs/dynamic-workflows/"
+    },
+    {
+      "date": "2026-11-13",
+      "tag": "Coding agent",
+      "title": "Anthropic upgrades Projects in Claude Code: the coordinating Claude now proactively answers questions and reports on your parallel threads, plus /btw and /fork in projects, thread reminders and read-only thread sharing; public beta on Pro and Max (waitlist), on web, desktop and mobile",
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+    },
     {
       "date": "2026-11-12",
       "tag": "LLM",

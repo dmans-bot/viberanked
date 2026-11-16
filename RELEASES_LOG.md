@@ -429,3 +429,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes spotted among listed tools.
+
+## 2026-11-16 (daily release scan, covering Nov 13–16)
+
+### Releases feed
+- **Added:** Qwen4-Max (2026-11-16) — 2.4T MoE / 71B active, native vision, 1M context, #6 Code Arena; QwenCloud API + Token Plan; smaller open-weight Qwen4 models coming. Official: [Alibaba Cloud blog](https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783).
+- **Added:** Tencent Hy4 flash (2026-11-16) — 224B / 12B active, multimodal, 1M context; $0.07/$0.281 per MTok ($0.003 cached); 50% off TokenHub through Nov 30; open weights planned. Official: [Tencent Hy](https://hy.tencent.ai/research/hy4-flash), [@TencentHunyuan](https://x.com/TencentHunyuan/status/2122217770314301469).
+- **Added:** Antigravity Dynamic Workflows (2026-11-13, app v2.32.0) — /run-workflow writes and runs a Python script orchestrating parallel/staged agents; AI Pro & Ultra, App + CLI. Official: [Antigravity docs](https://antigravity.google/docs/dynamic-workflows/).
+- **Added:** Claude Code Projects update (2026-11-13) — proactive coordinator, /btw & /fork, thread reminders, read-only sharing; public beta Pro/Max. Official: [@ClaudeDevs](https://x.com/ClaudeDevs/status/2121375309287301360).
+
+### Ranking slots
+- No new ranking tools; video category still full.
+
+### Listing fixes
+- None needed (Lovable, Bolt, Replit, Cursor, Suno pricing notes still match).
+
+### Scanned but not added
+- Claude Code desktop custom themes via mods (cosmetic), Claude Code 2.1.323 experimental Code Mode (Nov 12, opt-in), ChatGPT Wallet for dots (Pro US; shopping, not builder tooling), OpenAI science blog, OpenAI Business Hub/Agents beta (Nov 10), Timon open-source agent workstation (small), GitHub Agentic Workflows GA (Oct 28; out of window).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes spotted among listed tools.
