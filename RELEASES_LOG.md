@@ -449,3 +449,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes spotted among listed tools.
+
+## 2026-11-17 (daily release scan, covering Nov 16–17)
+
+### Releases feed
+- **Added:** Claude Code desktop iPhone Duo simulator support (2026-11-16, public beta) — Claude folds/unfolds the device to test layouts; can install Apple's App Resizability skill; macOS + Xcode 27.1+. Official: [@ClaudeDevs](https://x.com/ClaudeDevs/status/2122439098740674839).
+- **Added:** ngrok MCP server GA (2026-11-16) — all plans incl. free; endpoints, Traffic Inspector, Traffic Policy validator, docs search. Official: [ngrok blog](https://ngrok.com/blog/mcp).
+- **Added:** Replit × Microsoft Fabric GA (2026-11-16) — build with Replit Agent on governed Fabric data, deploy into your Fabric tenant. Official: [@Replit](https://x.com/Replit/status/2122396691068543058), [replit.com/partners/microsoft](https://replit.com/partners/microsoft).
+- **Added:** Seedance 2.5 Flash on Vercel AI Gateway (2026-11-16) — 4–30s clips with audio, up to 720p/24fps, edit/extend. Official: [Vercel changelog](https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway).
+
+### Ranking slots
+- No new ranking tools; video category still full.
+
+### Listing fixes
+- None needed.
+
+### Scanned but not added
+- Qwen4-Max enterprise announcement (Nov 17; already listed Nov 16), Tencent Hy4 flash PR (already listed), OVH Olala mini 7A1B (announced; official launch Nov 19), KiteFishAI NanoI1 (niche), Codex app for macOS (third-party article dated Nov 16, no new official announcement found), Tencent LoopForge open source (not verified from official page), JetBrains TeamCity AI Agents plugin (experimental), Microsoft TokenEconomizer (research), LongCat-Video-Avatar 1.6 / Vimoo 1.0 (open video models, niche), Claude HTML-in-Canvas (opt-in, Chrome/Edge only), OpenAI for Chile / ChatGPT for Healthcare (not builder tooling), Recursive Flint (Oct 21 launch).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes spotted among listed tools.

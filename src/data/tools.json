@@ -750,6 +750,30 @@
   "releases": [
     {
       "date": "2026-11-16",
+      "tag": "Coding agent",
+      "title": "Claude Code on desktop adds iPhone Duo support in the iOS simulator (public beta): run your app on Duo next to the conversation while Claude folds and unfolds the device to test each layout, and it can install Apple's App Resizability skill to find and fix layout issues; macOS with Xcode 27.1 or later",
+      "url": "https://x.com/ClaudeDevs/status/2122439098740674839"
+    },
+    {
+      "date": "2026-11-16",
+      "tag": "Dev tools",
+      "title": "ngrok launches its MCP server, generally available on every plan including free: coding agents can list endpoints and domains, query Traffic Inspector traffic, write and validate Traffic Policy rules, and search current ngrok docs",
+      "url": "https://ngrok.com/blog/mcp"
+    },
+    {
+      "date": "2026-11-16",
+      "tag": "App builder",
+      "title": "Replit's Microsoft Fabric integration is generally available: describe an app, build it with Replit Agent on governed Fabric data, and deploy directly into your organization's Fabric tenant",
+      "url": "https://x.com/Replit/status/2122396691068543058"
+    },
+    {
+      "date": "2026-11-16",
+      "tag": "Video",
+      "title": "ByteDance's Seedance 2.5 Flash, a faster, lower-cost Seedance 2.5, lands on Vercel AI Gateway: text, image, video and audio references to 4-30 second clips with synchronized audio at up to 720p/24fps, plus video edit and extend",
+      "url": "https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway"
+    },
+    {
+      "date": "2026-11-16",
       "tag": "LLM",
       "title": "Alibaba releases Qwen4-Max, its most capable Qwen model: a 2.4T-parameter MoE (71B active) with native vision and a 1M-token context, ranked 6th on Code Arena, with Alibaba reporting ~60% lower cost per task than Qwen3.8-Max; available now via the QwenCloud API and Token Plan, with smaller open-weight Qwen4 models coming soon",
       "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783"
