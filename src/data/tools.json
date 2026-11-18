@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-18",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,84 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-18",
+      "tag": "Image",
+      "title": "Kling Image 4.0 launches: unified understanding-and-generation model with enhanced realism and native 8K output, text rendering up to 2,000 characters per image, and consistent sets of up to 10 images (plus long-form product/web layouts) from one prompt; live in Kling Creative Studio for all users and via API",
+      "url": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise"
+    },
+    {
+      "date": "2026-11-18",
+      "tag": "Open model",
+      "title": "Tencent open-sources Hy4 flash (plus Hy4 flash-FP8 and Hy4 flash-Base) on Hugging Face, ModelScope and GitCode: 224B MoE with 12B active, 1M context, natively multimodal, under the Tencent Hy License, with vLLM/SGLang images and GGUFs",
+      "url": "https://x.com/TencentHunyuan/status/2122912575302119554"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "LLM",
+      "title": "OpenAI releases GPT-6.2 Astra (frontier model; cleaner code and better-looking frontends, 3D and games) and GPT-6.2 Sol (efficient everyday model) in ChatGPT Work, Codex and the API; Astra $8/$40 per MTok ($0.40 cached), Sol $2/$10 ($0.10 cached), Ultrafast for both in the API",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Coding agent",
+      "title": "Microsoft's MAI Code 2 and MAI Code 2 Flash land in GitHub Copilot: Code 2 for deep debugging, multi-file and repo-wide work (Pro, Pro+, Max, Business, Enterprise), Code 2 Flash for fast routine edits (all plans incl. Free), across VS Code, Copilot CLI, cloud agent, JetBrains, Xcode and more",
+      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Coding agent",
+      "title": "Cognition launches Devin Bots: persistent agents with their own memory and tools that own an ongoing goal, lead multiple Devins in parallel, evaluate results and bring you only the decisions that need you, via Slack, iMessage or the Devin app",
+      "url": "https://devin.ai/blog/introducing-devin-bots"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "App builder",
+      "title": "Replit launches Missions: define an outcome, success criteria, a spending cap and which actions need approval, and a swarm of agents plans, builds, tests and iterates toward it, checked by an independent AI judge; Replit also open-sourced DataCat, the monitoring platform Missions built in 2 days on a $3,000 budget",
+      "url": "https://replit.com/blog/introducing-replit-missions"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "App builder",
+      "title": "Google AI Studio Build now makes full-stack Android apps: auto-provisioned Cloud Firestore + Google Sign-In, Gemini calls protected by Firebase AI Logic and App Check, publishing to your personal Google Play library, and a faster HD emulator with audio and one-click screenshot-to-agent",
+      "url": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Agents",
+      "title": "Vercel's eve 1.0 is generally available: open-source framework for production agents with an editable harness, durable execution via Workflow SDK, approvals, multiplayer sessions and native Slack, Teams, Discord, GitHub, Linear and iMessage channels; deploy to Vercel or start with npx eve@latest init",
+      "url": "https://vercel.com/blog/eve-is-now-generally-available"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Dev tools",
+      "title": "Claude Platform adds linked billing (beta): your app's users link their own Claude organization and pay for their API usage directly with their own spend limits, no API key sharing; choose who pays per request with billing_policy",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Image",
+      "title": "Microsoft AI ships MAI Image 2.7 (#1 on Artificial Analysis image editing) and MAI Image 2.7 Flash (~$10 per 1,000 images) in Microsoft Foundry, plus MAI Realtime 1, its first speech-to-speech model from $0.01 per audio minute (try in MAI Labs)",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Coding agent",
+      "title": "GitHub Copilot app adds browser use in public preview (Copilot tests and debugs your web app in your signed-in Chrome or Edge via the new extension; also in Copilot CLI, VS Code and JetBrains), Azure DevOps repos in preview, and GA GitHub Enterprise Server support",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "Video",
+      "title": "Suno launches Visuals on web, iOS and Android: turn songs into lyric videos, album art and clips up to 15 seconds that follow the song's structure and lip-sync, then extend, edit and re-prompt; Visual credits sold separately from song credits",
+      "url": "https://suno.com/blog/introducing-visuals"
+    },
+    {
+      "date": "2026-11-16",
+      "tag": "App builder",
+      "title": "Lovable adds drafts: copy your whole app, design to database, into parallel drafts with their own chat, preview and example data, compare them side by side, and nothing goes live until you accept a draft and publish",
+      "url": "https://lovable.dev/blog/introducing-drafts"
+    },
     {
       "date": "2026-11-16",
       "tag": "Coding agent",

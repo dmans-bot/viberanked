@@ -469,3 +469,32 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes spotted among listed tools.
+
+## 2026-11-18 (daily release scan, covering Nov 17–18)
+
+### Releases feed
+- **Added:** Kling Image 4.0 (2026-11-18) — native 8K, up to 2,000 characters of text per image, sets of up to 10 consistent images per prompt; Kling Creative Studio for all users + API. Official: [Kling blog](https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise).
+- **Added:** Tencent Hy4 flash open weights (2026-11-18 UTC; Nov 17 ~9:39 PM Arizona) — Hy4 flash, -FP8 and -Base on Hugging Face/ModelScope/GitCode, Tencent Hy License. Official: [@TencentHunyuan](https://x.com/TencentHunyuan/status/2122912575302119554), [Hugging Face](https://huggingface.co/tencent/Hy4-flash-base).
+- **Added:** GPT-6.2 Astra and Sol (2026-11-17) — ChatGPT Work, Codex and API; Astra $8/$40 per MTok ($0.40 cached), Sol $2/$10 ($0.10 cached). Official: [OpenAI](https://openai.com/index/introducing-gpt-6-2-astra-sol/), [@OpenAI](https://x.com/OpenAI/status/2122750124543926515).
+- **Added:** MAI Code 2 / MAI Code 2 Flash in GitHub Copilot (2026-11-17) — Code 2 on paid plans, Flash on all plans incl. Free. Official: [GitHub changelog](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/), [Microsoft AI](https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/).
+- **Added:** Devin Bots (2026-11-17) — persistent goal-owning agents that lead teams of Devins. Official: [Devin blog](https://devin.ai/blog/introducing-devin-bots).
+- **Added:** Replit Missions (2026-11-17) — budget-capped agent swarms with approval rules and an AI judge; DataCat open-sourced. Official: [Replit blog](https://replit.com/blog/introducing-replit-missions).
+- **Added:** Google AI Studio full-stack Android apps (2026-11-17) — Firestore + Google Sign-In, Firebase AI Logic/App Check, personal Google Play publishing, HD emulator with audio. Official: [Google Developers Blog](https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/).
+- **Added:** Vercel eve 1.0 GA (2026-11-17) — open-source production agent framework. Official: [Vercel blog](https://vercel.com/blog/eve-is-now-generally-available).
+- **Added:** Claude Platform linked billing beta (2026-11-17) — app users pay for Claude API usage via their own org, no key sharing. Official: [Claude](https://claude.com/resources/articles/linked-billing-on-claude-platform), [release notes](https://platform.claude.com/docs/en/release-notes/overview).
+- **Added:** MAI Image 2.7 / 2.7 Flash + MAI Realtime 1 (2026-11-17) — Foundry; Flash ~$10 per 1,000 images; Realtime from $0.01/audio min. Official: [Microsoft AI](https://microsoft.ai/news/microsoft-ignite-2026/).
+- **Added:** GitHub Copilot app Ignite releases (2026-11-17) — browser use (public preview), Azure DevOps (preview), GHES GA. Official: [GitHub changelog](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/).
+- **Added:** Suno Visuals (2026-11-17) — song-synced clips up to 15s, lyric videos, album art; separate Visual credits. Official: [Suno blog](https://suno.com/blog/introducing-visuals).
+- **Added:** Lovable drafts (2026-11-16; missed in the Nov 17 scan) — full-app parallel drafts incl. database, nothing live until accepted + published. Official: [Lovable blog](https://lovable.dev/blog/introducing-drafts).
+
+### Ranking slots
+- No new ranking tools; video category still full (6 tools). Devin Bots is a Cognition/Devin product (Devin Desktop already listed); MAI models ship inside GitHub Copilot (listed).
+
+### Listing fixes
+- None needed. Vercel changed Standard build billing for new Pro/Enterprise teams to usage-based ($0.014/build minute, Nov 17), but listing note "Free Hobby plan; Pro $20/mo" stays accurate. Kling Black Friday discounts are temporary, so the listing wasn't changed.
+
+### Scanned but not added
+- SenseNova Loop-9B open weights (Nov 17; niche), Codex CLI 0.170.0 (Nov 18; incremental, realtime voice in TUI), Claude Code Code Mode @ClaudeDevs post (Nov 17; still experimental opt-in, noted Nov 16), Google AI Studio custom domains (Nov 17 X post only, no details page checked), Replit Desktop local-folder Agent (expansion of June app; X post), Netlify Agent Runner connectors, Cloudflare cf CLI 1.0 RC, Vercel Blob TTLs / Speed Insights soft navs, Seedance 2.5 4K API (no dated official source; reported by TechNode), Gemini Omni 1.2 Flash GA (Nov 5; out of window), HeyGen Avatar 6, ElevenLabs Scribe v3 Live Medical, Antigravity robotics plugin, Gemini Tasks free expansion, Claude Meetings/Whiteboard/Sheets (not builder tooling), ChatGPT for Sales, Astra for Law, MAI Licensed Weights / Decision 1.1, Claude Desktop Latest release channel, OpenAI API usage dashboard update, Mistral teaser (no launch yet), OVH Olala mini 7A1B (official launch Nov 19, not yet out).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes among listed tools. (Industry: Sourcegraph Cody sunsets Jan 31, 2027; Amazon Q Developer in console renamed AWS assistant; neither listed.)
