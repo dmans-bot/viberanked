@@ -256,3 +256,11 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - POST /api/subscribe with invalid email: 400 (as expected)
 - Latest Vercel production deploy (from ca139d9 release scan): Ready (GitHub deployment status success)
 - Local main in sync with origin/main; no fixes needed.
+
+## 2026-11-19 15:22 UTC — All healthy
+- Home, /robots.txt, /llms.txt, /sitemap-index.xml: 200
+- All 127 URLs in sitemap-0.xml: 200
+- 220 outbound URLs: 203× 200, 16× 403 (bot-blocking, including the new Perplexity Orchestrator post); official Tencent Hy4 announcement https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/ returns 567 from TencentEdgeOne (www.tencent.com, including the homepage, is blocked from this checker; page is live in public sources, treated like a 403 bot-block). Official Hy4 flash page https://hy.tencent.ai/research/hy4-flash returned 200 today. Meta Muse Glimmer 400 with Chrome UA (known UA quirk, 200 with default UA). ElevenLabs affiliate link ...ht68ybbyb6hj returns 200 on GET.
+- POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (from b55f091 release scan): Ready (GitHub deployment status success)
+- Local main in sync with origin/main; no fixes needed.
