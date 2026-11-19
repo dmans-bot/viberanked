@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -749,6 +749,24 @@
   ],
   "releases": [
     {
+      "date": "2026-11-19",
+      "tag": "Dev tools",
+      "title": "Eclipse Foundation releases Eclipse Enclave 1.0: open-source (MIT), vendor-neutral sandbox that runs Claude Code, Codex, OpenCode and other coding agents autonomously in isolated, policy-controlled containers, with parallel sessions, credential protection and resumable sessions",
+      "url": "https://newsroom.eclipse.org/news/announcements/eclipse-foundation-launches-eclipse-enclave-10-bringing-security-and-choice"
+    },
+    {
+      "date": "2026-11-18",
+      "tag": "LLM",
+      "title": "Google launches Gemini 4 Neon: fast frontier-level model for complex software engineering, knowledge work and science; $3/$15 per MTok ($0.15 cached), 1M context; rolling out in the Gemini API (AI Studio), Android Studio, Antigravity (paid Pro/Ultra) and the Gemini app, and available in Cursor the same day",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    },
+    {
+      "date": "2026-11-18",
+      "tag": "Coding agent",
+      "title": "Mistral Vibe ships as a desktop app for macOS and Windows: run coding agents locally or in cloud sessions, hand off several tasks in parallel, review diffs and track pull requests in one window",
+      "url": "https://x.com/MistralAI/status/2123073168659141119"
+    },
+    {
       "date": "2026-11-18",
       "tag": "Image",
       "title": "Kling Image 4.0 launches: unified understanding-and-generation model with enhanced realism and native 8K output, text rendering up to 2,000 characters per image, and consistent sets of up to 10 images (plus long-form product/web layouts) from one prompt; live in Kling Creative Studio for all users and via API",
@@ -759,6 +777,12 @@
       "tag": "Open model",
       "title": "Tencent open-sources Hy4 flash (plus Hy4 flash-FP8 and Hy4 flash-Base) on Hugging Face, ModelScope and GitCode: 224B MoE with 12B active, 1M context, natively multimodal, under the Tencent Hy License, with vLLM/SGLang images and GGUFs",
       "url": "https://x.com/TencentHunyuan/status/2122912575302119554"
+    },
+    {
+      "date": "2026-11-17",
+      "tag": "LLM",
+      "title": "Perplexity launches the Orchestrator API: one key and one bill for 45+ frontier and open-weight models (OpenAI, Anthropic, Google, xAI, GLM, Kimi, DeepSeek) with automatic provider failover, OpenAI- and Anthropic-compatible formats, and no added platform fee; Routes and Auto effort in preview",
+      "url": "https://www.perplexity.ai/hub/blog/introducing-orchestrator"
     },
     {
       "date": "2026-11-17",

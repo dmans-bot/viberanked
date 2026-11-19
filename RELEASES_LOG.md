@@ -498,3 +498,23 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes among listed tools. (Industry: Sourcegraph Cody sunsets Jan 31, 2027; Amazon Q Developer in console renamed AWS assistant; neither listed.)
+
+## 2026-11-19 (daily release scan, covering Nov 18–19)
+
+### Releases feed
+- **Added:** Eclipse Enclave 1.0 (2026-11-19) — open-source (MIT) sandbox/runtime for running Claude Code, Codex, OpenCode etc. in isolated, policy-controlled containers. Official: [Eclipse newsroom](https://newsroom.eclipse.org/news/announcements/eclipse-foundation-launches-eclipse-enclave-10-bringing-security-and-choice).
+- **Added:** Gemini 4 Neon (2026-11-18) — $3/$15 per MTok ($0.15 cached), 1M context; Gemini API/AI Studio, Android Studio, Antigravity (paid Pro/Ultra), Gemini app; in Cursor same day. Official: [Google blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/), [@cursor_ai](https://x.com/cursor_ai/status/2123198346802450926).
+- **Added:** Mistral Vibe Desktop (2026-11-18; first mentioned Nov 17) — macOS/Windows app, local or cloud agents, parallel tasks, diffs/PR tracking. Official: [@MistralAI](https://x.com/MistralAI/status/2123073168659141119).
+- **Added:** Perplexity Orchestrator API (2026-11-17; missed Nov 18) — one key/bill for 45+ models, provider failover, OpenAI/Anthropic formats. Official: [Perplexity blog](https://www.perplexity.ai/hub/blog/introducing-orchestrator).
+
+### Ranking slots
+- No new ranking tools; video category still full. Gemini 4 Neon ships inside already-listed Gemini API / AI Studio / Antigravity; Vibe Desktop is under listed Mistral AI.
+
+### Listing fixes
+- None needed. Luma moved Omni Flash API to per-second billing (reported by third party), but listing note (Plus $30/mo) is unaffected.
+
+### Scanned but not added
+- Genie 4 in Project Genie (Ultra; world model, not builder tooling), OpenAI background-mode discount up to 40% for GPT-6.2 (X post, details truncated), Claude Code 2.1.325–2.1.327 (incremental), Cursor v2026.11.17 (incremental), RadixArk DaisyRose-27B / Unisound U2-Flash-1118 / Phancy Phai-A1 & M1 (niche), Apple FastFrames (research-only license), Revenium Sidekick, IDrive AI Agents Backup, Replit & Co. creator program, Perplexity Teammates on mobile, Anthropic IPO priced at $83 (not a product).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes among listed tools.
