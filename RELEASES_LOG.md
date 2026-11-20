@@ -518,3 +518,27 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes among listed tools.
+
+## 2026-11-20 (daily release scan, covering Nov 19–20)
+
+### Releases feed
+- **Added:** TestSprite 4.0 (2026-11-20) — independent testing agent that re-tests every change against what the app should do, in real browsers; MCP server + open-source CLI, free tier. Official: [testsprite.com](https://www.testsprite.com/) (launch press release via ACCESS Newswire, Nov 20).
+- **Added:** Ideogram 4.6 (2026-11-19) — precise multi-step editing + generation up to 4K, Generate and Precise Edit API endpoints; #1 on Rapidata multi-step edit leaderboard. Official: [Ideogram](https://ideogram.ai/models/4.6/).
+- **Added:** Genie 4 in the Gemini API / AI Studio (2026-11-19) — interactive 720p/24fps worlds with native audio for developers. Official: [Google blog](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/), [@GoogleAIStudio](https://x.com/GoogleAIStudio/status/2123479057996116143).
+- **Added:** Kling 4.0 native 4K + 10-bit HDR (2026-11-19) — app and text/image/omni-video APIs; HDR adds a per-second API fee. Official: [Kling API updates](https://kling.ai/document-api/updates/api), [@Kling_ai](https://x.com/Kling_ai/status/2123431119903461709).
+- **Added:** GPT-Live-1.1 in the API (2026-11-19) — better accents/pronunciation/transcription, standby mode to cut idle cost. Official: [OpenAI API changelog](https://developers.openai.com/api/docs/changelog), [model page](https://developers.openai.com/api/docs/models/gpt-live-1.1), [@OpenAIDevs](https://x.com/OpenAIDevs/status/2123506733524136446).
+- **Added:** Gemini computer use on Mac (2026-11-19) — Gemini app operates local apps/files/web in an isolated window; U.S. English, Plus/Pro/Ultra, Apple Silicon macOS 15+. Official: [Google blog](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/).
+- **Added:** Aion Instruct GA + Prompt API origin trial in Microsoft Edge (2026-11-19) — 2.3B open-weights on-device model replaces Phi-4-mini; experimental Decisions API preview. Official: [Microsoft Edge blog](https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/) (403s to curl; bot-block).
+- **Added:** Kong Volcano (2026-11-19) — self-healing agent cloud for building/hosting agents and apps. Official: [Volcano blog](https://volcano.dev/blog/introducing-volcano-agent-cloud).
+
+### Ranking slots
+- No new ranking tools; video category still full (6 tools). Genie 4 ships inside listed Gemini API / AI Studio; Ideogram 4.6 is under listed Ideogram; GPT-Live is OpenAI's voice API (listed OpenAI Realtime API).
+
+### Listing fixes
+- Kling AI description updated: "now with native 4K and 10-bit HDR output" (verified from Kling API updates, Nov 19). Pricing notes unchanged.
+
+### Scanned but not added
+- Perplexity Context API (Nov 17–18; official blog blocked to fetch, launch date not pinned down), Cloudflare Clairic / Clairic-flash open weights (Nov 18; niche extraction models), NVIDIA Nemotron for Science / Nemotron 3.5 Super VL (Nov 20; science-focused), ServerOS self-hosted coding agents (niche), Google Stitch Loop (experimental, waitlist only), Grok 4.8 (limited beta; GA "1–2 weeks out" per reports), ChatGPT Live Dictation / ChatGPT for Accounting (not builder tooling), MyClaw 3.0, Sage S2.1 Flash, Snowflake Decision in AI_COMPLETE (preview, niche), Bolt holiday templates, OpenAI Responses API reasoning-prefix change (covered by GPT-6.2 entry), Phancy Phai-M1 (weights not yet out), Apple FastFrames (research).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes among listed tools.

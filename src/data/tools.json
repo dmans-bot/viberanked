@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -321,7 +321,7 @@
           "slug": "kling-ai",
           "name": "Kling AI",
           "url": "https://kling.ai",
-          "description": "Kuaishou's text/image-to-video generator; Kling 4.0 makes up to 30-second clips in one pass.",
+          "description": "Kuaishou's text/image-to-video generator; Kling 4.0 makes up to 30-second clips in one pass, now with native 4K and 10-bit HDR output.",
           "pricing": "freemium",
           "bestFor": "Realistic motion and image-to-video workflows",
           "pricingNote": "Free basic plan + paid plans",
@@ -748,6 +748,54 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-20",
+      "tag": "Dev tools",
+      "title": "TestSprite 4.0 launches an independent testing agent: describe what your app should do and it re-tests every change across frontend and backend in real browsers, self-updating steps as the UI changes; works with Claude Code, Codex and Cursor via its MCP server and open-source CLI, with a free tier",
+      "url": "https://www.testsprite.com/"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Image",
+      "title": "Ideogram 4.6 released: image generation and precise multi-step editing model with output up to 4K, up to five reference images and optional masks; #1 on Rapidata's multi-step image edit leaderboard; in the Ideogram app and via new Generate and Precise Edit API endpoints",
+      "url": "https://ideogram.ai/models/4.6/"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Video",
+      "title": "Google opens Genie 4 to developers in the Gemini API (Interactions API) and Google AI Studio: generate continuous, explorable 720p/24fps worlds with synchronized native audio from a prompt or reference image, steered live with keyboard controls and text prompts",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Video",
+      "title": "Kling 4.0 adds native 4K output and 10-bit HDR (at 1080p and 4K) in Kling and in the text-to-video, image-to-video and omni-video APIs; HDR carries an extra per-second API fee",
+      "url": "https://kling.ai/document-api/updates/api"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Voice",
+      "title": "OpenAI ships GPT-Live-1.1 in the API: better pronunciation, more consistent accents and sharper transcription in multilingual full-duplex voice sessions, plus a new standby option that pauses inference during silence to cut idle costs",
+      "url": "https://developers.openai.com/api/docs/models/gpt-live-1.1"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Agents",
+      "title": "Gemini app for Mac gets computer use: Gemini clicks, types and fills forms across local files, desktop apps and the web in an isolated background window, with per-app permissions and action approvals; U.S. English, Google AI Plus/Pro/Ultra, Apple Silicon on macOS 15+",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Dev tools",
+      "title": "Microsoft Edge makes Aion Instruct (2.3B, open weights on Hugging Face) its built-in on-device model, replacing Phi-4-mini, and opens a Prompt API origin trial so sites can call on-device AI in production, plus an experimental Decisions API preview",
+      "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Deployment",
+      "title": "Kong launches Volcano, a self-healing agent cloud that hosts agents, apps and data in one place, usable from Cursor, Codex or Claude Code or an online builder, and continuously finds and fixes bugs in what it runs",
+      "url": "https://volcano.dev/blog/introducing-volcano-agent-cloud"
+    },
     {
       "date": "2026-11-19",
       "tag": "Dev tools",
