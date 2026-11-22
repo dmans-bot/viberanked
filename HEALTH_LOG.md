@@ -280,3 +280,11 @@ Daily automated health check of viberanked.com. Newest entries at the bottom.
 - POST /api/subscribe with invalid email: 400 (as expected)
 - Latest Vercel production deploy (from 242df86 health check): Ready (GitHub deployment status success)
 - Local main in sync with origin/main; no fixes needed.
+
+## 2026-11-22 15:23 UTC — All healthy
+- Home, /robots.txt, /llms.txt, /sitemap-index.xml: 200
+- All 127 URLs in sitemap-0.xml: 200
+- 228 outbound URLs: 218× 200, 8× 403 (bot-blocking); https://hy.tencent.ai/research/hy4-flash and https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/ return 567 from TencentEdgeOne (blocked from this checker; pages are live in public sources, treated like a 403 bot-block). ElevenLabs affiliate link ...ht68ybbyb6hj returns 200 on GET.
+- POST /api/subscribe with invalid email: 400 (as expected)
+- Latest Vercel production deploy (from 0b31d89): Ready (GitHub deployment status success)
+- Local main in sync with origin/main; no fixes needed.
