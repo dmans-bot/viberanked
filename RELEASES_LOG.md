@@ -542,3 +542,26 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes among listed tools.
+
+## 2026-11-23 (daily release scan, covering Nov 20–23)
+
+### Releases feed
+- **Added:** GLM-5.4 (2026-11-23) — Z.ai's first Loop Transformer flagship (750B scale, 28 GLM-5 layers looped twice), "Generalized Coding", new vision; GLM Coding Plan, ZCode, Z.ai Chat; API after safety evaluation, open weights planned. Official: [Z.ai blog](https://z.ai/blog/glm-5.4), [@Zai_org](https://x.com/Zai_org/status/2124805514722771349).
+- **Added:** Vercel Audited ZDR on AI Gateway (2026-11-23) — independently audited zero-data-retention provider tier + team toggle; partners Baseten, Modal, Wafer; reports by Dec 8. Official: [Vercel blog](https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway).
+- **Added:** OpenRouter data-processing incidents (2026-11-22) — 3 providers off-boarded, 125 endpoints removed from ZDR eligibility; Together, Novita, Phala, Atlas Cloud posted notices. Official: [OpenRouter blog](https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/).
+- **Added:** Inkling 2 Mini (2026-11-20) — Thinking Machines open-weights looped MoE, 26.4B/3.4B active, ~20GB, laptop-runnable, DeepSWE v1.1 48.2%. Official: [Thinking Machines](https://thinkingmachines.ai/news/inkling-2-mini/).
+- **Added:** Hy4 open weights (2026-11-20) — Tencent flagship 770B/49B active, 1M context, FP8 + GGUF, Tencent Hy License. Official: [Hugging Face](https://huggingface.co/tencent/Hy4), [@TencentHunyuan](https://x.com/TencentHunyuan/status/2123710690968191111).
+- **Added:** Claude computer use beta on Team/Enterprise (2026-11-20). Official: [Claude release notes](https://support.claude.com/en/articles/12138966-release-notes).
+- **Added:** Gemini API Tool Retrieval preview (2026-11-19; missed Nov 20) — deferred tool/MCP schema loading in the Interactions API, no extra charge. Official: [Google blog](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/), [Gemini API changelog](https://aistudio.google.com/docs/changelog).
+
+### Ranking slots
+- No new ranking tools; video category still full (6 tools), and no new video product warranted a slot. GLM-5.4 / Inkling 2 Mini / Hy4 are models, not new builder products.
+
+### Listing fixes
+- None needed. OpenRouter and Together AI listings unchanged (incident is a data-policy issue, not a shutdown/pricing change). ElevenLabs Scribe STT repriced Nov 17 ($0.20/hr batch, $0.22/hr realtime, third-party report) — listing note (Free 10k credits, Starter $6/mo) unaffected.
+
+### Scanned but not added
+- Grok 4.8 (still not GA; xAI release notes show 4.7 latest), Claude Code v2.1.329–330 (easel charts; incremental), Codex CLI 0.171.0 (GPT-6.2 already covered), ChatGPT Space for Plus (not builder tooling), Claude Mobile redesign, Google Pics on Nano Banana 2.1 / Gemini Notebook sites, Google semantic governance policies (preview), RadixArk DaisyRose-27B (niche), Omi CLI / T3 Code / Open Computer (small launches), Runway Praxis-1 (robotics), pi-H3 adapters, YandexGPT 4, Kling Image 4.0 marketing posts (already covered).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes among listed tools.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,48 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-23",
+      "tag": "LLM",
+      "title": "Z.ai releases GLM-5.4, its first flagship Loop Transformer (28 layers of the GLM-5 base looped twice at 750B scale), aimed at \"Generalized Coding\" from software to video, games, 3D shaders and CAD, with new vision capabilities; live now in the GLM Coding Plan, ZCode and Z.ai Chat, with API access after safety evaluation and open weights planned",
+      "url": "https://z.ai/blog/glm-5.4"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Dev infra",
+      "title": "Vercel introduces Audited ZDR on AI Gateway: a provider tier (and team-wide toggle) that routes and fails over only across inference providers whose zero-data-retention claims an independent security firm has tested against code, infrastructure and live traffic; launch partners Baseten, Modal and Wafer, reports expected by December 8",
+      "url": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway"
+    },
+    {
+      "date": "2026-11-22",
+      "tag": "Dev infra",
+      "title": "OpenRouter off-boards three inference providers and removes 125 endpoints from Zero Data Retention eligibility after security researchers (Dragos) found providers not upholding data policies; affected customers notified, and Together, Novita, Phala and Atlas Cloud have posted incident notices",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    },
+    {
+      "date": "2026-11-20",
+      "tag": "Open model",
+      "title": "Thinking Machines releases Inkling 2 Mini with open weights: a looped MoE (26.4B total, 3.4B active) that runs on a laptop in ~20GB, leading open models under 100B on DeepSWE v1.1 (48.2%); on Hugging Face and Tinker, with SGLang, vLLM, Ollama and Unsloth support",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+    },
+    {
+      "date": "2026-11-20",
+      "tag": "Open model",
+      "title": "Tencent releases open weights for its flagship Hy4 (770B total / 49B active, natively multimodal, 1M context) on Hugging Face and GitHub, with FP8 and GGUF builds, vLLM/SGLang images and a System Card, under the Tencent Hy License",
+      "url": "https://huggingface.co/tencent/Hy4"
+    },
+    {
+      "date": "2026-11-20",
+      "tag": "Agents",
+      "title": "Claude computer use arrives in beta on Team and Enterprise plans: Claude sees the user's screen and works in the desktop apps they allow, from Claude Desktop, the web and Claude Mobile; rolling out to organizations gradually",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Dev tools",
+      "title": "Gemini API adds Tool Retrieval (preview, Interactions API): mark tools or whole remote MCP servers with defer_loading and Gemini loads parameter schemas on demand inside the same request, cutting input tokens for big tool libraries; no extra charge, Gemini 3.6+ and all Gemini 4 models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+    },
     {
       "date": "2026-11-20",
       "tag": "Dev tools",
