@@ -565,3 +565,28 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes among listed tools.
+
+## 2026-11-24 (daily release scan, covering Nov 23–24)
+
+### Releases feed
+- **Added:** SenseNova U1.6 (2026-11-24) — SenseTime open-weights unified image model; 8B open model gets native self-correction of text errors (UltraTextBench 86.04 → 92.28); ComfyUI, SenseNova Studio. Official: [SenseTime](https://www.sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152).
+- **Added:** Claude Ship (2026-11-23) — Code Review (GA) + PR Steward and Claude Approvals (beta), `/ship` in Claude Code; Team/Enterprise, GitHub repos. Official: [Claude](https://claude.com/resources/articles/introducing-claude-ship).
+- **Added:** Canva MCP GA (2026-11-23) — no waitlist, new REST APIs (design/image generation), expanded CLI, service accounts. Official: [Canva newsroom](https://www.canva.com/newsroom/news/canva-mcp-update/).
+- **Added:** Gemini API file slicing controls (2026-11-23) — request only pages/sheet ranges/media segments/layers, billed only for what's inspected; all Gemini 4 models; native Office/OpenDocument upload. Official: [Google blog](https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/).
+- **Added:** GPT-6.2 in ChatGPT's Chat tab (2026-11-23) — Plus/Pro/Business/Enterprise; Work and Codex models unchanged. Official: [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes).
+- **Added:** Phonic-1.1 (2026-11-23) — speech-to-speech; tops Artificial Analysis S2S Index, τ-Voice 2.0 87.1%. Official: [Phonic blog](https://phonic.ai/blog/phonic-1-1).
+- **Added:** qwen-audio-3.1-live (2026-11-23) — full-duplex realtime voice with task delegation + function calling; $0.000710/sec (Singapore). Official: [Alibaba Cloud docs](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-live).
+- **Added:** Ling-3.2-air (2026-11-23) — inclusionAI MIT open-weights multimodal MoE, 124B/5.5B active, SWE-bench Pro 58.28. Official: [Hugging Face](https://huggingface.co/inclusionAI/Ling-3.2-air).
+- **Added:** Shirudo (2026-11-23) — OpenAI + Cisco open-source (BSD-2) eBPF runtime for live exploit shields on running Linux. Official: [OpenAI](https://openai.com/index/introducing-shirudo).
+
+### Ranking slots
+- No new ranking tools; video category still full (6 tools). Claude Ship ships inside already-listed Claude Code; Canva isn't a tracked category; new voice/LLM items are models from listed or niche vendors.
+
+### Listing fixes
+- None needed. v0 cut per-token rates for v0 Mini/Max/Max Fast around Nov 21 (third-party report); plan prices unchanged, so the listing note (Free plan; Plus $30/user/mo) stays accurate.
+
+### Scanned but not added
+- Kyutai AURA streaming avatars (Nov 20; non-commercial licenses), OpenAI OpenWorks (program, not a product), Sarvam-105B-1711 (niche), Qoder HungerG (undisclosed developer, free trial), Wiz Codex plugin, Google Search AI Mode Drive/Wallet connections, LongCat-Video-Avatar 1.6, XPENG WorldGPT (robotics), GitHub issue statuses/boards preview, Meta Muse Code (search results surfaced Aug 2026 coverage; not new), Kimi Code (repost of old launch), Gemini 4 Argon intro rate ends Nov 30 → $4/$20 Dec 1 (pricing note for API, listing unaffected).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes among listed tools.

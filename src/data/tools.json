@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,60 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-24",
+      "tag": "Image",
+      "title": "SenseTime releases and open-sources SenseNova U1.6, a unified understanding-and-generation image model whose 8B open model gains native self-correction: it drafts an image, checks it against the prompt and fixes text errors (UltraTextBench infographic score 86.04 to 92.28 with self-correction on); open weights, and available in ComfyUI and SenseNova Studio",
+      "url": "https://www.sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Coding agent",
+      "title": "Anthropic launches Claude Ship: Code Review (GA) plus two new beta agents, PR Steward (fixes failing CI, merge conflicts and review feedback, never merges) and Claude Approvals (approves routine PRs under a policy file in your repo), and a new /ship command in Claude Code that pushes, opens, reviews and fixes your PR; Claude Team and Enterprise plans, GitHub repositories",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Dev tools",
+      "title": "Canva MCP is generally available with no waitlist: enable MCP for your app in the Canva Developer Portal and agents can create editable designs, plus new REST APIs (including design and image generation), an expanded Canva CLI and service accounts for building Canva into your own product",
+      "url": "https://www.canva.com/newsroom/news/canva-mcp-update/"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Dev tools",
+      "title": "Gemini API adds native file slicing controls: pass PDFs, Office/OpenDocument files, spreadsheets, audio and video and request only specific pages, sheet ranges, cells, time ranges, resolutions or layers (text, images, transcript, frames), billed only for what Gemini inspects; works across all Gemini 4 models in Google AI Studio and the Gemini platform",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "LLM",
+      "title": "OpenAI rolls out a version of GPT-6.2 optimized for ChatGPT's Chat tab to Plus, Pro, Business and Enterprise: better at complex requests with detailed instructions or online research; the models powering Work and Codex are unchanged",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Voice",
+      "title": "Phonic releases Phonic-1.1, its new speech-to-speech model, three weeks after Phonic-1: more natural turn-taking, stronger tool-calling intelligence and naturalness; tops the Artificial Analysis Speech to Speech Index and leads Sierra's τ-Voice 2.0 at 87.1%",
+      "url": "https://phonic.ai/blog/phonic-1-1"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Voice",
+      "title": "Alibaba Cloud Model Studio ships qwen-audio-3.1-live, a full-duplex real-time voice model (Realtime API over WebSocket) that keeps talking with the user while your app or a backend model works on the task, with function calling; $0.000710 per second in Singapore, backend model billed separately",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen-audio-3-1-live"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Open model",
+      "title": "Ant Group's inclusionAI releases Ling-3.2-air under the MIT license: a native multimodal MoE (124B total, 5.5B active) taking text, image and video input, with SWE-bench Pro up from 26.40 to 58.28 over Ling-3.0-flash-VL; FP8 weights on Hugging Face with day-0 SGLang support",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
+    },
+    {
+      "date": "2026-11-23",
+      "tag": "Dev infra",
+      "title": "OpenAI and Cisco open-source Shirudo (BSD 2-Clause), an eBPF runtime that deploys signed, operator-approved \"shields\" to block exploit paths on running Linux systems without a restart while patches roll out; in a controlled test a Codex-generated shield blocked a Java4Shell exploit against a live Elasticsearch service",
+      "url": "https://openai.com/index/introducing-shirudo"
+    },
     {
       "date": "2026-11-23",
       "tag": "LLM",
