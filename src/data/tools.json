@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,60 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-25",
+      "tag": "Open model",
+      "title": "JetBrains releases Mellum2.1 Instruct, the non-reasoning sibling of Mellum2.1 Thinking: an open 12B MoE (2.5B active) coding-agent model built for sub-agents, tool loops and chat that uses about half the tokens of the Thinking variant with near-equal SWE-bench Verified; Apache 2.0 on Hugging Face with GGUF and a multi-token-prediction head for up to 1.8x faster generation",
+      "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Coding agent",
+      "title": "Cognition releases SWE-2.1, its new coding model trained with pure reinforcement learning on Kimi K3: big gains over SWE-2 (Terminal-Bench 4.1 50.0 vs 24.2, FrontierCode 2.0 41.3 vs 24.1), plus SWE-2.1 Ultrafast at 10x the speed via Cerebras; free for Devin Pro, Max and Teams for two weeks",
+      "url": "https://cognition.com/blog/swe-2-1"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Dev tools",
+      "title": "Claude adds Skills over MCP (public beta), so MCP servers can ship skills alongside their tools, and makes MCP Tasks (long-running background work) and Elicitation (servers pause to ask the user for input) generally available in Claude and Claude Code on Pro, Max and Ultra, rolling out to Team and Enterprise; File Uploads to MCP servers coming soon",
+      "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Dev tools",
+      "title": "Google makes Workspace MCP servers (Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat, Tasks) and the official Workspace CLI generally available, with a free Standard tier and a Scaled tier for higher quotas billed from April 1, 2027; agents must use MCP instead of calling Workspace REST APIs directly, enforced from February 1, 2027",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "App builder",
+      "title": "Claude can now install an artifact it builds for you as an app on Mac or Windows, with its own window and icon (beta); Claude can also send files to and save files from connected apps (beta, rolling out)",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Video",
+      "title": "Sand.ai launches MAGI-2, a 480B-parameter (about 28B active) video model that generates up to 30 seconds of native 1080p, 25 fps video with synchronized audio (dialogue with lip-sync, foley, music), up to 20 omni-references, timeline and shot-cut control and video editing; open-source release and technical report promised",
+      "url": "https://sand.ai/blog/magi-2/"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Image",
+      "title": "Midjourney launches Niji 8, its newest anime model: its fastest and most coherent Niji yet, stronger prompt following and spatial reasoning, and a new edit feature for consistent characters across new backgrounds and poses; use --niji 8 in Discord or pick Niji 8 on the web",
+      "url": "https://nijijourney.com/blog/niji-8"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Open model",
+      "title": "PrismML releases Ternary Bonsai 2.5 27B, a 5.9 GB ternary model based on Qwen3.8 27B for on-device agents: SWE-bench Verified 75.6 (vs 60.8 for Bonsai 2), AppWorld 90.5, runs via llama.cpp on NVIDIA/Intel GPUs and MLX on Mac, iPhone and iPad; Apache 2.0 weights",
+      "url": "https://prismml.com/news/bonsai-2-5-27b"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Dev tools",
+      "title": "Vercel MCP can now manage AI Gateway: ask your agent to create virtual models (reusable model IDs with saved settings like Zero Data Retention), set team-wide routing rules and set spending budgets for teams, projects and members",
+      "url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp"
+    },
     {
       "date": "2026-11-24",
       "tag": "Image",

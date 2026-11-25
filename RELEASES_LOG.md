@@ -590,3 +590,28 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes among listed tools.
+
+## 2026-11-25 (daily release scan, covering Nov 24–25)
+
+### Releases feed
+- **Added:** Mellum2.1 Instruct (2026-11-25) — JetBrains open 12B MoE (2.5B active) non-reasoning coding-agent model for sub-agents/tool loops; ~half the tokens of Thinking, near-equal SWE-bench Verified; Apache 2.0, GGUF + MTP head. Official: [JetBrains blog](https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/).
+- **Added:** SWE-2.1 (2026-11-24) — Cognition RL-on-Kimi-K3 coding model; Terminal-Bench 4.1 50.0 (SWE-2 24.2), FrontierCode 2.0 41.3; SWE-2.1 Ultrafast 10x via Cerebras; free for Devin Pro/Max/Teams for two weeks. Official: [Cognition blog](https://cognition.com/blog/swe-2-1), [@cognition](https://x.com/cognition/status/2125305349414523061).
+- **Added:** Claude Skills over MCP (beta) + MCP Tasks/Elicitation GA (2026-11-24) — Claude and Claude Code, Pro/Max/Ultra, rolling out to Team/Enterprise; File Uploads soon. Official: [Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more).
+- **Added:** Google Workspace MCP servers + Workspace CLI GA (2026-11-24) — free Standard tier, Scaled tier billed from Apr 1, 2027; MCP required for agents from Feb 1, 2027. Official: [Workspace Updates](https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html).
+- **Added:** Claude install artifacts as apps on Mac/Windows (beta) + file transfers with connectors (beta) (2026-11-24). Official: [Claude release notes](https://support.claude.com/en/articles/12138966-release-notes).
+- **Added:** MAGI-2 (2026-11-24) — Sand.ai 480B (~28B active) video model, 30s native 1080p/25fps with synced audio, 20 omni-references, editing; open source promised. Official: [Sand.ai blog](https://sand.ai/blog/magi-2/).
+- **Added:** Niji 8 (2026-11-24) — Midjourney/Spellbrush anime model, faster/more coherent, new edit feature for consistent characters. Official: [Niji blog](https://nijijourney.com/blog/niji-8).
+- **Added:** Ternary Bonsai 2.5 27B (2026-11-24) — PrismML 5.9 GB on-device model (Qwen3.8 27B base), SWE-bench Verified 75.6 (self-reported), Apache 2.0. Official: [PrismML](https://prismml.com/news/bonsai-2-5-27b).
+- **Added:** Vercel MCP manages AI Gateway (2026-11-24) — virtual models, routing rules, budgets via agent. Official: [Vercel changelog](https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp).
+
+### Ranking slots
+- No new ranking tools; video category still full (6 tools). MAGI-2 is a new model (via Sand.ai API / Higgsfield), not enough to displace a listed video tool yet; SWE-2.1 ships inside listed Devin Desktop/Devin; Niji 8 is under listed Midjourney.
+
+### Listing fixes
+- None needed. No pricing changes found for listed tools (Devin Desktop pricing unchanged; SWE-2.1 free promo is temporary). Gemini 4 Argon API rate rises to $4/$20 on Dec 1 (already noted Nov 24; listing unaffected).
+
+### Scanned but not added
+- Meta Muse Code (Nov 25 GMT Eight article recycles the Aug 5 launch; not new), YandexGPT 4 / DeepSeek-V4 on Bailian / Gemini 4 Argon global (recycled older news in search results), OpenAI Pando (internal Git backend write-up, not a product), OpenAI GPT-6 protein-design research, Anthropic Siren sandbox-escape eval + neuron interpretability research, Sakana Namazu Small (on-prem details due December), Taan V1 music model, Tencent OmniEVIE-4B (niche retrieval), Perplexity Monitor API Agent monitors (Nov 23; minor), llama.cpp MCP image/audio fix (prerelease), Replit in Microsoft 365 Copilot (announced, no launch date), Entire + Sarvam India forge (regional), Qoder HungerG (already skipped), AutoSteer for Claude Code (small third-party project), Exein Ray (firmware security, niche), Claude monthly recap out of beta (not builder tooling).
+
+### Shutdown / rename watch
+- No shutdowns, renames or pricing changes among listed tools. (Unlisted: Microsoft App Builder agent retiring — editing stops Dec 1; Vellum Personal Assistant Platform shut down; Readdy cut plan prices Nov 24.)
