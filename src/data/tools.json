@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -299,7 +299,7 @@
           "slug": "google-veo-flow",
           "name": "Google Veo (Flow)",
           "url": "https://flow.google.com",
-          "description": "Google's Veo video models in the Flow filmmaking tool.",
+          "description": "Google's Flow filmmaking tool, powered by Gemini Omni Flash and Veo video models.",
           "pricing": "freemium",
           "bestFor": "Cinematic clips with native audio",
           "pricingNote": "Free daily credits (50/day); more with Google AI Pro $19.99/mo or Ultra",
@@ -751,8 +751,56 @@
     {
       "date": "2026-11-25",
       "tag": "Open model",
+      "title": "inclusionAI (Ant Group) open-sources Ming-Image-0.2-Design under MIT: a 6B design-focused text-to-image model with better composition, lighting and text rendering for UI drafts, landing pages, posters and e-commerce hero images; ranked #1 among open-weight models on Artificial Analysis' text-to-image leaderboard (preliminary, as of Nov 25); self-host via vLLM-Omni on one 80 GB GPU",
+      "url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Coding agent",
+      "title": "Pydantic launches Pax, the official Pydantic AI coding agent for the terminal (MIT, pip install pydantic-ai-pax), plus the Pydantic AI Harness beta ahead of 1.0: everything is a plugin (coder, sandboxes, MCP, Logfire), bring your own agent with --agent, run any model; in Pydantic's single-run SWE81 tests it cost under half of Codex on GPT-6.2 Sol",
+      "url": "https://pydantic.dev/articles/pax-harness-beta"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "App builder",
+      "title": "Lovable apps can now use ElevenLabs speech and music with no ElevenLabs account or API key: Eleven v3, Multilingual v2, Flash v2.5 and Eleven Music v2, billed as workspace credits through Lovable's AI gateway once an admin enables the connector; Automations also reach Enterprise, so they're on every plan",
+      "url": "https://docs.lovable.dev/changelog"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Agents",
+      "title": "OpenClaw 2026.11.10 adds Deep Research (cited reports from web sources and local documents, with conflicting passages side by side and evidence gaps called out), an opt-in Knowledge plugin that keeps a local Markdown memory vault, and browser handoff so you can take over a tab for logins, 2FA or sensitive forms, then hand it back",
+      "url": "https://docs.openclaw.ai/releases/2026.11.10"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Voice",
+      "title": "Amazon Transcribe Turbo enters public preview: next-gen speech-to-text with about 14% lower English word error rate in streaming, plus semantic turn-taking for voice agents (detects end of turn from words and prosody, ~615 ms response) and per-turn runtime ASR hints at no extra charge; English batch Turbo is GA in most regions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Deployment",
+      "title": "Vercel moves Standard builds for existing Pro teams to usage-based billing: the included Standard build slot goes away and Standard builds now cost $0.014 per build minute, drawn from your monthly usage credit (Pro plan price unchanged)",
+      "url": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Open model",
       "title": "JetBrains releases Mellum2.1 Instruct, the non-reasoning sibling of Mellum2.1 Thinking: an open 12B MoE (2.5B active) coding-agent model built for sub-agents, tool loops and chat that uses about half the tokens of the Thinking variant with near-equal SWE-bench Verified; Apache 2.0 on Hugging Face with GGUF and a multi-token-prediction head for up to 1.8x faster generation",
       "url": "https://blog.jetbrains.com/ai/2026/11/mellum2-1-instruct-is-out-bringing-faster-answers-for-coding-agents/"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Video",
+      "title": "MiniMax introduces the H3 Family (the models behind Hailuo): flagship H3 (up to 2K), H3-Highspeed (5-second clips in about 11 seconds, up to 30-second videos) and low-cost H3-Lite, plus H3-Image and H3-Image Highspeed (4K images in under 10 seconds), alongside partner models built on open H3 from fal, HeyGen, Pika, Suno and others, callable on the MiniMax platform",
+      "url": "https://www.minimax.cn/blog/minimax-h3-family"
+    },
+    {
+      "date": "2026-11-24",
+      "tag": "Video",
+      "title": "Google Flow now lets Google AI Plus, Pro and Ultra subscribers generate continuous 15-second clips with Omni Flash 1.2 and extend videos by 3-10 seconds (free users stay at 3-10 seconds); Veo 3.1 Fast, Veo 3.1 Quality and Omni Flash 1.1 retire from Flow on December 5, leaving Omni Flash 1.2 and Veo 3.1 Lite",
+      "url": "https://support.google.com/flow/answer/16352836?hl=en"
     },
     {
       "date": "2026-11-24",
@@ -893,16 +941,16 @@
       "url": "https://support.claude.com/en/articles/12138966-release-notes"
     },
     {
-      "date": "2026-11-19",
-      "tag": "Dev tools",
-      "title": "Gemini API adds Tool Retrieval (preview, Interactions API): mark tools or whole remote MCP servers with defer_loading and Gemini loads parameter schemas on demand inside the same request, cutting input tokens for big tool libraries; no extra charge, Gemini 3.6+ and all Gemini 4 models",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
-    },
-    {
       "date": "2026-11-20",
       "tag": "Dev tools",
       "title": "TestSprite 4.0 launches an independent testing agent: describe what your app should do and it re-tests every change across frontend and backend in real browsers, self-updating steps as the UI changes; works with Claude Code, Codex and Cursor via its MCP server and open-source CLI, with a free tier",
       "url": "https://www.testsprite.com/"
+    },
+    {
+      "date": "2026-11-19",
+      "tag": "Dev tools",
+      "title": "Gemini API adds Tool Retrieval (preview, Interactions API): mark tools or whole remote MCP servers with defer_loading and Gemini loads parameter schemas on demand inside the same request, cutting input tokens for big tool libraries; no extra charge, Gemini 3.6+ and all Gemini 4 models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
     },
     {
       "date": "2026-11-19",

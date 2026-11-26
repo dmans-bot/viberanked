@@ -615,3 +615,29 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns, renames or pricing changes among listed tools. (Unlisted: Microsoft App Builder agent retiring — editing stops Dec 1; Vellum Personal Assistant Platform shut down; Readdy cut plan prices Nov 24.)
+
+## 2026-11-26 (daily release scan, covering Nov 24–26)
+
+### Releases feed
+- **Added:** Ming-Image-0.2-Design (2026-11-25) — inclusionAI/Ant MIT open 6B design text-to-image model (UI drafts, posters, e-commerce), #1 open-weight on AA-Image-T2I v2.1 (preliminary). Official: [Hugging Face](https://huggingface.co/inclusionAI/Ming-Image-0.2-Design).
+- **Added:** Pax + Pydantic AI Harness beta (2026-11-25) — official Pydantic AI terminal coding agent (MIT, `pydantic-ai-pax` 0.75.0), plugin-first, `--agent`, any model. Official: [Pydantic](https://pydantic.dev/articles/pax-harness-beta).
+- **Added:** Lovable ElevenLabs speech/music models + Automations on Enterprise (2026-11-25) — Eleven v3, Multilingual v2, Flash v2.5, Music v2 via Lovable AI gateway credits, no ElevenLabs key. Official: [Lovable changelog](https://docs.lovable.dev/changelog).
+- **Added:** OpenClaw 2026.11.10 (2026-11-25) — Deep Research, Knowledge local Markdown vault, browser handoff. Official: [OpenClaw release notes](https://docs.openclaw.ai/releases/2026.11.10).
+- **Added:** Amazon Transcribe Turbo public preview (2026-11-25) — ~14% lower English WER streaming, semantic turn-taking, runtime ASR hints. Official: [AWS What's New](https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/).
+- **Added:** Vercel Standard builds → usage-based billing for existing Pro teams (2026-11-25) — $0.014/build minute from usage credit. Official: [Vercel changelog](https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing).
+- **Added:** MiniMax H3 Family (2026-11-24) — H3 / H3-Highspeed / H3-Lite video, H3-Image + Highspeed (4K <10s), partner H3 derivatives. Official: [MiniMax blog](https://www.minimax.cn/blog/minimax-h3-family).
+- **Added:** Google Flow 15-second Omni Flash 1.2 clips + Omni Extend for subscribers (2026-11-24); Veo 3.1 Fast/Quality and Omni Flash 1.1 retire from Flow Dec 5. Official: [Flow Help](https://support.google.com/flow/answer/16352836?hl=en).
+- Feed re-sorted newest-first (one Nov 19 Gemini Tool Retrieval entry had been out of order).
+
+### Ranking slots
+- No new ranking tools; video category still full (6 tools), no Sora gap. Pax is a new agent but too new/beta for a coding-agent slot (it ships under listed Pydantic AI); Ming-Image is an open model, not a hosted product.
+
+### Listing fixes
+- Google Veo (Flow) description updated to "Google's Flow filmmaking tool, powered by Gemini Omni Flash and Veo video models." (Flow now defaults to Omni Flash 1.2; Veo 3.1 Fast/Quality retire Dec 5). Pricing note (50 free daily credits; Google AI Pro/Ultra) re-verified on the Flow credits help page.
+- Vercel listing (Free Hobby; Pro $20/mo) unaffected by the build-billing change. GitHub Copilot: code-review billing defaults to the organization from Dec 30 for unset Business/Enterprise orgs (GitHub changelog Nov 25) — plan prices unchanged, listing unaffected.
+
+### Scanned but not added
+- Gemini API CLI (trending on X, but launched Oct 19), Runway MCP in ChatGPT/Claude (launched May 27), Claude Opus 5.6 (unreleased; only routed sightings), Grok 4.6 (LiteLLM registry entry only), Codex CLI 0.172.0 / 0.174 alphas and Copilot CLI 1.0.116 (incremental), Sakana Namazu Small (on-prem details in Dec), Krafton Raon-1 Mini, SenseNova-RoboRSI-27B (robotics), Hy4 Flash on Fireworks (Hy4 flash already covered), OpenAI Private Inference pilot (small-customer preview), Claude Duet India expansion (regional), Anthropic Rust Messages API write-up (engineering post), Vercel Workflow SDK 5.8 (minor), Psychoscript, Meta AgentBox, Muse on Instagram, Taan V1, HungerG (already skipped), Mass Spec Skills for Antigravity (science niche).
+
+### Shutdown / rename watch
+- No shutdowns or renames among listed tools. Upcoming: Flow retires Veo 3.1 Fast/Quality + Omni Flash 1.1 on Dec 5 (listing adjusted).
