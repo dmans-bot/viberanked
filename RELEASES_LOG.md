@@ -641,3 +641,25 @@ Running log of feed additions and listing fixes for the weekly CEO report. Newes
 
 ### Shutdown / rename watch
 - No shutdowns or renames among listed tools. Upcoming: Flow retires Veo 3.1 Fast/Quality + Omni Flash 1.1 on Dec 5 (listing adjusted).
+
+## 2026-11-27 (daily release scan, covering Nov 25–27)
+
+### Releases feed
+- **Added:** GigaChat 4 open weights (2026-11-26): Sber's 708B/41B-active hybrid MoE under MIT, 1M context, instant and reasoning modes in one model, 71.26% on Terminal-Bench 2.0 (vendor-reported); the 37B-A4B sibling is non-commercial. Official: [Hugging Face](https://huggingface.co/ai-sage/GigaChat4-708B-A41B), [technical report](https://giga.chat/blog/en/posts/gigachat-4-tech-report) (dated Nov 26).
+- **Added:** Hub by Icons8 (2026-11-26): open-source (Apache-2.0), self-hosted dispatcher for many Claude Code/Codex sessions, run from a browser or Telegram; experimental, with no per-action prompts; #1 on Product Hunt Nov 26. Official: [usehub.dev](https://usehub.dev/), [GitHub](https://github.com/icons8/hub).
+- **Added:** ExtraOrbital (2026-11-26): CLI/MCP server that provisions DBs, storage, auth and an AI gateway key for agents and writes .env; Free to start, Pay-as-you-go $20/member/mo plus usage at cost. Official: [extraorbital.dev](https://extraorbital.dev/) (PH #3 Nov 26).
+- **Added:** DeepL Aure v2 (2026-11-26): end-to-end speech-to-speech translation with 50% lower median delay than Aure (internal benchmark), 6 languages, in DeepL Voice and the DeepL API for Voice. Official: [DeepL press release](https://www.deepl.com/en/press-release/aure-v2).
+- **Added:** OpenAI GPT-6.2 usage billing fix (2026-11-25): Astra hits plan limits about 40% faster and Sol about 25% faster; no retroactive charge, prices unchanged, one banked reset for Go/Plus/Pro/Business. Official: [@thsottiaux (Codex lead)](https://x.com/thsottiaux/status/2125784147889393806), [Codex resets help](https://help.openai.com/en/articles/20001498-how-resets-work-in-codex).
+- **Added:** Together AI Hurdle (2026-11-25): open-source (MIT) agent-eval framework that runs Claude Code and Codex on tasks against your API, docs, MCP server or skills. Official: [Together blog](https://www.together.ai/blog/introducing-hurdle-run-agent-evals-on-your-api-skills-and-docs) (timed out to curl; loads in fetch tools).
+
+### Ranking slots
+- No new ranking tools; the video category is still full (6 tools), with no Sora gap. Hub and ExtraOrbital are too new and experimental for a slot, and GigaChat 4 is an open model, not a hosted builder product.
+
+### Listing fixes
+- None needed. The OpenAI Codex listing (Plus $20/mo, Pro from $100/mo) is unaffected because plan prices are unchanged and only GPT-6.2 usage accounting changed. Railway Automations (promoted on X Nov 26) launched Nov 20 per Railway's changelog, so the listing is unchanged.
+
+### Scanned but not added
+- Microsoft MAI seven-model lineup (Spanish repost dated Nov 26; launched Nov 17 at Ignite, and MAI Code 2 is already covered); OpenAI combined Chat and Work usage meter (small Pro pilot, broader rollout in December); OpenAI Private Inference (already skipped Nov 26); Claude install-as-app (already added Nov 24); Lovable Cal.com/Ghost/Magento/Squarespace connectors + Claude Haiku 5.5 for app AI (Nov 26; minor); Tencent DFly2 speculative-decoding drafter (Nov 26; inference niche); Hy-MT3-30B-A3B GGUF (translation, minor); Qwen-Audio-3.1 dialect update (minor); Yandex AliceAI-Foundation-80B-A3B base (arXiv base checkpoint); inclusionAI LingSante-3.1 (medical research-only); Telos-Live-1 (preview); Solana Playground AI agent (chain-specific); QA.tech MCP, DeskFleet, Koed, Omi CLI (small launches); Together Link (launch date not pinned); Kimi research API credits; Anthropic Messages API Rust migration and GRH Lean proof (engineering/research); Treg People API (privacy concerns, not builder tooling); HungerG (reveal due Dec 1); Claude Opus 5.6 (still unreleased).
+
+### Shutdown / rename watch
+- No shutdowns, renames or plan-price changes among listed tools. Upcoming: Claude Sonnet 4.5 retires Nov 30 and GPT-5/o3 on Dec 11 (per Pydantic's deprecation notice; no listing names those models); Gemini 4 Argon API price rises Dec 1; Flow retires Veo 3.1 Fast/Quality Dec 5 (already handled).

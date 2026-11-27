@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "lastVerified": "2026-10-29",
   "categories": [
     {
@@ -748,6 +748,42 @@
     }
   ],
   "releases": [
+    {
+      "date": "2026-11-26",
+      "tag": "Open model",
+      "title": "Sber releases GigaChat 4 with open weights: a 708B-parameter hybrid MoE (41B active) under the MIT license, with a 1M-token context and instant and reasoning modes in one model, selectable per request; Sber reports 71.26% on Terminal-Bench 2.0 in reasoning mode (up from 30.30% for GigaChat 3.5) and documents setups for Codex, Pi and other harnesses. A compact 37B (4B active) sibling ships under a non-commercial license for individuals",
+      "url": "https://huggingface.co/ai-sage/GigaChat4-708B-A41B"
+    },
+    {
+      "date": "2026-11-26",
+      "tag": "Coding agent",
+      "title": "Icons8 launches Hub, an open-source (Apache-2.0) dispatcher that runs many Claude Code or Codex sessions at once: write a goal in your browser or in Telegram, a coordinator hands the work to agents in their own git worktrees, and only the decisions come back to you. It's self-hosted, uses your own Claude or ChatGPT sign-in and installs with one line. It's experimental, and agents run without per-action permission prompts. It was #1 on Product Hunt for Nov 26",
+      "url": "https://usehub.dev/"
+    },
+    {
+      "date": "2026-11-26",
+      "tag": "Dev infra",
+      "title": "ExtraOrbital launches a CLI and MCP server that let coding agents provision databases (Postgres, MongoDB, Redis), storage, auth and an AI gateway key with one command (npx extraorbital provision .), then write the credentials to .env with no provider accounts; ephemeral resources auto-delete after 1 hour to 3 days. It's free to start with no card; Pay-as-you-go is $20 per member per month plus usage at supplier cost",
+      "url": "https://extraorbital.dev/"
+    },
+    {
+      "date": "2026-11-26",
+      "tag": "Voice",
+      "title": "DeepL launches Aure v2, an end-to-end speech-to-speech translation model trained with reinforcement learning: DeepL says it cuts median translation delay by 50% versus Aure, based on its own tests. It supports English, German, French, Spanish, Japanese and Korean and is on by default in DeepL Voice and the DeepL API for Voice",
+      "url": "https://www.deepl.com/en/press-release/aure-v2"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Coding agent",
+      "title": "OpenAI fixes a GPT-6.2 billing error that undercounted Astra and Sol usage: in Codex and ChatGPT you'll now hit plan limits about 40% faster on GPT-6.2 Astra and 25% faster on GPT-6.2 Sol than the week before. Past usage isn't recharged, plan prices and other models' limits are unchanged, and Go, Plus, Pro and Business users get one banked reset",
+      "url": "https://x.com/thsottiaux/status/2125784147889393806"
+    },
+    {
+      "date": "2026-11-25",
+      "tag": "Dev tools",
+      "title": "Together AI open-sources Hurdle (MIT, npx hurdle init), the agent-eval framework it uses internally: it runs Claude Code and Codex against real tasks on your API, docs, MCP server or skills. Each run is scored with code checks, guards that block forbidden actions and an LLM judge, and you get pass rates by model and condition, for example with vs. without your MCP server",
+      "url": "https://www.together.ai/blog/introducing-hurdle-run-agent-evals-on-your-api-skills-and-docs"
+    },
     {
       "date": "2026-11-25",
       "tag": "Open model",
